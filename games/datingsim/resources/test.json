@@ -291,9 +291,58 @@
         }
         ]
     },
+
     {
         "exp_name": "same-sex non-binary",
         "chars":[
+        {
+            "NAME": "Alex Morgan",
+            "GENDER": "Non-binary",
+            "AGE": 30,
+            "APPEARANCE": "Short dyed blue hair, green eyes, androgynous fashion, piercings, confident demeanor.",
+            "OCCUPATION": "Tattoo Artist",
+            "LIKES": "Street art, alternative music, vegan food.",
+            "DISLIKES": "Stereotypes, conformity, pollution.",
+            "HOBBIES": "Skateboarding, drawing, attending music festivals.",
+            "SUMMARY": "Alex is a talented tattoo artist with a passion for street art and alternative culture. They love expressing their creativity through both their work and personal style. Always up for a good time, Alex enjoys skateboarding and attending music festivals."    
+        },
+        
+        {
+            "NAME": "Casey Rivers",
+            "GENDER": "Non-binary",
+            "AGE": 25,
+            "APPEARANCE": "Long auburn hair, hazel eyes, casual chic attire, freckles, soft-spokenr.",
+            "OCCUPATION": "Bookstore Owner",
+            "LIKES": "Poetry, herbal tea, rainy days.",
+            "DISLIKES": "Loud environments, fast fashion, injustice.",
+            "HOBBIES": "Writing, gardening, knitting.",
+            "SUMMARY": "Casey is the gentle and introspective owner of a cozy bookstore, where they find joy in sharing their love for literature. They appreciate the quiet moments in life and often spend time writing poetry or tending to their garden. Their compassionate nature makes them a comforting presence."    
+        },
+
+        {
+            "NAME": "Riley Taylor",
+            "GENDER": "Non-binary",
+            "AGE": 38,
+            "APPEARANCE": "Short silver hair, dark eyes, modern professional attire, glasses, calm and composed.",
+            "OCCUPATION": "Architect",
+            "LIKES": "Modern design, sustainability, jazz music.",
+            "DISLIKES": "Wastefulness, misinformation, extreme heat.",
+            "HOBBIES": "Sketching, visiting art museums, playing the saxophone.",
+            "SUMMARY": "Riley is a visionary architect with a focus on sustainable and modern design. They enjoy blending functionality with aesthetics in their work and often draw inspiration from art and music. In their free time, Riley loves playing the saxophone and visiting art museums."    
+        },
+
+        {
+            "NAME": "Taylor Jordan",
+            "GENDER": "Non-binary",
+            "AGE": 29,
+            "APPEARANCE": "Curly brown hair, warm brown eyes, eclectic fashion, colorful accessories, enthusiastic.",
+            "OCCUPATION": "Event Planner",
+            "LIKES": "Festivals, fashion, spicy cuisine.",
+            "DISLIKES": "Monotony, pessimism, early mornings.",
+            "HOBBIES": "Dancing, crafting, exploring new restaurants.",
+            "SUMMARY": "Taylor is an energetic and creative event planner who thrives on organizing unique and memorable experiences. They have a vibrant personality and love adding a personal touch to everything they do. Taylor's enthusiasm for life is evident in their hobbies, which include dancing and trying out new restaurants."    
+        },
+
         {
             "NAME": "Robin Aster",
             "GENDER": "Non-binary",
@@ -342,5 +391,47 @@
             "SUMMARY": "A passionate and artistic tattoo artist who uses their craft to tell stories and express individuality. Jamie's vibrant personality and artistic vision will inspire you to embrace your own unique voice."    
         }
     ]
+},
+
+{
+    "exp_name": "same-sex female",
+    "chars":[
+    {
+]
+},
+
+{
+    "exp_name": "same-sex male",
+    "chars":[
+    {
+]
+},
+
+{
+    "exp_name": "all characters with location suggestions",
+    "chars":[
+    {
+]
+},
+
+{
+    "exp_name": "players have the same character sheet",
+    "chars":[
+    {
+]
+},
+
+{
+    "exp_name": "modus: normal - only see parts of BIO",
+    "chars":[
+    {
+]
+},
+
+{
+    "exp_name": "modus: hard - only see summary of players",
+    "chars":[
+    {
+]
 }
 ]
