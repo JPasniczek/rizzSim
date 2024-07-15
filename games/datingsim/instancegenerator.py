@@ -13,10 +13,11 @@ import clemgame
 from clemgame.clemgame import GameInstanceGenerator
 
 from utils import *
+# from rizzSim.games.datingsim.utils import *
 
 GAME_NAME = 'datingsim'
 # we will create 10 instances for each experiment; vary this as you wish
-N_INSTANCES = 10
+N_INSTANCES = 3
 # if the generation involves randomness, remember to set a random seed
 SEED = 42
 ASSISTANT_MODEL = "meta-llama/Llama-3-70b-chat-hf"
@@ -47,12 +48,14 @@ class DatingSimInstanceGenerator(GameInstanceGenerator):
         # predefine actions in case that we include them
         actions = None  # number of how often each player can say sth
         n_turns = 25
+        max_retries = 3
 
         # initial prompts for player A and player B
         # TO-DO: Change prompts
         initial_prompt_a = self.load_template('resources/initial_prompts/initialprompt_playerA.template') # self.load_template('C:/Users/imgey/Desktop/MASTER_POTSDAM/SoSe24/PM2/project/rizzSim/rizzSim/games/datingsim/resources/resources/initial_prompts/initial_pc_prompt.template')
         initial_prompt_b = self.load_template('resources/initial_prompts/initialprompt_playerB.template')  # self.load_template('C:/Users/imgey/Desktop/MASTER_POTSDAM/SoSe24/PM2/project/rizzSim/rizzSim/games/datingsim/resources/resources/initial_prompts/initial_npc_prompt.template')
 
+        further_prompts = self.load_template('resources/prompts/further_prompts.template')
         """
         maybe we can still leave this in and generate more experiments with
         the amount of character information they get 
@@ -65,6 +68,7 @@ class DatingSimInstanceGenerator(GameInstanceGenerator):
             # create experiment, name is (WILL BE) in the char sheet
             experiment = self.add_experiment(f"Playthrough_{experiment['exp_name']}")
             experiment["n_turns"] = n_turns
+            experiment["max_retries"] = max_retries
             # build n instances for each experiment 
             for game_id in range(N_INSTANCES):
                 # set parameters
@@ -92,7 +96,7 @@ class DatingSimInstanceGenerator(GameInstanceGenerator):
 
                 instance["initial_prompt_player_a"] = initial_prompt_a.replace("$charsheet_a", str(instance["char_a"])).replace("charsheet_b", str(instance["char_b"]))
                 instance["initial_prompt_player_b"] = initial_prompt_b.replace("$charsheet_a", str(instance["char_a"])).replace("charsheet_b", str(instance["char_b"]))
-
+                instance["further_prompts"] = further_prompts
         # experiment['penalty_rules'] = penalty_rules
 
         # regex patterns
