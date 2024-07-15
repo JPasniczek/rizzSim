@@ -12323,3 +12323,1193 @@ AttributeError: 'NoneType' object has no attribute 'group'
 2024-07-15 01:38:22,045 - benchmark.run - ERROR - datingsim: '3' exceptions occurred: See clembench.log for details.
 2024-07-15 01:38:22,047 - games.datingsim.master - INFO - Results file stored to C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\results\Llama-3-70B-Together.ai-t0.0--Llama-3-70B-Together.ai-t0.0\datingsim\1_Playthrough_all characters\experiment_Playthrough_all characters.json
 2024-07-15 01:38:22,047 - clemgame.benchmark - INFO - Run datingsim took 0:02:29.776867
+2024-07-15 10:16:10,080 - clemgame.benchmark - INFO - Running benchmark for 'datingsim' (models=[Llama-3-70B-Together.ai])
+2024-07-15 10:16:10,081 - benchmark.run - INFO - Run experiment 1 of 2: Playthrough_same-sex non-binary
+2024-07-15 10:16:10,081 - games.datingsim.master - INFO - Activity: datingsim Experiment: Playthrough_same-sex non-binary Partners: Llama-3-70B-Together.ai-t0.0--Llama-3-70B-Together.ai-t0.0 Episode: 0
+2024-07-15 10:16:10,082 - games.datingsim.master - INFO - Results file stored to C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\results\Llama-3-70B-Together.ai-t0.0--Llama-3-70B-Together.ai-t0.0\datingsim\0_Playthrough_same-sex non-binary\experiment_Playthrough_same-sex non-binary.json
+2024-07-15 10:16:10,087 - games.datingsim.master - INFO - Activity: datingsim Experiment: Playthrough_same-sex non-binary Episode: 0 Game: 0
+2024-07-15 10:16:10,088 - games.datingsim.master - INFO - Results file stored to C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\results\Llama-3-70B-Together.ai-t0.0--Llama-3-70B-Together.ai-t0.0\datingsim\0_Playthrough_same-sex non-binary/episode_0\instance.json
+2024-07-15 10:16:10,089 - games.datingsim.master - INFO - Setup
+2024-07-15 10:16:10,089 - clemgame.clemgame - INFO - Player Dater, Llama-3-70B-Together.ai
+2024-07-15 10:16:10,089 - clemgame.clemgame - INFO - Player Dater, Llama-3-70B-Together.ai
+2024-07-15 10:16:10,089 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged players metadata.
+2024-07-15 10:16:10,089 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a game-specific interaction key: n_turns.
+2024-07-15 10:16:10,089 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_1).
+2024-07-15 10:16:16,420 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:16:16,426 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_1->GM).
+2024-07-15 10:16:16,426 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:16:16.426949
+2024-07-15 10:16:16,428 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:16:16,428 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:16:16,428 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_2).
+2024-07-15 10:16:17,820 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:16:17,822 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_2->GM).
+2024-07-15 10:16:17,822 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:16:17.822909
+2024-07-15 10:16:17,822 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:16:17,822 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:16:17,822 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_1).
+2024-07-15 10:16:19,693 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:16:19,698 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_1->GM).
+2024-07-15 10:16:19,698 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:16:19.698295
+2024-07-15 10:16:19,698 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:16:19,698 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:16:19,698 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_2).
+2024-07-15 10:16:21,110 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:16:21,112 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_2->GM).
+2024-07-15 10:16:21,112 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:16:21.112178
+2024-07-15 10:16:21,112 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:16:21,112 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:16:21,113 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_1).
+2024-07-15 10:16:22,756 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:16:22,758 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_1->GM).
+2024-07-15 10:16:22,759 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:16:22.758811
+2024-07-15 10:16:22,759 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:16:22,759 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:16:22,759 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_2).
+2024-07-15 10:16:24,307 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:16:24,310 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_2->GM).
+2024-07-15 10:16:24,310 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:16:24.310181
+2024-07-15 10:16:24,310 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:16:24,310 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:16:24,311 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_1).
+2024-07-15 10:16:25,770 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:16:25,773 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_1->GM).
+2024-07-15 10:16:25,773 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:16:25.773042
+2024-07-15 10:16:25,773 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:16:25,773 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:16:25,773 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_2).
+2024-07-15 10:16:27,251 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:16:27,255 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_2->GM).
+2024-07-15 10:16:27,256 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:16:27.255113
+2024-07-15 10:16:27,256 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:16:27,256 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:16:27,257 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_1).
+2024-07-15 10:16:29,779 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:16:29,780 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_1->GM).
+2024-07-15 10:16:29,781 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:16:29.780054
+2024-07-15 10:16:29,781 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:16:29,781 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:16:29,781 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_2).
+2024-07-15 10:16:31,467 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:16:31,472 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_2->GM).
+2024-07-15 10:16:31,473 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:16:31.472461
+2024-07-15 10:16:31,473 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:16:31,473 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:16:31,475 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_1).
+2024-07-15 10:16:33,391 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:16:33,397 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_1->GM).
+2024-07-15 10:16:33,398 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:16:33.397272
+2024-07-15 10:16:33,398 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:16:33,398 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:16:33,399 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_2).
+2024-07-15 10:16:34,659 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:16:34,664 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_2->GM).
+2024-07-15 10:16:34,664 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:16:34.664827
+2024-07-15 10:16:34,665 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:16:34,665 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:16:34,665 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_1).
+2024-07-15 10:16:36,036 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:16:36,039 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_1->GM).
+2024-07-15 10:16:36,039 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:16:36.039985
+2024-07-15 10:16:36,040 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:16:36,040 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:16:36,040 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_2).
+2024-07-15 10:16:39,454 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:16:39,460 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_2->GM).
+2024-07-15 10:16:39,461 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:16:39.460145
+2024-07-15 10:16:39,461 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:16:39,461 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:16:39,462 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_1).
+2024-07-15 10:16:40,822 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:16:40,826 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_1->GM).
+2024-07-15 10:16:40,827 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:16:40.826022
+2024-07-15 10:16:40,827 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:16:40,827 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:16:40,828 - games.datingsim.master - ERROR - datingsim: Exception for episode 0 (but continue)
+Traceback (most recent call last):
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\clemgame\clemgame.py", line 828, in run
+    game_master.play()
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\games\datingsim\master.py", line 238, in play
+    self.last_message = self.update_answer(answer_a)
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\games\datingsim\master.py", line 313, in update_answer
+    last_message = response_match.group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+2024-07-15 10:16:40,841 - games.datingsim.master - INFO - Activity: datingsim Experiment: Playthrough_same-sex non-binary Episode: 1 Game: 1
+2024-07-15 10:16:40,844 - games.datingsim.master - INFO - Results file stored to C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\results\Llama-3-70B-Together.ai-t0.0--Llama-3-70B-Together.ai-t0.0\datingsim\0_Playthrough_same-sex non-binary/episode_1\instance.json
+2024-07-15 10:16:40,844 - games.datingsim.master - INFO - Setup
+2024-07-15 10:16:40,845 - clemgame.clemgame - INFO - Player Dater, Llama-3-70B-Together.ai
+2024-07-15 10:16:40,845 - clemgame.clemgame - INFO - Player Dater, Llama-3-70B-Together.ai
+2024-07-15 10:16:40,845 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged players metadata.
+2024-07-15 10:16:40,845 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a game-specific interaction key: n_turns.
+2024-07-15 10:16:40,846 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_1).
+2024-07-15 10:16:42,447 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:16:42,453 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_1->GM).
+2024-07-15 10:16:42,454 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:16:42.453752
+2024-07-15 10:16:42,455 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:16:42,455 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:16:42,455 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_2).
+2024-07-15 10:16:46,538 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:16:46,545 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_2->GM).
+2024-07-15 10:16:46,545 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:16:46.545888
+2024-07-15 10:16:46,545 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:16:46,545 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:16:46,548 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_1).
+2024-07-15 10:16:48,128 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:16:48,134 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_1->GM).
+2024-07-15 10:16:48,134 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:16:48.134241
+2024-07-15 10:16:48,134 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:16:48,135 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:16:48,136 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_2).
+2024-07-15 10:16:49,989 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:16:49,995 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_2->GM).
+2024-07-15 10:16:49,997 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:16:49.995810
+2024-07-15 10:16:49,997 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:16:49,997 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:16:49,998 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_1).
+2024-07-15 10:16:51,525 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:16:51,529 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_1->GM).
+2024-07-15 10:16:51,530 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:16:51.529756
+2024-07-15 10:16:51,530 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:16:51,530 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:16:51,531 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_2).
+2024-07-15 10:16:53,367 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:16:53,370 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_2->GM).
+2024-07-15 10:16:53,370 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:16:53.370618
+2024-07-15 10:16:53,372 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:16:53,372 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:16:53,373 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_1).
+2024-07-15 10:16:54,839 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:16:54,844 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_1->GM).
+2024-07-15 10:16:54,844 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:16:54.844896
+2024-07-15 10:16:54,845 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:16:54,845 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:16:54,845 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_2).
+2024-07-15 10:16:57,726 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:16:57,732 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_2->GM).
+2024-07-15 10:16:57,732 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:16:57.732849
+2024-07-15 10:16:57,733 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:16:57,733 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:16:57,734 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_1).
+2024-07-15 10:16:59,260 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:16:59,271 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_1->GM).
+2024-07-15 10:16:59,272 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:16:59.271341
+2024-07-15 10:16:59,272 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:16:59,272 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:16:59,273 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_2).
+2024-07-15 10:17:00,654 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:17:00,661 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_2->GM).
+2024-07-15 10:17:00,661 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:17:00.661900
+2024-07-15 10:17:00,661 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:17:00,661 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:17:00,663 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_1).
+2024-07-15 10:17:02,667 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:17:02,672 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_1->GM).
+2024-07-15 10:17:02,673 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:17:02.672117
+2024-07-15 10:17:02,673 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:17:02,673 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:17:02,674 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_2).
+2024-07-15 10:17:05,552 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:17:05,554 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_2->GM).
+2024-07-15 10:17:05,554 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:17:05.554964
+2024-07-15 10:17:05,554 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:17:05,554 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:17:05,555 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_1).
+2024-07-15 10:17:08,039 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:17:08,044 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_1->GM).
+2024-07-15 10:17:08,045 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:17:08.044212
+2024-07-15 10:17:08,045 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:17:08,045 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:17:08,045 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_2).
+2024-07-15 10:17:10,275 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:17:10,281 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_2->GM).
+2024-07-15 10:17:10,281 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:17:10.281252
+2024-07-15 10:17:10,281 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:17:10,281 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:17:10,282 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_1).
+2024-07-15 10:17:12,897 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:17:12,902 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_1->GM).
+2024-07-15 10:17:12,903 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:17:12.902725
+2024-07-15 10:17:12,903 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:17:12,903 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:17:12,903 - games.datingsim.master - ERROR - datingsim: Exception for episode 1 (but continue)
+Traceback (most recent call last):
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\clemgame\clemgame.py", line 828, in run
+    game_master.play()
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\games\datingsim\master.py", line 238, in play
+    self.last_message = self.update_answer(answer_a)
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\games\datingsim\master.py", line 313, in update_answer
+    last_message = response_match.group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+2024-07-15 10:17:12,906 - games.datingsim.master - INFO - Activity: datingsim Experiment: Playthrough_same-sex non-binary Episode: 2 Game: 2
+2024-07-15 10:17:12,908 - games.datingsim.master - INFO - Results file stored to C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\results\Llama-3-70B-Together.ai-t0.0--Llama-3-70B-Together.ai-t0.0\datingsim\0_Playthrough_same-sex non-binary/episode_2\instance.json
+2024-07-15 10:17:12,909 - games.datingsim.master - INFO - Setup
+2024-07-15 10:17:12,910 - clemgame.clemgame - INFO - Player Dater, Llama-3-70B-Together.ai
+2024-07-15 10:17:12,910 - clemgame.clemgame - INFO - Player Dater, Llama-3-70B-Together.ai
+2024-07-15 10:17:12,910 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged players metadata.
+2024-07-15 10:17:12,910 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a game-specific interaction key: n_turns.
+2024-07-15 10:17:12,911 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_1).
+2024-07-15 10:17:14,256 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:17:14,259 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_1->GM).
+2024-07-15 10:17:14,259 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:17:14.259662
+2024-07-15 10:17:14,260 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:17:14,260 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:17:14,260 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_2).
+2024-07-15 10:17:15,890 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:17:15,894 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_2->GM).
+2024-07-15 10:17:15,895 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:17:15.894637
+2024-07-15 10:17:15,895 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:17:15,895 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:17:15,896 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_1).
+2024-07-15 10:17:17,512 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:17:17,518 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_1->GM).
+2024-07-15 10:17:17,519 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:17:17.518270
+2024-07-15 10:17:17,519 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:17:17,520 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:17:17,521 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_2).
+2024-07-15 10:17:19,158 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:17:19,161 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_2->GM).
+2024-07-15 10:17:19,161 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:17:19.161838
+2024-07-15 10:17:19,161 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:17:19,161 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:17:19,162 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_1).
+2024-07-15 10:17:20,591 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:17:20,597 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_1->GM).
+2024-07-15 10:17:20,597 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:17:20.597030
+2024-07-15 10:17:20,597 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:17:20,597 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:17:20,598 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_2).
+2024-07-15 10:17:22,521 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:17:22,523 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_2->GM).
+2024-07-15 10:17:22,523 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:17:22.523688
+2024-07-15 10:17:22,523 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:17:22,523 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:17:22,524 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_1).
+2024-07-15 10:17:24,511 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:17:24,514 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_1->GM).
+2024-07-15 10:17:24,514 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:17:24.514729
+2024-07-15 10:17:24,514 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:17:24,514 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:17:24,515 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_2).
+2024-07-15 10:17:26,070 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:17:26,072 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_2->GM).
+2024-07-15 10:17:26,072 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:17:26.072233
+2024-07-15 10:17:26,072 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:17:26,072 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:17:26,073 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_1).
+2024-07-15 10:17:27,650 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:17:27,653 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_1->GM).
+2024-07-15 10:17:27,653 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:17:27.653395
+2024-07-15 10:17:27,653 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:17:27,654 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:17:27,654 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_2).
+2024-07-15 10:17:29,150 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:17:29,154 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_2->GM).
+2024-07-15 10:17:29,154 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:17:29.154392
+2024-07-15 10:17:29,154 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:17:29,154 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:17:29,155 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_1).
+2024-07-15 10:17:30,565 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:17:30,566 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_1->GM).
+2024-07-15 10:17:30,566 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:17:30.566272
+2024-07-15 10:17:30,567 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:17:30,567 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:17:30,568 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_2).
+2024-07-15 10:17:32,128 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:17:32,130 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_2->GM).
+2024-07-15 10:17:32,130 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:17:32.130640
+2024-07-15 10:17:32,130 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:17:32,130 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:17:32,131 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_1).
+2024-07-15 10:17:33,426 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:17:33,432 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_1->GM).
+2024-07-15 10:17:33,432 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:17:33.432271
+2024-07-15 10:17:33,432 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:17:33,433 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:17:33,433 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_2).
+2024-07-15 10:17:34,734 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:17:34,736 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_2->GM).
+2024-07-15 10:17:34,736 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:17:34.736566
+2024-07-15 10:17:34,736 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:17:34,736 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:17:34,736 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_1).
+2024-07-15 10:17:36,660 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:17:36,664 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_1->GM).
+2024-07-15 10:17:36,664 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:17:36.664476
+2024-07-15 10:17:36,665 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:17:36,665 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:17:36,665 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_2).
+2024-07-15 10:17:38,260 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:17:38,262 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_2->GM).
+2024-07-15 10:17:38,263 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:17:38.262706
+2024-07-15 10:17:38,263 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:17:38,263 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:17:38,264 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_1).
+2024-07-15 10:17:40,112 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:17:40,116 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_1->GM).
+2024-07-15 10:17:40,118 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:17:40.116666
+2024-07-15 10:17:40,118 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:17:40,118 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:17:40,118 - games.datingsim.master - ERROR - datingsim: Exception for episode 2 (but continue)
+Traceback (most recent call last):
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\clemgame\clemgame.py", line 828, in run
+    game_master.play()
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\games\datingsim\master.py", line 238, in play
+    self.last_message = self.update_answer(answer_a)
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\games\datingsim\master.py", line 313, in update_answer
+    last_message = response_match.group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+2024-07-15 10:17:40,121 - benchmark.run - ERROR - datingsim: '3' exceptions occurred: See clembench.log for details.
+2024-07-15 10:17:40,124 - games.datingsim.master - INFO - Results file stored to C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\results\Llama-3-70B-Together.ai-t0.0--Llama-3-70B-Together.ai-t0.0\datingsim\0_Playthrough_same-sex non-binary\experiment_Playthrough_same-sex non-binary.json
+2024-07-15 10:17:40,125 - benchmark.run - INFO - Run experiment 2 of 2: Playthrough_all characters
+2024-07-15 10:17:40,126 - games.datingsim.master - INFO - Activity: datingsim Experiment: Playthrough_all characters Partners: Llama-3-70B-Together.ai-t0.0--Llama-3-70B-Together.ai-t0.0 Episode: 0
+2024-07-15 10:17:40,128 - games.datingsim.master - INFO - Results file stored to C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\results\Llama-3-70B-Together.ai-t0.0--Llama-3-70B-Together.ai-t0.0\datingsim\1_Playthrough_all characters\experiment_Playthrough_all characters.json
+2024-07-15 10:17:40,128 - games.datingsim.master - INFO - Activity: datingsim Experiment: Playthrough_all characters Episode: 0 Game: 0
+2024-07-15 10:17:40,130 - games.datingsim.master - INFO - Results file stored to C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\results\Llama-3-70B-Together.ai-t0.0--Llama-3-70B-Together.ai-t0.0\datingsim\1_Playthrough_all characters/episode_0\instance.json
+2024-07-15 10:17:40,131 - games.datingsim.master - INFO - Setup
+2024-07-15 10:17:40,131 - clemgame.clemgame - INFO - Player Dater, Llama-3-70B-Together.ai
+2024-07-15 10:17:40,131 - clemgame.clemgame - INFO - Player Dater, Llama-3-70B-Together.ai
+2024-07-15 10:17:40,131 - games.datingsim.master - INFO - Playthrough_all characters: Logged players metadata.
+2024-07-15 10:17:40,131 - games.datingsim.master - INFO - Playthrough_all characters: Logged a game-specific interaction key: n_turns.
+2024-07-15 10:17:40,132 - games.datingsim.master - INFO - Playthrough_all characters: Logged send message action (GM->Player_1).
+2024-07-15 10:17:43,855 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:17:43,859 - games.datingsim.master - INFO - Playthrough_all characters: Logged get message action (Player_1->GM).
+2024-07-15 10:17:43,859 - games.datingsim.master - INFO - Playthrough_all characters: Logged a call with timestamp 2024-07-15T10:17:43.859654
+2024-07-15 10:17:43,859 - games.datingsim.master - INFO - Playthrough_all characters: Logged metadata action (GM->GM).
+2024-07-15 10:17:43,859 - games.datingsim.master - INFO - Playthrough_all characters: Logged parse action (GM->GM).
+2024-07-15 10:17:43,860 - games.datingsim.master - INFO - Playthrough_all characters: Logged send message action (GM->Player_2).
+2024-07-15 10:17:45,204 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:17:45,211 - games.datingsim.master - INFO - Playthrough_all characters: Logged get message action (Player_2->GM).
+2024-07-15 10:17:45,211 - games.datingsim.master - INFO - Playthrough_all characters: Logged a call with timestamp 2024-07-15T10:17:45.211040
+2024-07-15 10:17:45,211 - games.datingsim.master - INFO - Playthrough_all characters: Logged metadata action (GM->GM).
+2024-07-15 10:17:45,212 - games.datingsim.master - INFO - Playthrough_all characters: Logged parse action (GM->GM).
+2024-07-15 10:17:45,212 - games.datingsim.master - INFO - Playthrough_all characters: Logged send message action (GM->Player_1).
+2024-07-15 10:17:46,962 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:17:46,981 - games.datingsim.master - INFO - Playthrough_all characters: Logged get message action (Player_1->GM).
+2024-07-15 10:17:46,992 - games.datingsim.master - INFO - Playthrough_all characters: Logged a call with timestamp 2024-07-15T10:17:46.981576
+2024-07-15 10:17:46,992 - games.datingsim.master - INFO - Playthrough_all characters: Logged metadata action (GM->GM).
+2024-07-15 10:17:46,992 - games.datingsim.master - INFO - Playthrough_all characters: Logged parse action (GM->GM).
+2024-07-15 10:17:46,992 - games.datingsim.master - INFO - Playthrough_all characters: Logged send message action (GM->Player_2).
+2024-07-15 10:17:49,310 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:17:49,316 - games.datingsim.master - INFO - Playthrough_all characters: Logged get message action (Player_2->GM).
+2024-07-15 10:17:49,316 - games.datingsim.master - INFO - Playthrough_all characters: Logged a call with timestamp 2024-07-15T10:17:49.316629
+2024-07-15 10:17:49,316 - games.datingsim.master - INFO - Playthrough_all characters: Logged metadata action (GM->GM).
+2024-07-15 10:17:49,316 - games.datingsim.master - INFO - Playthrough_all characters: Logged parse action (GM->GM).
+2024-07-15 10:17:49,318 - games.datingsim.master - INFO - Playthrough_all characters: Logged send message action (GM->Player_1).
+2024-07-15 10:17:50,509 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:17:50,511 - games.datingsim.master - INFO - Playthrough_all characters: Logged get message action (Player_1->GM).
+2024-07-15 10:17:50,512 - games.datingsim.master - INFO - Playthrough_all characters: Logged a call with timestamp 2024-07-15T10:17:50.511851
+2024-07-15 10:17:50,512 - games.datingsim.master - INFO - Playthrough_all characters: Logged metadata action (GM->GM).
+2024-07-15 10:17:50,512 - games.datingsim.master - INFO - Playthrough_all characters: Logged parse action (GM->GM).
+2024-07-15 10:17:50,512 - games.datingsim.master - INFO - Playthrough_all characters: Logged send message action (GM->Player_2).
+2024-07-15 10:17:51,960 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:17:51,963 - games.datingsim.master - INFO - Playthrough_all characters: Logged get message action (Player_2->GM).
+2024-07-15 10:17:51,964 - games.datingsim.master - INFO - Playthrough_all characters: Logged a call with timestamp 2024-07-15T10:17:51.963945
+2024-07-15 10:17:51,964 - games.datingsim.master - INFO - Playthrough_all characters: Logged metadata action (GM->GM).
+2024-07-15 10:17:51,964 - games.datingsim.master - INFO - Playthrough_all characters: Logged parse action (GM->GM).
+2024-07-15 10:17:51,965 - games.datingsim.master - INFO - Playthrough_all characters: Logged send message action (GM->Player_1).
+2024-07-15 10:17:55,376 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:17:55,378 - games.datingsim.master - INFO - Playthrough_all characters: Logged get message action (Player_1->GM).
+2024-07-15 10:17:55,379 - games.datingsim.master - INFO - Playthrough_all characters: Logged a call with timestamp 2024-07-15T10:17:55.378864
+2024-07-15 10:17:55,379 - games.datingsim.master - INFO - Playthrough_all characters: Logged metadata action (GM->GM).
+2024-07-15 10:17:55,379 - games.datingsim.master - INFO - Playthrough_all characters: Logged parse action (GM->GM).
+2024-07-15 10:17:55,380 - games.datingsim.master - INFO - Playthrough_all characters: Logged send message action (GM->Player_2).
+2024-07-15 10:17:56,852 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:17:56,855 - games.datingsim.master - INFO - Playthrough_all characters: Logged get message action (Player_2->GM).
+2024-07-15 10:17:56,856 - games.datingsim.master - INFO - Playthrough_all characters: Logged a call with timestamp 2024-07-15T10:17:56.855759
+2024-07-15 10:17:56,856 - games.datingsim.master - INFO - Playthrough_all characters: Logged metadata action (GM->GM).
+2024-07-15 10:17:56,856 - games.datingsim.master - INFO - Playthrough_all characters: Logged parse action (GM->GM).
+2024-07-15 10:17:56,856 - games.datingsim.master - INFO - Playthrough_all characters: Logged send message action (GM->Player_1).
+2024-07-15 10:17:58,617 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:17:58,619 - games.datingsim.master - INFO - Playthrough_all characters: Logged get message action (Player_1->GM).
+2024-07-15 10:17:58,619 - games.datingsim.master - INFO - Playthrough_all characters: Logged a call with timestamp 2024-07-15T10:17:58.619923
+2024-07-15 10:17:58,619 - games.datingsim.master - INFO - Playthrough_all characters: Logged metadata action (GM->GM).
+2024-07-15 10:17:58,619 - games.datingsim.master - INFO - Playthrough_all characters: Logged parse action (GM->GM).
+2024-07-15 10:17:58,621 - games.datingsim.master - INFO - Playthrough_all characters: Logged send message action (GM->Player_2).
+2024-07-15 10:18:01,895 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:18:01,900 - games.datingsim.master - INFO - Playthrough_all characters: Logged get message action (Player_2->GM).
+2024-07-15 10:18:01,901 - games.datingsim.master - INFO - Playthrough_all characters: Logged a call with timestamp 2024-07-15T10:18:01.900334
+2024-07-15 10:18:01,901 - games.datingsim.master - INFO - Playthrough_all characters: Logged metadata action (GM->GM).
+2024-07-15 10:18:01,901 - games.datingsim.master - INFO - Playthrough_all characters: Logged parse action (GM->GM).
+2024-07-15 10:18:01,902 - games.datingsim.master - INFO - Playthrough_all characters: Logged send message action (GM->Player_1).
+2024-07-15 10:18:03,327 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:18:03,330 - games.datingsim.master - INFO - Playthrough_all characters: Logged get message action (Player_1->GM).
+2024-07-15 10:18:03,330 - games.datingsim.master - INFO - Playthrough_all characters: Logged a call with timestamp 2024-07-15T10:18:03.330900
+2024-07-15 10:18:03,330 - games.datingsim.master - INFO - Playthrough_all characters: Logged metadata action (GM->GM).
+2024-07-15 10:18:03,330 - games.datingsim.master - INFO - Playthrough_all characters: Logged parse action (GM->GM).
+2024-07-15 10:18:03,331 - games.datingsim.master - INFO - Playthrough_all characters: Logged send message action (GM->Player_2).
+2024-07-15 10:18:04,457 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:18:04,463 - games.datingsim.master - INFO - Playthrough_all characters: Logged get message action (Player_2->GM).
+2024-07-15 10:18:04,463 - games.datingsim.master - INFO - Playthrough_all characters: Logged a call with timestamp 2024-07-15T10:18:04.463113
+2024-07-15 10:18:04,464 - games.datingsim.master - INFO - Playthrough_all characters: Logged metadata action (GM->GM).
+2024-07-15 10:18:04,464 - games.datingsim.master - INFO - Playthrough_all characters: Logged parse action (GM->GM).
+2024-07-15 10:18:04,465 - games.datingsim.master - INFO - Playthrough_all characters: Logged send message action (GM->Player_1).
+2024-07-15 10:18:05,919 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:18:05,922 - games.datingsim.master - INFO - Playthrough_all characters: Logged get message action (Player_1->GM).
+2024-07-15 10:18:05,923 - games.datingsim.master - INFO - Playthrough_all characters: Logged a call with timestamp 2024-07-15T10:18:05.922570
+2024-07-15 10:18:05,923 - games.datingsim.master - INFO - Playthrough_all characters: Logged metadata action (GM->GM).
+2024-07-15 10:18:05,923 - games.datingsim.master - INFO - Playthrough_all characters: Logged parse action (GM->GM).
+2024-07-15 10:18:05,923 - games.datingsim.master - INFO - Playthrough_all characters: Logged send message action (GM->Player_2).
+2024-07-15 10:18:07,611 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:18:07,615 - games.datingsim.master - INFO - Playthrough_all characters: Logged get message action (Player_2->GM).
+2024-07-15 10:18:07,615 - games.datingsim.master - INFO - Playthrough_all characters: Logged a call with timestamp 2024-07-15T10:18:07.615213
+2024-07-15 10:18:07,615 - games.datingsim.master - INFO - Playthrough_all characters: Logged metadata action (GM->GM).
+2024-07-15 10:18:07,615 - games.datingsim.master - INFO - Playthrough_all characters: Logged parse action (GM->GM).
+2024-07-15 10:18:07,616 - games.datingsim.master - INFO - Playthrough_all characters: Logged send message action (GM->Player_1).
+2024-07-15 10:18:08,642 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:18:08,646 - games.datingsim.master - INFO - Playthrough_all characters: Logged get message action (Player_1->GM).
+2024-07-15 10:18:08,646 - games.datingsim.master - INFO - Playthrough_all characters: Logged a call with timestamp 2024-07-15T10:18:08.646741
+2024-07-15 10:18:08,646 - games.datingsim.master - INFO - Playthrough_all characters: Logged metadata action (GM->GM).
+2024-07-15 10:18:08,646 - games.datingsim.master - INFO - Playthrough_all characters: Logged parse action (GM->GM).
+2024-07-15 10:18:08,647 - games.datingsim.master - ERROR - datingsim: Exception for episode 0 (but continue)
+Traceback (most recent call last):
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\clemgame\clemgame.py", line 828, in run
+    game_master.play()
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\games\datingsim\master.py", line 238, in play
+    self.last_message = self.update_answer(answer_a)
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\games\datingsim\master.py", line 313, in update_answer
+    last_message = response_match.group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+2024-07-15 10:18:08,649 - games.datingsim.master - INFO - Activity: datingsim Experiment: Playthrough_all characters Episode: 1 Game: 1
+2024-07-15 10:18:08,651 - games.datingsim.master - INFO - Results file stored to C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\results\Llama-3-70B-Together.ai-t0.0--Llama-3-70B-Together.ai-t0.0\datingsim\1_Playthrough_all characters/episode_1\instance.json
+2024-07-15 10:18:08,652 - games.datingsim.master - INFO - Setup
+2024-07-15 10:18:08,652 - clemgame.clemgame - INFO - Player Dater, Llama-3-70B-Together.ai
+2024-07-15 10:18:08,652 - clemgame.clemgame - INFO - Player Dater, Llama-3-70B-Together.ai
+2024-07-15 10:18:08,652 - games.datingsim.master - INFO - Playthrough_all characters: Logged players metadata.
+2024-07-15 10:18:08,653 - games.datingsim.master - INFO - Playthrough_all characters: Logged a game-specific interaction key: n_turns.
+2024-07-15 10:18:08,653 - games.datingsim.master - INFO - Playthrough_all characters: Logged send message action (GM->Player_1).
+2024-07-15 10:18:10,034 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:18:10,037 - games.datingsim.master - INFO - Playthrough_all characters: Logged get message action (Player_1->GM).
+2024-07-15 10:18:10,037 - games.datingsim.master - INFO - Playthrough_all characters: Logged a call with timestamp 2024-07-15T10:18:10.037572
+2024-07-15 10:18:10,037 - games.datingsim.master - INFO - Playthrough_all characters: Logged metadata action (GM->GM).
+2024-07-15 10:18:10,037 - games.datingsim.master - INFO - Playthrough_all characters: Logged parse action (GM->GM).
+2024-07-15 10:18:10,038 - games.datingsim.master - INFO - Playthrough_all characters: Logged send message action (GM->Player_2).
+2024-07-15 10:18:11,840 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:18:11,863 - games.datingsim.master - INFO - Playthrough_all characters: Logged get message action (Player_2->GM).
+2024-07-15 10:18:11,863 - games.datingsim.master - INFO - Playthrough_all characters: Logged a call with timestamp 2024-07-15T10:18:11.863125
+2024-07-15 10:18:11,863 - games.datingsim.master - INFO - Playthrough_all characters: Logged metadata action (GM->GM).
+2024-07-15 10:18:11,863 - games.datingsim.master - INFO - Playthrough_all characters: Logged parse action (GM->GM).
+2024-07-15 10:18:11,865 - games.datingsim.master - INFO - Playthrough_all characters: Logged send message action (GM->Player_1).
+2024-07-15 10:18:13,839 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:18:13,843 - games.datingsim.master - INFO - Playthrough_all characters: Logged get message action (Player_1->GM).
+2024-07-15 10:18:13,843 - games.datingsim.master - INFO - Playthrough_all characters: Logged a call with timestamp 2024-07-15T10:18:13.843955
+2024-07-15 10:18:13,843 - games.datingsim.master - INFO - Playthrough_all characters: Logged metadata action (GM->GM).
+2024-07-15 10:18:13,843 - games.datingsim.master - INFO - Playthrough_all characters: Logged parse action (GM->GM).
+2024-07-15 10:18:13,844 - games.datingsim.master - INFO - Playthrough_all characters: Logged send message action (GM->Player_2).
+2024-07-15 10:18:15,280 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:18:15,285 - games.datingsim.master - INFO - Playthrough_all characters: Logged get message action (Player_2->GM).
+2024-07-15 10:18:15,285 - games.datingsim.master - INFO - Playthrough_all characters: Logged a call with timestamp 2024-07-15T10:18:15.285417
+2024-07-15 10:18:15,285 - games.datingsim.master - INFO - Playthrough_all characters: Logged metadata action (GM->GM).
+2024-07-15 10:18:15,286 - games.datingsim.master - INFO - Playthrough_all characters: Logged parse action (GM->GM).
+2024-07-15 10:18:15,287 - games.datingsim.master - INFO - Playthrough_all characters: Logged send message action (GM->Player_1).
+2024-07-15 10:18:16,458 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:18:16,462 - games.datingsim.master - INFO - Playthrough_all characters: Logged get message action (Player_1->GM).
+2024-07-15 10:18:16,463 - games.datingsim.master - INFO - Playthrough_all characters: Logged a call with timestamp 2024-07-15T10:18:16.462990
+2024-07-15 10:18:16,463 - games.datingsim.master - INFO - Playthrough_all characters: Logged metadata action (GM->GM).
+2024-07-15 10:18:16,463 - games.datingsim.master - INFO - Playthrough_all characters: Logged parse action (GM->GM).
+2024-07-15 10:18:16,464 - games.datingsim.master - INFO - Playthrough_all characters: Logged send message action (GM->Player_2).
+2024-07-15 10:18:18,398 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:18:18,401 - games.datingsim.master - INFO - Playthrough_all characters: Logged get message action (Player_2->GM).
+2024-07-15 10:18:18,401 - games.datingsim.master - INFO - Playthrough_all characters: Logged a call with timestamp 2024-07-15T10:18:18.401592
+2024-07-15 10:18:18,401 - games.datingsim.master - INFO - Playthrough_all characters: Logged metadata action (GM->GM).
+2024-07-15 10:18:18,402 - games.datingsim.master - INFO - Playthrough_all characters: Logged parse action (GM->GM).
+2024-07-15 10:18:18,402 - games.datingsim.master - INFO - Playthrough_all characters: Logged send message action (GM->Player_1).
+2024-07-15 10:18:22,206 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:18:22,209 - games.datingsim.master - INFO - Playthrough_all characters: Logged get message action (Player_1->GM).
+2024-07-15 10:18:22,209 - games.datingsim.master - INFO - Playthrough_all characters: Logged a call with timestamp 2024-07-15T10:18:22.209076
+2024-07-15 10:18:22,209 - games.datingsim.master - INFO - Playthrough_all characters: Logged metadata action (GM->GM).
+2024-07-15 10:18:22,209 - games.datingsim.master - INFO - Playthrough_all characters: Logged parse action (GM->GM).
+2024-07-15 10:18:22,210 - games.datingsim.master - INFO - Playthrough_all characters: Logged send message action (GM->Player_2).
+2024-07-15 10:18:23,532 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:18:23,537 - games.datingsim.master - INFO - Playthrough_all characters: Logged get message action (Player_2->GM).
+2024-07-15 10:18:23,537 - games.datingsim.master - INFO - Playthrough_all characters: Logged a call with timestamp 2024-07-15T10:18:23.536027
+2024-07-15 10:18:23,537 - games.datingsim.master - INFO - Playthrough_all characters: Logged metadata action (GM->GM).
+2024-07-15 10:18:23,537 - games.datingsim.master - INFO - Playthrough_all characters: Logged parse action (GM->GM).
+2024-07-15 10:18:23,538 - games.datingsim.master - INFO - Playthrough_all characters: Logged send message action (GM->Player_1).
+2024-07-15 10:18:24,899 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:18:24,901 - games.datingsim.master - INFO - Playthrough_all characters: Logged get message action (Player_1->GM).
+2024-07-15 10:18:24,901 - games.datingsim.master - INFO - Playthrough_all characters: Logged a call with timestamp 2024-07-15T10:18:24.901921
+2024-07-15 10:18:24,901 - games.datingsim.master - INFO - Playthrough_all characters: Logged metadata action (GM->GM).
+2024-07-15 10:18:24,901 - games.datingsim.master - INFO - Playthrough_all characters: Logged parse action (GM->GM).
+2024-07-15 10:18:24,902 - games.datingsim.master - INFO - Playthrough_all characters: Logged send message action (GM->Player_2).
+2024-07-15 10:18:26,263 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:18:26,266 - games.datingsim.master - INFO - Playthrough_all characters: Logged get message action (Player_2->GM).
+2024-07-15 10:18:26,266 - games.datingsim.master - INFO - Playthrough_all characters: Logged a call with timestamp 2024-07-15T10:18:26.266534
+2024-07-15 10:18:26,267 - games.datingsim.master - INFO - Playthrough_all characters: Logged metadata action (GM->GM).
+2024-07-15 10:18:26,267 - games.datingsim.master - INFO - Playthrough_all characters: Logged parse action (GM->GM).
+2024-07-15 10:18:26,268 - games.datingsim.master - INFO - Playthrough_all characters: Logged send message action (GM->Player_1).
+2024-07-15 10:18:27,491 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:18:27,496 - games.datingsim.master - INFO - Playthrough_all characters: Logged get message action (Player_1->GM).
+2024-07-15 10:18:27,497 - games.datingsim.master - INFO - Playthrough_all characters: Logged a call with timestamp 2024-07-15T10:18:27.496257
+2024-07-15 10:18:27,497 - games.datingsim.master - INFO - Playthrough_all characters: Logged metadata action (GM->GM).
+2024-07-15 10:18:27,497 - games.datingsim.master - INFO - Playthrough_all characters: Logged parse action (GM->GM).
+2024-07-15 10:18:27,498 - games.datingsim.master - INFO - Playthrough_all characters: Logged send message action (GM->Player_2).
+2024-07-15 10:18:28,938 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:18:28,943 - games.datingsim.master - INFO - Playthrough_all characters: Logged get message action (Player_2->GM).
+2024-07-15 10:18:28,944 - games.datingsim.master - INFO - Playthrough_all characters: Logged a call with timestamp 2024-07-15T10:18:28.943920
+2024-07-15 10:18:28,944 - games.datingsim.master - INFO - Playthrough_all characters: Logged metadata action (GM->GM).
+2024-07-15 10:18:28,944 - games.datingsim.master - INFO - Playthrough_all characters: Logged parse action (GM->GM).
+2024-07-15 10:18:28,945 - games.datingsim.master - INFO - Playthrough_all characters: Logged send message action (GM->Player_1).
+2024-07-15 10:18:30,038 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:18:30,044 - games.datingsim.master - INFO - Playthrough_all characters: Logged get message action (Player_1->GM).
+2024-07-15 10:18:30,044 - games.datingsim.master - INFO - Playthrough_all characters: Logged a call with timestamp 2024-07-15T10:18:30.044934
+2024-07-15 10:18:30,044 - games.datingsim.master - INFO - Playthrough_all characters: Logged metadata action (GM->GM).
+2024-07-15 10:18:30,044 - games.datingsim.master - INFO - Playthrough_all characters: Logged parse action (GM->GM).
+2024-07-15 10:18:30,044 - games.datingsim.master - ERROR - datingsim: Exception for episode 1 (but continue)
+Traceback (most recent call last):
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\clemgame\clemgame.py", line 828, in run
+    game_master.play()
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\games\datingsim\master.py", line 238, in play
+    self.last_message = self.update_answer(answer_a)
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\games\datingsim\master.py", line 313, in update_answer
+    last_message = response_match.group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+2024-07-15 10:18:30,046 - games.datingsim.master - INFO - Activity: datingsim Experiment: Playthrough_all characters Episode: 2 Game: 2
+2024-07-15 10:18:30,047 - games.datingsim.master - INFO - Results file stored to C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\results\Llama-3-70B-Together.ai-t0.0--Llama-3-70B-Together.ai-t0.0\datingsim\1_Playthrough_all characters/episode_2\instance.json
+2024-07-15 10:18:30,048 - games.datingsim.master - INFO - Setup
+2024-07-15 10:18:30,048 - clemgame.clemgame - INFO - Player Dater, Llama-3-70B-Together.ai
+2024-07-15 10:18:30,048 - clemgame.clemgame - INFO - Player Dater, Llama-3-70B-Together.ai
+2024-07-15 10:18:30,048 - games.datingsim.master - INFO - Playthrough_all characters: Logged players metadata.
+2024-07-15 10:18:30,048 - games.datingsim.master - INFO - Playthrough_all characters: Logged a game-specific interaction key: n_turns.
+2024-07-15 10:18:30,048 - games.datingsim.master - INFO - Playthrough_all characters: Logged send message action (GM->Player_1).
+2024-07-15 10:18:31,463 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:18:31,468 - games.datingsim.master - INFO - Playthrough_all characters: Logged get message action (Player_1->GM).
+2024-07-15 10:18:31,468 - games.datingsim.master - INFO - Playthrough_all characters: Logged a call with timestamp 2024-07-15T10:18:31.468257
+2024-07-15 10:18:31,468 - games.datingsim.master - INFO - Playthrough_all characters: Logged metadata action (GM->GM).
+2024-07-15 10:18:31,468 - games.datingsim.master - INFO - Playthrough_all characters: Logged parse action (GM->GM).
+2024-07-15 10:18:31,469 - games.datingsim.master - INFO - Playthrough_all characters: Logged send message action (GM->Player_2).
+2024-07-15 10:18:32,742 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:18:32,747 - games.datingsim.master - INFO - Playthrough_all characters: Logged get message action (Player_2->GM).
+2024-07-15 10:18:32,747 - games.datingsim.master - INFO - Playthrough_all characters: Logged a call with timestamp 2024-07-15T10:18:32.747257
+2024-07-15 10:18:32,747 - games.datingsim.master - INFO - Playthrough_all characters: Logged metadata action (GM->GM).
+2024-07-15 10:18:32,748 - games.datingsim.master - INFO - Playthrough_all characters: Logged parse action (GM->GM).
+2024-07-15 10:18:32,749 - games.datingsim.master - INFO - Playthrough_all characters: Logged send message action (GM->Player_1).
+2024-07-15 10:18:34,814 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:18:34,817 - games.datingsim.master - INFO - Playthrough_all characters: Logged get message action (Player_1->GM).
+2024-07-15 10:18:34,817 - games.datingsim.master - INFO - Playthrough_all characters: Logged a call with timestamp 2024-07-15T10:18:34.817751
+2024-07-15 10:18:34,817 - games.datingsim.master - INFO - Playthrough_all characters: Logged metadata action (GM->GM).
+2024-07-15 10:18:34,817 - games.datingsim.master - INFO - Playthrough_all characters: Logged parse action (GM->GM).
+2024-07-15 10:18:34,818 - games.datingsim.master - INFO - Playthrough_all characters: Logged send message action (GM->Player_2).
+2024-07-15 10:18:36,359 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:18:36,363 - games.datingsim.master - INFO - Playthrough_all characters: Logged get message action (Player_2->GM).
+2024-07-15 10:18:36,363 - games.datingsim.master - INFO - Playthrough_all characters: Logged a call with timestamp 2024-07-15T10:18:36.363522
+2024-07-15 10:18:36,363 - games.datingsim.master - INFO - Playthrough_all characters: Logged metadata action (GM->GM).
+2024-07-15 10:18:36,363 - games.datingsim.master - INFO - Playthrough_all characters: Logged parse action (GM->GM).
+2024-07-15 10:18:36,364 - games.datingsim.master - INFO - Playthrough_all characters: Logged send message action (GM->Player_1).
+2024-07-15 10:18:37,738 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:18:37,740 - games.datingsim.master - INFO - Playthrough_all characters: Logged get message action (Player_1->GM).
+2024-07-15 10:18:37,740 - games.datingsim.master - INFO - Playthrough_all characters: Logged a call with timestamp 2024-07-15T10:18:37.740997
+2024-07-15 10:18:37,740 - games.datingsim.master - INFO - Playthrough_all characters: Logged metadata action (GM->GM).
+2024-07-15 10:18:37,740 - games.datingsim.master - INFO - Playthrough_all characters: Logged parse action (GM->GM).
+2024-07-15 10:18:37,741 - games.datingsim.master - INFO - Playthrough_all characters: Logged send message action (GM->Player_2).
+2024-07-15 10:18:40,847 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:18:40,849 - games.datingsim.master - INFO - Playthrough_all characters: Logged get message action (Player_2->GM).
+2024-07-15 10:18:40,849 - games.datingsim.master - INFO - Playthrough_all characters: Logged a call with timestamp 2024-07-15T10:18:40.849270
+2024-07-15 10:18:40,849 - games.datingsim.master - INFO - Playthrough_all characters: Logged metadata action (GM->GM).
+2024-07-15 10:18:40,850 - games.datingsim.master - INFO - Playthrough_all characters: Logged parse action (GM->GM).
+2024-07-15 10:18:40,850 - games.datingsim.master - INFO - Playthrough_all characters: Logged send message action (GM->Player_1).
+2024-07-15 10:18:43,171 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:18:43,175 - games.datingsim.master - INFO - Playthrough_all characters: Logged get message action (Player_1->GM).
+2024-07-15 10:18:43,176 - games.datingsim.master - INFO - Playthrough_all characters: Logged a call with timestamp 2024-07-15T10:18:43.175251
+2024-07-15 10:18:43,176 - games.datingsim.master - INFO - Playthrough_all characters: Logged metadata action (GM->GM).
+2024-07-15 10:18:43,176 - games.datingsim.master - INFO - Playthrough_all characters: Logged parse action (GM->GM).
+2024-07-15 10:18:43,177 - games.datingsim.master - INFO - Playthrough_all characters: Logged send message action (GM->Player_2).
+2024-07-15 10:18:46,035 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:18:46,037 - games.datingsim.master - INFO - Playthrough_all characters: Logged get message action (Player_2->GM).
+2024-07-15 10:18:46,037 - games.datingsim.master - INFO - Playthrough_all characters: Logged a call with timestamp 2024-07-15T10:18:46.037993
+2024-07-15 10:18:46,037 - games.datingsim.master - INFO - Playthrough_all characters: Logged metadata action (GM->GM).
+2024-07-15 10:18:46,037 - games.datingsim.master - INFO - Playthrough_all characters: Logged parse action (GM->GM).
+2024-07-15 10:18:46,038 - games.datingsim.master - INFO - Playthrough_all characters: Logged send message action (GM->Player_1).
+2024-07-15 10:18:48,043 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:18:48,047 - games.datingsim.master - INFO - Playthrough_all characters: Logged get message action (Player_1->GM).
+2024-07-15 10:18:48,047 - games.datingsim.master - INFO - Playthrough_all characters: Logged a call with timestamp 2024-07-15T10:18:48.047843
+2024-07-15 10:18:48,047 - games.datingsim.master - INFO - Playthrough_all characters: Logged metadata action (GM->GM).
+2024-07-15 10:18:48,047 - games.datingsim.master - INFO - Playthrough_all characters: Logged parse action (GM->GM).
+2024-07-15 10:18:48,048 - games.datingsim.master - INFO - Playthrough_all characters: Logged send message action (GM->Player_2).
+2024-07-15 10:18:49,483 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:18:49,486 - games.datingsim.master - INFO - Playthrough_all characters: Logged get message action (Player_2->GM).
+2024-07-15 10:18:49,486 - games.datingsim.master - INFO - Playthrough_all characters: Logged a call with timestamp 2024-07-15T10:18:49.486207
+2024-07-15 10:18:49,486 - games.datingsim.master - INFO - Playthrough_all characters: Logged metadata action (GM->GM).
+2024-07-15 10:18:49,486 - games.datingsim.master - INFO - Playthrough_all characters: Logged parse action (GM->GM).
+2024-07-15 10:18:49,487 - games.datingsim.master - INFO - Playthrough_all characters: Logged send message action (GM->Player_1).
+2024-07-15 10:18:50,785 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:18:50,787 - games.datingsim.master - INFO - Playthrough_all characters: Logged get message action (Player_1->GM).
+2024-07-15 10:18:50,788 - games.datingsim.master - INFO - Playthrough_all characters: Logged a call with timestamp 2024-07-15T10:18:50.787168
+2024-07-15 10:18:50,788 - games.datingsim.master - INFO - Playthrough_all characters: Logged metadata action (GM->GM).
+2024-07-15 10:18:50,788 - games.datingsim.master - INFO - Playthrough_all characters: Logged parse action (GM->GM).
+2024-07-15 10:18:50,788 - games.datingsim.master - INFO - Playthrough_all characters: Logged send message action (GM->Player_2).
+2024-07-15 10:18:52,320 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:18:52,323 - games.datingsim.master - INFO - Playthrough_all characters: Logged get message action (Player_2->GM).
+2024-07-15 10:18:52,323 - games.datingsim.master - INFO - Playthrough_all characters: Logged a call with timestamp 2024-07-15T10:18:52.323209
+2024-07-15 10:18:52,323 - games.datingsim.master - INFO - Playthrough_all characters: Logged metadata action (GM->GM).
+2024-07-15 10:18:52,324 - games.datingsim.master - INFO - Playthrough_all characters: Logged parse action (GM->GM).
+2024-07-15 10:18:52,324 - games.datingsim.master - INFO - Playthrough_all characters: Logged send message action (GM->Player_1).
+2024-07-15 10:18:54,363 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:18:54,365 - games.datingsim.master - INFO - Playthrough_all characters: Logged get message action (Player_1->GM).
+2024-07-15 10:18:54,365 - games.datingsim.master - INFO - Playthrough_all characters: Logged a call with timestamp 2024-07-15T10:18:54.365626
+2024-07-15 10:18:54,365 - games.datingsim.master - INFO - Playthrough_all characters: Logged metadata action (GM->GM).
+2024-07-15 10:18:54,365 - games.datingsim.master - INFO - Playthrough_all characters: Logged parse action (GM->GM).
+2024-07-15 10:18:54,366 - games.datingsim.master - INFO - Playthrough_all characters: Logged send message action (GM->Player_2).
+2024-07-15 10:18:55,564 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:18:55,570 - games.datingsim.master - INFO - Playthrough_all characters: Logged get message action (Player_2->GM).
+2024-07-15 10:18:55,570 - games.datingsim.master - INFO - Playthrough_all characters: Logged a call with timestamp 2024-07-15T10:18:55.570715
+2024-07-15 10:18:55,572 - games.datingsim.master - INFO - Playthrough_all characters: Logged metadata action (GM->GM).
+2024-07-15 10:18:55,572 - games.datingsim.master - INFO - Playthrough_all characters: Logged parse action (GM->GM).
+2024-07-15 10:18:55,573 - games.datingsim.master - INFO - Playthrough_all characters: Logged send message action (GM->Player_1).
+2024-07-15 10:18:56,587 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:18:56,593 - games.datingsim.master - INFO - Playthrough_all characters: Logged get message action (Player_1->GM).
+2024-07-15 10:18:56,593 - games.datingsim.master - INFO - Playthrough_all characters: Logged a call with timestamp 2024-07-15T10:18:56.593354
+2024-07-15 10:18:56,593 - games.datingsim.master - INFO - Playthrough_all characters: Logged metadata action (GM->GM).
+2024-07-15 10:18:56,594 - games.datingsim.master - INFO - Playthrough_all characters: Logged parse action (GM->GM).
+2024-07-15 10:18:56,594 - games.datingsim.master - ERROR - datingsim: Exception for episode 2 (but continue)
+Traceback (most recent call last):
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\clemgame\clemgame.py", line 828, in run
+    game_master.play()
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\games\datingsim\master.py", line 238, in play
+    self.last_message = self.update_answer(answer_a)
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\games\datingsim\master.py", line 313, in update_answer
+    last_message = response_match.group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+2024-07-15 10:18:56,598 - benchmark.run - ERROR - datingsim: '3' exceptions occurred: See clembench.log for details.
+2024-07-15 10:18:56,601 - games.datingsim.master - INFO - Results file stored to C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\results\Llama-3-70B-Together.ai-t0.0--Llama-3-70B-Together.ai-t0.0\datingsim\1_Playthrough_all characters\experiment_Playthrough_all characters.json
+2024-07-15 10:18:56,601 - clemgame.benchmark - INFO - Run datingsim took 0:02:46.520625
+2024-07-15 10:23:56,835 - clemgame.benchmark - INFO - Running benchmark for 'datingsim' (models=[Llama-3-70B-Together.ai])
+2024-07-15 10:23:56,835 - benchmark.run - INFO - Run experiment 1 of 2: Playthrough_same-sex non-binary
+2024-07-15 10:23:56,835 - games.datingsim.master - INFO - Activity: datingsim Experiment: Playthrough_same-sex non-binary Partners: Llama-3-70B-Together.ai-t0.0--Llama-3-70B-Together.ai-t0.0 Episode: 0
+2024-07-15 10:23:56,836 - games.datingsim.master - INFO - Results file stored to C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\results\Llama-3-70B-Together.ai-t0.0--Llama-3-70B-Together.ai-t0.0\datingsim\0_Playthrough_same-sex non-binary\experiment_Playthrough_same-sex non-binary.json
+2024-07-15 10:23:56,838 - games.datingsim.master - INFO - Activity: datingsim Experiment: Playthrough_same-sex non-binary Episode: 0 Game: 0
+2024-07-15 10:23:56,839 - games.datingsim.master - INFO - Results file stored to C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\results\Llama-3-70B-Together.ai-t0.0--Llama-3-70B-Together.ai-t0.0\datingsim\0_Playthrough_same-sex non-binary/episode_0\instance.json
+2024-07-15 10:23:56,839 - games.datingsim.master - INFO - Setup
+2024-07-15 10:23:56,839 - clemgame.clemgame - INFO - Player Dater, Llama-3-70B-Together.ai
+2024-07-15 10:23:56,839 - clemgame.clemgame - INFO - Player Dater, Llama-3-70B-Together.ai
+2024-07-15 10:23:56,840 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged players metadata.
+2024-07-15 10:23:56,840 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a game-specific interaction key: n_turns.
+2024-07-15 10:23:56,840 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_1).
+2024-07-15 10:23:58,608 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:23:58,611 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_1->GM).
+2024-07-15 10:23:58,611 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:23:58.611733
+2024-07-15 10:23:58,612 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:23:58,612 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:23:58,612 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_2).
+2024-07-15 10:24:00,058 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:24:00,059 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_2->GM).
+2024-07-15 10:24:00,059 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:24:00.059550
+2024-07-15 10:24:00,059 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:24:00,059 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:24:00,060 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_1).
+2024-07-15 10:24:02,143 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:24:02,146 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_1->GM).
+2024-07-15 10:24:02,146 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:24:02.146076
+2024-07-15 10:24:02,146 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:24:02,146 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:24:02,147 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_2).
+2024-07-15 10:24:04,188 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:24:04,195 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_2->GM).
+2024-07-15 10:24:04,195 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:24:04.195358
+2024-07-15 10:24:04,195 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:24:04,195 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:24:04,196 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_1).
+2024-07-15 10:24:05,879 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:24:05,881 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_1->GM).
+2024-07-15 10:24:05,882 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:24:05.881693
+2024-07-15 10:24:05,882 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:24:05,882 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:24:05,882 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_2).
+2024-07-15 10:24:09,046 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:24:09,048 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_2->GM).
+2024-07-15 10:24:09,048 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:24:09.048470
+2024-07-15 10:24:09,048 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:24:09,048 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:24:09,048 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_1).
+2024-07-15 10:24:11,448 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:24:11,451 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_1->GM).
+2024-07-15 10:24:11,452 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:24:11.451442
+2024-07-15 10:24:11,452 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:24:11,452 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:24:11,480 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_2).
+2024-07-15 10:24:14,940 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:24:14,943 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_2->GM).
+2024-07-15 10:24:14,943 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:24:14.943176
+2024-07-15 10:24:14,943 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:24:14,943 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:24:14,944 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_1).
+2024-07-15 10:24:16,358 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:24:16,360 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_1->GM).
+2024-07-15 10:24:16,361 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:24:16.360460
+2024-07-15 10:24:16,361 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:24:16,361 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:24:16,361 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_2).
+2024-07-15 10:24:18,348 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:24:18,350 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_2->GM).
+2024-07-15 10:24:18,350 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:24:18.350010
+2024-07-15 10:24:18,350 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:24:18,350 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:24:18,350 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_1).
+2024-07-15 10:24:21,580 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:24:21,582 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_1->GM).
+2024-07-15 10:24:21,582 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:24:21.582124
+2024-07-15 10:24:21,582 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:24:21,582 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:24:21,582 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_2).
+2024-07-15 10:24:23,047 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:24:23,052 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_2->GM).
+2024-07-15 10:24:23,052 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:24:23.052394
+2024-07-15 10:24:23,052 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:24:23,052 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:24:23,053 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_1).
+2024-07-15 10:24:24,522 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:24:24,525 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_1->GM).
+2024-07-15 10:24:24,525 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:24:24.525654
+2024-07-15 10:24:24,525 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:24:24,525 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:24:24,526 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_2).
+2024-07-15 10:24:27,103 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:24:27,106 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_2->GM).
+2024-07-15 10:24:27,106 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:24:27.106113
+2024-07-15 10:24:27,106 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:24:27,106 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:24:27,106 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_1).
+2024-07-15 10:24:30,167 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:24:30,170 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_1->GM).
+2024-07-15 10:24:30,170 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:24:30.170874
+2024-07-15 10:24:30,170 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:24:30,170 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:24:30,171 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_2).
+2024-07-15 10:24:31,503 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:24:31,504 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_2->GM).
+2024-07-15 10:24:31,505 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:24:31.504896
+2024-07-15 10:24:31,505 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:24:31,505 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:24:31,505 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_1).
+2024-07-15 10:24:33,704 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:24:33,709 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_1->GM).
+2024-07-15 10:24:33,710 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:24:33.709128
+2024-07-15 10:24:33,710 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:24:33,710 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:24:33,710 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_2).
+2024-07-15 10:24:34,914 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:24:34,924 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_2->GM).
+2024-07-15 10:24:34,926 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:24:34.924507
+2024-07-15 10:24:34,926 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:24:34,926 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:24:34,926 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_1).
+2024-07-15 10:24:36,812 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:24:36,820 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_1->GM).
+2024-07-15 10:24:36,820 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:24:36.820167
+2024-07-15 10:24:36,820 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:24:36,820 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:24:36,821 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_2).
+2024-07-15 10:24:38,775 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:24:38,779 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_2->GM).
+2024-07-15 10:24:38,779 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:24:38.779950
+2024-07-15 10:24:38,779 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:24:38,780 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:24:38,780 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_1).
+2024-07-15 10:24:39,816 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:24:39,818 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_1->GM).
+2024-07-15 10:24:39,819 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:24:39.818973
+2024-07-15 10:24:39,819 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:24:39,819 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:24:39,819 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_2).
+2024-07-15 10:24:41,815 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:24:41,820 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_2->GM).
+2024-07-15 10:24:41,820 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:24:41.820868
+2024-07-15 10:24:41,820 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:24:41,821 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:24:41,821 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_1).
+2024-07-15 10:24:42,964 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:24:42,966 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_1->GM).
+2024-07-15 10:24:42,966 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:24:42.966648
+2024-07-15 10:24:42,966 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:24:42,966 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:24:42,966 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_2).
+2024-07-15 10:24:44,545 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:24:44,553 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_2->GM).
+2024-07-15 10:24:44,553 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:24:44.553203
+2024-07-15 10:24:44,553 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:24:44,553 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:24:44,554 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_1).
+2024-07-15 10:24:45,912 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:24:45,914 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_1->GM).
+2024-07-15 10:24:45,914 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:24:45.914842
+2024-07-15 10:24:45,915 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:24:45,915 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:24:45,915 - games.datingsim.master - ERROR - datingsim: Exception for episode 0 (but continue)
+Traceback (most recent call last):
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\clemgame\clemgame.py", line 828, in run
+    game_master.play()
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\games\datingsim\master.py", line 238, in play
+    self.last_message = self.update_answer(answer_a)
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\games\datingsim\master.py", line 313, in update_answer
+    last_message = response_match.group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+2024-07-15 10:24:45,917 - games.datingsim.master - INFO - Activity: datingsim Experiment: Playthrough_same-sex non-binary Episode: 1 Game: 1
+2024-07-15 10:24:45,919 - games.datingsim.master - INFO - Results file stored to C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\results\Llama-3-70B-Together.ai-t0.0--Llama-3-70B-Together.ai-t0.0\datingsim\0_Playthrough_same-sex non-binary/episode_1\instance.json
+2024-07-15 10:24:45,919 - games.datingsim.master - INFO - Setup
+2024-07-15 10:24:45,919 - clemgame.clemgame - INFO - Player Dater, Llama-3-70B-Together.ai
+2024-07-15 10:24:45,919 - clemgame.clemgame - INFO - Player Dater, Llama-3-70B-Together.ai
+2024-07-15 10:24:45,919 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged players metadata.
+2024-07-15 10:24:45,919 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a game-specific interaction key: n_turns.
+2024-07-15 10:24:45,920 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_1).
+2024-07-15 10:24:49,047 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:24:49,052 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_1->GM).
+2024-07-15 10:24:49,053 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:24:49.052760
+2024-07-15 10:24:49,053 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:24:49,053 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:24:49,053 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_2).
+2024-07-15 10:24:51,215 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:24:51,217 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_2->GM).
+2024-07-15 10:24:51,217 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:24:51.217027
+2024-07-15 10:24:51,217 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:24:51,217 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:24:51,218 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_1).
+2024-07-15 10:25:24,780 - clemgame.benchmark - INFO - Running benchmark for 'datingsim' (models=[Llama-3-70B-Together.ai])
+2024-07-15 10:25:24,780 - benchmark.run - INFO - Run experiment 1 of 2: Playthrough_same-sex non-binary
+2024-07-15 10:25:24,780 - games.datingsim.master - INFO - Activity: datingsim Experiment: Playthrough_same-sex non-binary Partners: Llama-3-70B-Together.ai-t0.0--Llama-3-70B-Together.ai-t0.0 Episode: 0
+2024-07-15 10:25:24,781 - games.datingsim.master - INFO - Results file stored to C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\results\Llama-3-70B-Together.ai-t0.0--Llama-3-70B-Together.ai-t0.0\datingsim\0_Playthrough_same-sex non-binary\experiment_Playthrough_same-sex non-binary.json
+2024-07-15 10:25:24,784 - games.datingsim.master - INFO - Activity: datingsim Experiment: Playthrough_same-sex non-binary Episode: 0 Game: 0
+2024-07-15 10:25:24,784 - games.datingsim.master - INFO - Results file stored to C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\results\Llama-3-70B-Together.ai-t0.0--Llama-3-70B-Together.ai-t0.0\datingsim\0_Playthrough_same-sex non-binary/episode_0\instance.json
+2024-07-15 10:25:24,784 - games.datingsim.master - INFO - Setup
+2024-07-15 10:25:24,784 - clemgame.clemgame - INFO - Player Dater, Llama-3-70B-Together.ai
+2024-07-15 10:25:24,786 - clemgame.clemgame - INFO - Player Dater, Llama-3-70B-Together.ai
+2024-07-15 10:25:24,786 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged players metadata.
+2024-07-15 10:25:24,786 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a game-specific interaction key: n_turns.
+2024-07-15 10:25:24,786 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_1).
+2024-07-15 10:25:26,752 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:25:26,755 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_1->GM).
+2024-07-15 10:25:26,755 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:25:26.755292
+2024-07-15 10:25:26,755 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:25:26,755 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:25:26,756 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_2).
+2024-07-15 10:25:28,818 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:25:28,820 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_2->GM).
+2024-07-15 10:25:28,820 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:25:28.820237
+2024-07-15 10:25:28,820 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:25:28,820 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:25:28,821 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_1).
+2024-07-15 10:25:30,529 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:25:30,532 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_1->GM).
+2024-07-15 10:25:30,533 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:25:30.532338
+2024-07-15 10:25:30,533 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:25:30,533 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:25:30,534 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_2).
+2024-07-15 10:25:32,273 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:25:32,276 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_2->GM).
+2024-07-15 10:25:32,276 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:25:32.276654
+2024-07-15 10:25:32,276 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:25:32,276 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:25:32,277 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_1).
+2024-07-15 10:25:35,343 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:25:35,345 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_1->GM).
+2024-07-15 10:25:35,345 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:25:35.345576
+2024-07-15 10:25:35,345 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:25:35,345 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:25:35,346 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_2).
+2024-07-15 10:25:37,065 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:25:37,068 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_2->GM).
+2024-07-15 10:25:37,069 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:25:37.068235
+2024-07-15 10:25:37,069 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:25:37,069 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:25:37,070 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_1).
+2024-07-15 10:25:39,266 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:25:39,272 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_1->GM).
+2024-07-15 10:25:39,272 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:25:39.272433
+2024-07-15 10:25:39,272 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:25:39,272 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:25:39,273 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_2).
+2024-07-15 10:25:40,833 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:25:40,835 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_2->GM).
+2024-07-15 10:25:40,835 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:25:40.835130
+2024-07-15 10:25:40,835 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:25:40,835 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:25:40,835 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_1).
+2024-07-15 10:25:42,863 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:25:42,864 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_1->GM).
+2024-07-15 10:25:42,866 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:25:42.864864
+2024-07-15 10:25:42,866 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:25:42,866 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:25:42,866 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_2).
+2024-07-15 10:25:44,299 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:25:44,301 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_2->GM).
+2024-07-15 10:25:44,302 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:25:44.301324
+2024-07-15 10:25:44,302 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:25:44,302 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:25:44,303 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_1).
+2024-07-15 10:25:45,989 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:25:45,993 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_1->GM).
+2024-07-15 10:25:45,994 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:25:45.993724
+2024-07-15 10:25:45,994 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:25:45,994 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:25:45,994 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_2).
+2024-07-15 10:25:48,428 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:25:48,430 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_2->GM).
+2024-07-15 10:25:48,430 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:25:48.430083
+2024-07-15 10:25:48,430 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:25:48,430 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:25:48,431 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_1).
+2024-07-15 10:25:49,587 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:25:49,588 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_1->GM).
+2024-07-15 10:25:49,589 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:25:49.588946
+2024-07-15 10:25:49,589 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:25:49,589 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:25:49,589 - games.datingsim.master - ERROR - datingsim: Exception for episode 0 (but continue)
+Traceback (most recent call last):
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\clemgame\clemgame.py", line 828, in run
+    game_master.play()
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\games\datingsim\master.py", line 238, in play
+    self.last_message = self.update_answer(answer_a)
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\games\datingsim\master.py", line 313, in update_answer
+    last_message = response_match.group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+2024-07-15 10:25:49,590 - games.datingsim.master - INFO - Activity: datingsim Experiment: Playthrough_same-sex non-binary Episode: 1 Game: 1
+2024-07-15 10:25:49,591 - games.datingsim.master - INFO - Results file stored to C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\results\Llama-3-70B-Together.ai-t0.0--Llama-3-70B-Together.ai-t0.0\datingsim\0_Playthrough_same-sex non-binary/episode_1\instance.json
+2024-07-15 10:25:49,592 - games.datingsim.master - INFO - Setup
+2024-07-15 10:25:49,592 - clemgame.clemgame - INFO - Player Dater, Llama-3-70B-Together.ai
+2024-07-15 10:25:49,592 - clemgame.clemgame - INFO - Player Dater, Llama-3-70B-Together.ai
+2024-07-15 10:25:49,592 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged players metadata.
+2024-07-15 10:25:49,592 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a game-specific interaction key: n_turns.
+2024-07-15 10:25:49,592 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_1).
+2024-07-15 10:27:05,521 - clemgame.benchmark - INFO - Running benchmark for 'datingsim' (models=[Llama-3-70B-Together.ai])
+2024-07-15 10:27:05,521 - benchmark.run - INFO - Run experiment 1 of 2: Playthrough_same-sex non-binary
+2024-07-15 10:27:05,522 - games.datingsim.master - INFO - Activity: datingsim Experiment: Playthrough_same-sex non-binary Partners: Llama-3-70B-Together.ai-t0.0--Llama-3-70B-Together.ai-t0.0 Episode: 0
+2024-07-15 10:27:05,523 - games.datingsim.master - INFO - Results file stored to C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\results\Llama-3-70B-Together.ai-t0.0--Llama-3-70B-Together.ai-t0.0\datingsim\0_Playthrough_same-sex non-binary\experiment_Playthrough_same-sex non-binary.json
+2024-07-15 10:27:05,527 - games.datingsim.master - INFO - Activity: datingsim Experiment: Playthrough_same-sex non-binary Episode: 0 Game: 0
+2024-07-15 10:27:05,528 - games.datingsim.master - INFO - Results file stored to C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\results\Llama-3-70B-Together.ai-t0.0--Llama-3-70B-Together.ai-t0.0\datingsim\0_Playthrough_same-sex non-binary/episode_0\instance.json
+2024-07-15 10:27:05,528 - games.datingsim.master - INFO - Setup
+2024-07-15 10:27:05,528 - clemgame.clemgame - INFO - Player Dater, Llama-3-70B-Together.ai
+2024-07-15 10:27:05,528 - clemgame.clemgame - INFO - Player Dater, Llama-3-70B-Together.ai
+2024-07-15 10:27:05,528 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged players metadata.
+2024-07-15 10:27:05,528 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a game-specific interaction key: n_turns.
+2024-07-15 10:27:05,529 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_1).
+2024-07-15 10:27:07,015 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:27:07,019 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_1->GM).
+2024-07-15 10:27:07,020 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:27:07.019641
+2024-07-15 10:27:07,020 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:27:07,020 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:27:07,021 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_2).
+2024-07-15 10:27:09,584 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:27:09,587 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_2->GM).
+2024-07-15 10:27:09,587 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:27:09.587078
+2024-07-15 10:27:09,588 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:27:09,588 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:27:09,588 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_1).
+2024-07-15 10:30:58,536 - clemgame.benchmark - INFO - Running benchmark for 'datingsim' (models=[Llama-3-70B-Together.ai])
+2024-07-15 10:30:58,536 - benchmark.run - INFO - Run experiment 1 of 2: Playthrough_same-sex non-binary
+2024-07-15 10:30:58,536 - games.datingsim.master - INFO - Activity: datingsim Experiment: Playthrough_same-sex non-binary Partners: Llama-3-70B-Together.ai-t0.0--Llama-3-70B-Together.ai-t0.0 Episode: 0
+2024-07-15 10:30:58,537 - games.datingsim.master - INFO - Results file stored to C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\results\Llama-3-70B-Together.ai-t0.0--Llama-3-70B-Together.ai-t0.0\datingsim\0_Playthrough_same-sex non-binary\experiment_Playthrough_same-sex non-binary.json
+2024-07-15 10:30:58,540 - games.datingsim.master - INFO - Activity: datingsim Experiment: Playthrough_same-sex non-binary Episode: 0 Game: 0
+2024-07-15 10:30:58,542 - games.datingsim.master - INFO - Results file stored to C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\results\Llama-3-70B-Together.ai-t0.0--Llama-3-70B-Together.ai-t0.0\datingsim\0_Playthrough_same-sex non-binary/episode_0\instance.json
+2024-07-15 10:30:58,542 - games.datingsim.master - INFO - Setup
+2024-07-15 10:30:58,542 - clemgame.clemgame - INFO - Player Dater, Llama-3-70B-Together.ai
+2024-07-15 10:30:58,542 - clemgame.clemgame - INFO - Player Dater, Llama-3-70B-Together.ai
+2024-07-15 10:30:58,542 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged players metadata.
+2024-07-15 10:30:58,542 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a game-specific interaction key: n_turns.
+2024-07-15 10:30:58,542 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_1).
+2024-07-15 10:31:00,567 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:31:00,570 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_1->GM).
+2024-07-15 10:31:00,570 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:31:00.570445
+2024-07-15 10:31:00,570 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:31:00,570 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:31:00,570 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_2).
+2024-07-15 10:31:03,148 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:31:03,152 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_2->GM).
+2024-07-15 10:31:03,152 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:31:03.152049
+2024-07-15 10:31:03,152 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:31:03,152 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:31:03,152 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_1).
+2024-07-15 10:31:06,103 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:31:06,112 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_1->GM).
+2024-07-15 10:31:06,113 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:31:06.112203
+2024-07-15 10:31:06,114 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:31:06,114 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:31:06,114 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_2).
+2024-07-15 10:31:09,715 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:31:09,723 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_2->GM).
+2024-07-15 10:31:09,723 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:31:09.723614
+2024-07-15 10:31:09,725 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:31:09,725 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:31:09,725 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_1).
+2024-07-15 10:31:12,472 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2024-07-15 10:31:12,474 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged get message action (Player_1->GM).
+2024-07-15 10:31:12,474 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged a call with timestamp 2024-07-15T10:31:12.474633
+2024-07-15 10:31:12,476 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged metadata action (GM->GM).
+2024-07-15 10:31:12,476 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged parse action (GM->GM).
+2024-07-15 10:31:12,476 - games.datingsim.master - INFO - Playthrough_same-sex non-binary: Logged send message action (GM->Player_2).
+2024-07-15 10:34:23,244 - benchmark.run - ERROR - Model spec requires 'backend' after unification, but not found in model spec '{'model_name': 'Qwen/Qwen2-72B-Instruct'}'. Check or update the backends/model_registry.json or pass the backend directly and try again. A minimal model spec is {'model_id':<id>,'backend':<backend>}.
+Traceback (most recent call last):
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\clemgame\benchmark.py", line 36, in run
+    model = backends.get_model_for(model_spec)
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\backends\__init__.py", line 324, in get_model_for
+    raise ValueError(
+ValueError: Model spec requires 'backend' after unification, but not found in model spec '{'model_name': 'Qwen/Qwen2-72B-Instruct'}'. Check or update the backends/model_registry.json or pass the backend directly and try again. A minimal model spec is {'model_id':<id>,'backend':<backend>}.
+2024-07-15 10:34:23,248 - clemgame.benchmark - ERROR - Model spec requires 'backend' after unification, but not found in model spec '{'model_name': 'Qwen/Qwen2-72B-Instruct'}'. Check or update the backends/model_registry.json or pass the backend directly and try again. A minimal model spec is {'model_id':<id>,'backend':<backend>}.
+Traceback (most recent call last):
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\clemgame\benchmark.py", line 36, in run
+    model = backends.get_model_for(model_spec)
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\backends\__init__.py", line 324, in get_model_for
+    raise ValueError(
+ValueError: Model spec requires 'backend' after unification, but not found in model spec '{'model_name': 'Qwen/Qwen2-72B-Instruct'}'. Check or update the backends/model_registry.json or pass the backend directly and try again. A minimal model spec is {'model_id':<id>,'backend':<backend>}.
+2024-07-15 10:35:38,421 - benchmark.run - ERROR - No module named 'torch'
+Traceback (most recent call last):
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\clemgame\benchmark.py", line 36, in run
+    model = backends.get_model_for(model_spec)
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\backends\__init__.py", line 328, in get_model_for
+    model = _load_model_for(model_spec)
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\backends\__init__.py", line 294, in _load_model_for
+    _register_backend(backend_name)
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\backends\__init__.py", line 279, in _register_backend
+    module = importlib.import_module(f"backends.{backend_module}")
+  File "C:\Users\imgey\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\backends\huggingface_local_api.py", line 6, in <module>
+    import torch
+ModuleNotFoundError: No module named 'torch'
+2024-07-15 10:35:38,453 - clemgame.benchmark - ERROR - No module named 'torch'
+Traceback (most recent call last):
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\clemgame\benchmark.py", line 36, in run
+    model = backends.get_model_for(model_spec)
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\backends\__init__.py", line 328, in get_model_for
+    model = _load_model_for(model_spec)
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\backends\__init__.py", line 294, in _load_model_for
+    _register_backend(backend_name)
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\backends\__init__.py", line 279, in _register_backend
+    module = importlib.import_module(f"backends.{backend_module}")
+  File "C:\Users\imgey\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\backends\huggingface_local_api.py", line 6, in <module>
+    import torch
+ModuleNotFoundError: No module named 'torch'
+2024-07-15 10:36:07,175 - benchmark.run - ERROR - No module named 'torch'
+Traceback (most recent call last):
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\clemgame\benchmark.py", line 36, in run
+    model = backends.get_model_for(model_spec)
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\backends\__init__.py", line 328, in get_model_for
+    model = _load_model_for(model_spec)
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\backends\__init__.py", line 294, in _load_model_for
+    _register_backend(backend_name)
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\backends\__init__.py", line 279, in _register_backend
+    module = importlib.import_module(f"backends.{backend_module}")
+  File "C:\Users\imgey\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\backends\huggingface_local_api.py", line 6, in <module>
+    import torch
+ModuleNotFoundError: No module named 'torch'
+2024-07-15 10:36:07,180 - clemgame.benchmark - ERROR - No module named 'torch'
+Traceback (most recent call last):
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\clemgame\benchmark.py", line 36, in run
+    model = backends.get_model_for(model_spec)
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\backends\__init__.py", line 328, in get_model_for
+    model = _load_model_for(model_spec)
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\backends\__init__.py", line 294, in _load_model_for
+    _register_backend(backend_name)
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\backends\__init__.py", line 279, in _register_backend
+    module = importlib.import_module(f"backends.{backend_module}")
+  File "C:\Users\imgey\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\backends\huggingface_local_api.py", line 6, in <module>
+    import torch
+ModuleNotFoundError: No module named 'torch'
+2024-07-15 10:42:00,069 - benchmark.run - ERROR - No module named 'transformers'
+Traceback (most recent call last):
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\clemgame\benchmark.py", line 36, in run
+    model = backends.get_model_for(model_spec)
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\backends\__init__.py", line 328, in get_model_for
+    model = _load_model_for(model_spec)
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\backends\__init__.py", line 294, in _load_model_for
+    _register_backend(backend_name)
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\backends\__init__.py", line 279, in _register_backend
+    module = importlib.import_module(f"backends.{backend_module}")
+  File "C:\Users\imgey\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\backends\huggingface_local_api.py", line 9, in <module>
+    from transformers import AutoTokenizer, AutoModelForCausalLM, AutoConfig
+ModuleNotFoundError: No module named 'transformers'
+2024-07-15 10:42:00,078 - clemgame.benchmark - ERROR - No module named 'transformers'
+Traceback (most recent call last):
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\clemgame\benchmark.py", line 36, in run
+    model = backends.get_model_for(model_spec)
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\backends\__init__.py", line 328, in get_model_for
+    model = _load_model_for(model_spec)
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\backends\__init__.py", line 294, in _load_model_for
+    _register_backend(backend_name)
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\backends\__init__.py", line 279, in _register_backend
+    module = importlib.import_module(f"backends.{backend_module}")
+  File "C:\Users\imgey\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\backends\huggingface_local_api.py", line 9, in <module>
+    from transformers import AutoTokenizer, AutoModelForCausalLM, AutoConfig
+ModuleNotFoundError: No module named 'transformers'
+2024-07-15 10:43:50,748 - backends.huggingface_local_api - INFO - Loading huggingface model config and tokenizer: Qwen1.5-7B-Chat
+2024-07-15 10:43:56,834 - backends.huggingface_local_api - INFO - Start loading huggingface model weights: Qwen1.5-7B-Chat
+2024-07-15 10:44:02,746 - benchmark.run - ERROR - Using `low_cpu_mem_usage=True` or a `device_map` requires Accelerate: `pip install accelerate`
+Traceback (most recent call last):
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\clemgame\benchmark.py", line 36, in run
+    model = backends.get_model_for(model_spec)
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\backends\__init__.py", line 328, in get_model_for
+    model = _load_model_for(model_spec)
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\backends\__init__.py", line 296, in _load_model_for
+    return backend_cls.get_model_for(model_spec)
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\backends\huggingface_local_api.py", line 138, in get_model_for
+    return HuggingfaceLocalModel(model_spec)
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\backends\huggingface_local_api.py", line 150, in __init__
+    self.model = load_model(model_spec)
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\backends\huggingface_local_api.py", line 114, in load_model
+    model = AutoModelForCausalLM.from_pretrained(hf_model_str, device_map="auto", torch_dtype="auto")
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim_env\lib\site-packages\transformers\models\auto\auto_factory.py", line 564, in from_pretrained
+    return model_class.from_pretrained(
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim_env\lib\site-packages\transformers\modeling_utils.py", line 3199, in from_pretrained
+    raise ImportError(
+ImportError: Using `low_cpu_mem_usage=True` or a `device_map` requires Accelerate: `pip install accelerate`
+2024-07-15 10:44:02,752 - clemgame.benchmark - ERROR - Using `low_cpu_mem_usage=True` or a `device_map` requires Accelerate: `pip install accelerate`
+Traceback (most recent call last):
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\clemgame\benchmark.py", line 36, in run
+    model = backends.get_model_for(model_spec)
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\backends\__init__.py", line 328, in get_model_for
+    model = _load_model_for(model_spec)
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\backends\__init__.py", line 296, in _load_model_for
+    return backend_cls.get_model_for(model_spec)
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\backends\huggingface_local_api.py", line 138, in get_model_for
+    return HuggingfaceLocalModel(model_spec)
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\backends\huggingface_local_api.py", line 150, in __init__
+    self.model = load_model(model_spec)
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim\backends\huggingface_local_api.py", line 114, in load_model
+    model = AutoModelForCausalLM.from_pretrained(hf_model_str, device_map="auto", torch_dtype="auto")
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim_env\lib\site-packages\transformers\models\auto\auto_factory.py", line 564, in from_pretrained
+    return model_class.from_pretrained(
+  File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim_env\lib\site-packages\transformers\modeling_utils.py", line 3199, in from_pretrained
+    raise ImportError(
+ImportError: Using `low_cpu_mem_usage=True` or a `device_map` requires Accelerate: `pip install accelerate`

@@ -102,7 +102,7 @@ class DatingSimGameMaster(GameMaster):
         # this is a suggestion from Nic, not sure how to solve it yet
         # if restart_history == True:
         #     player.history = []
-
+        print(answer)
         return answer
 
     # def get_answer(self, player: Player, restart_history=False) -> str:
@@ -311,7 +311,7 @@ class DatingSimGameMaster(GameMaster):
         response_pattern = r"\[response\](.+)"
         response_match = re.search(response_pattern, answer, re.DOTALL)
         last_message = response_match.group(1)
-        print(f"Last message: {last_message}")
+        # print(f"Last message: {last_message}")
         return last_message
 
 
