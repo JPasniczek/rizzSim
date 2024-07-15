@@ -13513,3 +13513,5 @@ Traceback (most recent call last):
   File "C:\Users\imgey\Desktop\MASTER_POTSDAM\SoSe24\PM2\project\rizzSim\rizzSim_env\lib\site-packages\transformers\modeling_utils.py", line 3199, in from_pretrained
     raise ImportError(
 ImportError: Using `low_cpu_mem_usage=True` or a `device_map` requires Accelerate: `pip install accelerate`
+2024-07-15 11:01:01,476 - backends.huggingface_local_api - INFO - Loading huggingface model config and tokenizer: Qwen1.5-7B-Chat
+2024-07-15 11:01:02,652 - backends.huggingface_local_api - INFO - Start loading huggingface model weights: Qwen1.5-7B-Chat
