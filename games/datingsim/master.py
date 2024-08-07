@@ -538,7 +538,7 @@ class DatingSimGameMaster(GameMaster):
             
             else:
                 if new_sentiment != "Agreement on Action":
-                    self.location_agreement = False
+                    self.action_agreement = False
 
                     # log the event that the sentimeents don't match
                     action = {'type': 'no location agreement', 'content': 'no action agreement, mismatched sentiment'}
@@ -549,7 +549,7 @@ class DatingSimGameMaster(GameMaster):
                     return True 
                 
                 elif new_sentiment == "Agreement on Action":
-                    self.location_agreement = True
+                    self.action_agreement = True
                     action = {'type': 'action agreement', 'content': 'agreement on action successful'}
                     self.log_event(from_='GM', to='GM', action=action)
                     logger.info(f"successful agreement, agreement on action was settled")
