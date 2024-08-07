@@ -506,7 +506,7 @@ class DatingSimGameMaster(GameMaster):
                 return True 
 
             else:
-                if new_sentiment != "Agreement on Location:":
+                if new_sentiment != "Agreement on Location":
                     self.location_agreement = False
 
                     # log the event that the sentimeents don't match
@@ -517,7 +517,7 @@ class DatingSimGameMaster(GameMaster):
                     # return True as they have not finished the game yet
                     return True 
                 
-                elif new_sentiment == last_sentiment:
+                elif new_sentiment == "Agreement on Location":
                     self.location_agreement = True
                     action = {'type': 'location agreement', 'content': 'agreement on location successful'}
                     self.log_event(from_='GM', to='GM', action=action)
@@ -537,22 +537,22 @@ class DatingSimGameMaster(GameMaster):
                 return True 
             
             else:
-                if new_sentiment != "Agreement on Location:":
+                if new_sentiment != "Agreement on Action":
                     self.location_agreement = False
 
                     # log the event that the sentimeents don't match
-                    action = {'type': 'no location agreement', 'content': 'no location agreement, mismatched sentiment'}
+                    action = {'type': 'no location agreement', 'content': 'no action agreement, mismatched sentiment'}
                     self.log_event(from_='GM', to='GM', action=action)
-                    logger.info(f"no agreement on location at the same time")
+                    logger.info(f"no agreement on action at the same time")
 
                     # return True as they have not finished the game yet
                     return True 
                 
-                elif new_sentiment == last_sentiment:
+                elif new_sentiment == "Agreement on Action":
                     self.location_agreement = True
-                    action = {'type': 'location agreement', 'content': 'agreement on location successful'}
+                    action = {'type': 'action agreement', 'content': 'agreement on action successful'}
                     self.log_event(from_='GM', to='GM', action=action)
-                    logger.info(f"successful agreement, agreement on location was settled")
+                    logger.info(f"successful agreement, agreement on action was settled")
 
                     # return True as they have not finished the game yet
                     return True
@@ -587,7 +587,7 @@ class DatingSimGameMaster(GameMaster):
                 self.aborted = True
 
                 # log the event that the sentimeents don't match
-                action = {'type': 'friendzone', 'content': 'game unsuccessful, conditions have not met to finalize the game'}
+                action = {'type': 'conditions not met', 'content': 'game unsuccessful, conditions have not met to finalize the game'}
                 self.log_event(from_='GM', to='GM', action=action)
                 logger.info(f"lost game, The player tried to finish the game before meeting the conditions")
 
