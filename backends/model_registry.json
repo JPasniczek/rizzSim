@@ -1210,9 +1210,10 @@
   },
   {
     "model_name": "openchat-3.6-8b",
-    "model_id": "lmstudio-community/openchat-3.6-8b-20240522-GGUF/openchat-3.6-8b-20240522-Q4_K_M.gguf"
-    "backend": "openai_compatible",
-=======
+    "model_id": "lmstudio-community/openchat-3.6-8b-20240522-GGUF/openchat-3.6-8b-20240522-Q4_K_M.gguf",
+    "backend": "openai_compatible"
+  },
+  {
     "eos_to_cull": "<\\|END_OF_TURN_TOKEN\\|>",
     "release_date": "04-04-24",
     "open_weight": true,

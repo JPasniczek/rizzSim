@@ -538,6 +538,7 @@ class DatingSimGameMaster(GameMaster):
                 return True 
 
             else:
+                """ Temporarily commenting out mismatch agreements as there is a problem with counting them right. 
                 if new_sentiment != "Agreement on Time":
                     # log the event that the sentimeents don't match
                     action = {'type': 'mismatch time agreement', 'content': 'no time agreement, mismatched sentiment'}
@@ -545,9 +546,9 @@ class DatingSimGameMaster(GameMaster):
                     logger.info(f"no agreement on time at the same time")
 
                     # return True as they have not finished the game yet
-                    return True 
+                    return True """
                 
-                elif new_sentiment =="Agreement on Time":
+                if new_sentiment =="Agreement on Time":
                     self.time_agreement = True
 
                     action = {'type': 'time agreement', 'content': 'agreement on time successful'}
@@ -568,6 +569,7 @@ class DatingSimGameMaster(GameMaster):
                 return True 
 
             else:
+                """ Temporarily commenting out mismatch agreements as there is a problem with counting them right. 
                 if new_sentiment != "Agreement on Location":
                     # log the event that the sentimeents don't match
                     action = {'type': 'mismatch location agreement', 'content': 'no location agreement, mismatched sentiment'}
@@ -575,9 +577,9 @@ class DatingSimGameMaster(GameMaster):
                     logger.info(f"no agreement on location at the same time")
 
                     # return True as they have not finished the game yet
-                    return True 
+                    return True """
                 
-                elif new_sentiment == "Agreement on Location":
+                if new_sentiment == "Agreement on Location":
                     self.location_agreement = True
                     action = {'type': 'location agreement', 'content': 'agreement on location successful'}
                     self.log_event(from_='GM', to='GM', action=action)
@@ -597,6 +599,7 @@ class DatingSimGameMaster(GameMaster):
                 return True 
             
             else:
+                """ Temporarily commenting out mismatch agreements as there is a problem with counting them right. 
                 if new_sentiment != "Agreement on Action":
                     # log the event that the sentimeents don't match
                     action = {'type': 'mismatch action agreement', 'content': 'no action agreement, mismatched sentiment'}
@@ -604,9 +607,9 @@ class DatingSimGameMaster(GameMaster):
                     logger.info(f"no agreement on action at the same time")
 
                     # return True as they have not finished the game yet
-                    return True 
+                    return True """
                 
-                elif new_sentiment == "Agreement on Action":
+                if new_sentiment == "Agreement on Action":
                     self.action_agreement = True
                     action = {'type': 'action agreement', 'content': 'agreement on action successful'}
                     self.log_event(from_='GM', to='GM', action=action)
@@ -723,7 +726,7 @@ class DatingSimGameScorer(GameScorer):
                 "location agreement": 0,
                 "action agreement": 0,
                 "already agreed": 0,
-                "mismatch agreement": 0,
+                #"mismatch agreement": 0,
             }
 
             for event in turn:
@@ -783,11 +786,13 @@ class DatingSimGameScorer(GameScorer):
                     turn_score["last_message"] = action["content"]
                     turn_score["location agreement"] = 1
                 
+                """ Temporarily commenting out mismatch agreements as there is a problem with counting them right. 
                 if (action["type"] == "mismatch time agreement" or
                     action["type"] == "mismatch action agreement" or
                     action["type"] == "mismatch location agreement"):
                     turn_score["mismatch agreement"] = 1
                     turn_score["last_message"] = action["content"]
+                """
             
                 if action["type"] == "already agreed":
                     turn_score["already agreed"] = 1
@@ -807,7 +812,7 @@ class DatingSimGameScorer(GameScorer):
             self.log_turn_score(turn_idx, 'Location agreement', turn_score["location agreement"])
             self.log_turn_score(turn_idx, 'Action agreement', turn_score["action agreement"])
             self.log_turn_score(turn_idx, 'Time agreement', turn_score["time agreement"])
-            self.log_turn_score(turn_idx, 'Mismatch agreement', turn_score["mismatch agreement"])
+            #self.log_turn_score(turn_idx, 'Mismatch agreement', turn_score["mismatch agreement"])
             self.log_turn_score(turn_idx, 'Already agreed', turn_score["already agreed"])
 
             turn_scores.append(turn_score)
@@ -850,7 +855,7 @@ class DatingSimGameScorer(GameScorer):
         self.log_episode_score("Number of completed turns", completed_turns)
         self.log_episode_score("Number of Agreements", total_agreements)
         self.log_episode_score("Agreement Efficiency", agreement_efficiency * 100)
-        self.log_episode_score("Number of Mismatched Agreements", sum([turn["mismatch agreement"] for turn in turn_scores]))
+        #self.log_episode_score("Number of Mismatched Agreements", sum([turn["mismatch agreement"] for turn in turn_scores]))
         
         self.log_episode_score("Number of Reprompts", error_handling)
         self.log_episode_score("Number of Redundancy", redundancy)
