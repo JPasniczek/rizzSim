@@ -193,3 +193,8 @@ cython_debug/
 #.idea/
 /venv_hf/
 /venv_llamacpp/
+
+key.txt
+games/datingsim/key.txt
+
+clembench.log

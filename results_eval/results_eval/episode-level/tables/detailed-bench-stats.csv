@@ -1,0 +1,1513 @@
+game,model,experiment,metric,mean,std,var,median,max,min,skew
+datingsim,gem--gem,0_easy,Aborted,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,gem--gem,0_easy,Action agreement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,0_easy,Agreement Efficiency,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,0_easy,Agreement penalty,22.5,0.0,0.0,22.5,22.5,22.5,0.0
+datingsim,gem--gem,0_easy,Error penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,0_easy,Friendzoned,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,0_easy,Inefficiency penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,0_easy,Location agreement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,0_easy,Lose,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,0_easy,Main Score,,,,,,,
+datingsim,gem--gem,0_easy,Number of Agreements,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,0_easy,Number of Mismatched Agreements,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,0_easy,Number of Redundancy,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,0_easy,Number of Reprompts,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,0_easy,Number of completed turns,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,0_easy,Out of retries,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,0_easy,Out of turns,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,0_easy,Parsed Request Count,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,0_easy,Played,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,0_easy,Request Count,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,gem--gem,0_easy,Request Success Ratio,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,0_easy,Success,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,0_easy,Time agreement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,0_easy,Turn penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,0_easy,Violated Request Count,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,gem--gem,0_easy,Violated pattern,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,gem--gem,0_easy,Violated token length,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,10_same_gender,Aborted,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,gem--gem,10_same_gender,Action agreement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,10_same_gender,Agreement Efficiency,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,10_same_gender,Agreement penalty,22.5,0.0,0.0,22.5,22.5,22.5,0.0
+datingsim,gem--gem,10_same_gender,Error penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,10_same_gender,Friendzoned,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,10_same_gender,Inefficiency penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,10_same_gender,Location agreement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,10_same_gender,Lose,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,10_same_gender,Main Score,,,,,,,
+datingsim,gem--gem,10_same_gender,Number of Agreements,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,10_same_gender,Number of Mismatched Agreements,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,10_same_gender,Number of Redundancy,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,10_same_gender,Number of Reprompts,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,10_same_gender,Number of completed turns,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,10_same_gender,Out of retries,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,10_same_gender,Out of turns,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,10_same_gender,Parsed Request Count,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,10_same_gender,Played,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,10_same_gender,Request Count,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,gem--gem,10_same_gender,Request Success Ratio,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,10_same_gender,Success,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,10_same_gender,Time agreement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,10_same_gender,Turn penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,10_same_gender,Violated Request Count,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,gem--gem,10_same_gender,Violated pattern,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,gem--gem,10_same_gender,Violated token length,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,12_less_turns,Aborted,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,gem--gem,12_less_turns,Action agreement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,12_less_turns,Agreement Efficiency,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,12_less_turns,Agreement penalty,22.5,0.0,0.0,22.5,22.5,22.5,0.0
+datingsim,gem--gem,12_less_turns,Error penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,12_less_turns,Friendzoned,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,12_less_turns,Inefficiency penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,12_less_turns,Location agreement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,12_less_turns,Lose,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,12_less_turns,Main Score,,,,,,,
+datingsim,gem--gem,12_less_turns,Number of Agreements,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,12_less_turns,Number of Mismatched Agreements,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,12_less_turns,Number of Redundancy,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,12_less_turns,Number of Reprompts,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,12_less_turns,Number of completed turns,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,12_less_turns,Out of retries,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,12_less_turns,Out of turns,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,12_less_turns,Parsed Request Count,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,12_less_turns,Played,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,12_less_turns,Request Count,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,gem--gem,12_less_turns,Request Success Ratio,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,12_less_turns,Success,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,12_less_turns,Time agreement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,12_less_turns,Turn penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,12_less_turns,Violated Request Count,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,gem--gem,12_less_turns,Violated pattern,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,gem--gem,12_less_turns,Violated token length,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,13_more_turns,Aborted,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,gem--gem,13_more_turns,Action agreement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,13_more_turns,Agreement Efficiency,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,13_more_turns,Agreement penalty,22.5,0.0,0.0,22.5,22.5,22.5,0.0
+datingsim,gem--gem,13_more_turns,Error penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,13_more_turns,Friendzoned,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,13_more_turns,Inefficiency penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,13_more_turns,Location agreement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,13_more_turns,Lose,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,13_more_turns,Main Score,,,,,,,
+datingsim,gem--gem,13_more_turns,Number of Agreements,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,13_more_turns,Number of Mismatched Agreements,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,13_more_turns,Number of Redundancy,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,13_more_turns,Number of Reprompts,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,13_more_turns,Number of completed turns,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,13_more_turns,Out of retries,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,13_more_turns,Out of turns,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,13_more_turns,Parsed Request Count,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,13_more_turns,Played,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,13_more_turns,Request Count,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,gem--gem,13_more_turns,Request Success Ratio,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,13_more_turns,Success,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,13_more_turns,Time agreement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,13_more_turns,Turn penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,13_more_turns,Violated Request Count,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,gem--gem,13_more_turns,Violated pattern,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,gem--gem,13_more_turns,Violated token length,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,1_medium,Aborted,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,gem--gem,1_medium,Action agreement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,1_medium,Agreement Efficiency,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,1_medium,Agreement penalty,22.5,0.0,0.0,22.5,22.5,22.5,0.0
+datingsim,gem--gem,1_medium,Error penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,1_medium,Friendzoned,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,1_medium,Inefficiency penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,1_medium,Location agreement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,1_medium,Lose,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,1_medium,Main Score,,,,,,,
+datingsim,gem--gem,1_medium,Number of Agreements,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,1_medium,Number of Mismatched Agreements,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,1_medium,Number of Redundancy,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,1_medium,Number of Reprompts,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,1_medium,Number of completed turns,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,1_medium,Out of retries,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,1_medium,Out of turns,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,1_medium,Parsed Request Count,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,1_medium,Played,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,1_medium,Request Count,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,gem--gem,1_medium,Request Success Ratio,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,1_medium,Success,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,1_medium,Time agreement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,1_medium,Turn penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,1_medium,Violated Request Count,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,gem--gem,1_medium,Violated pattern,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,gem--gem,1_medium,Violated token length,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,2_difficult,Aborted,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,gem--gem,2_difficult,Action agreement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,2_difficult,Agreement Efficiency,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,2_difficult,Agreement penalty,22.5,0.0,0.0,22.5,22.5,22.5,0.0
+datingsim,gem--gem,2_difficult,Error penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,2_difficult,Friendzoned,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,2_difficult,Inefficiency penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,2_difficult,Location agreement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,2_difficult,Lose,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,2_difficult,Main Score,,,,,,,
+datingsim,gem--gem,2_difficult,Number of Agreements,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,2_difficult,Number of Mismatched Agreements,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,2_difficult,Number of Redundancy,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,2_difficult,Number of Reprompts,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,2_difficult,Number of completed turns,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,2_difficult,Out of retries,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,2_difficult,Out of turns,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,2_difficult,Parsed Request Count,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,2_difficult,Played,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,2_difficult,Request Count,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,gem--gem,2_difficult,Request Success Ratio,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,2_difficult,Success,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,2_difficult,Time agreement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,2_difficult,Turn penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,2_difficult,Violated Request Count,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,gem--gem,2_difficult,Violated pattern,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,gem--gem,2_difficult,Violated token length,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,4_reprompt,Aborted,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,gem--gem,4_reprompt,Action agreement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,4_reprompt,Agreement Efficiency,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,4_reprompt,Agreement penalty,22.5,0.0,0.0,22.5,22.5,22.5,0.0
+datingsim,gem--gem,4_reprompt,Error penalty,5.0,0.0,0.0,5.0,5.0,5.0,0.0
+datingsim,gem--gem,4_reprompt,Friendzoned,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,4_reprompt,Inefficiency penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,4_reprompt,Location agreement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,4_reprompt,Lose,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,4_reprompt,Main Score,,,,,,,
+datingsim,gem--gem,4_reprompt,Number of Agreements,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,4_reprompt,Number of Mismatched Agreements,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,4_reprompt,Number of Redundancy,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,4_reprompt,Number of Reprompts,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,gem--gem,4_reprompt,Number of completed turns,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,4_reprompt,Out of retries,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,gem--gem,4_reprompt,Out of turns,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,4_reprompt,Parsed Request Count,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,4_reprompt,Played,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,4_reprompt,Request Count,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,gem--gem,4_reprompt,Request Success Ratio,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,4_reprompt,Success,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,4_reprompt,Time agreement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,4_reprompt,Turn penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,4_reprompt,Violated Request Count,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,gem--gem,4_reprompt,Violated pattern,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,gem--gem,4_reprompt,Violated token length,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,7_themselves,Aborted,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,gem--gem,7_themselves,Action agreement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,7_themselves,Agreement Efficiency,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,7_themselves,Agreement penalty,22.5,0.0,0.0,22.5,22.5,22.5,0.0
+datingsim,gem--gem,7_themselves,Error penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,7_themselves,Friendzoned,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,7_themselves,Inefficiency penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,7_themselves,Location agreement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,7_themselves,Lose,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,7_themselves,Main Score,,,,,,,
+datingsim,gem--gem,7_themselves,Number of Agreements,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,7_themselves,Number of Mismatched Agreements,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,7_themselves,Number of Redundancy,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,7_themselves,Number of Reprompts,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,7_themselves,Number of completed turns,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,7_themselves,Out of retries,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,7_themselves,Out of turns,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,7_themselves,Parsed Request Count,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,7_themselves,Played,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,7_themselves,Request Count,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,gem--gem,7_themselves,Request Success Ratio,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,7_themselves,Success,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,7_themselves,Time agreement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,7_themselves,Turn penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,gem--gem,7_themselves,Violated Request Count,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,gem--gem,7_themselves,Violated pattern,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,gem--gem,7_themselves,Violated token length,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll70b--ll70b,0_easy,Aborted,0.23076923076923078,0.4385290096535146,0.19230769230769232,0.0,1.0,0.0,1.4511323592170835
+datingsim,ll70b--ll70b,0_easy,Action agreement,0.6923076923076923,0.48038446141526137,0.23076923076923075,1.0,1.0,0.0,-0.9462118179391509
+datingsim,ll70b--ll70b,0_easy,Agreement Efficiency,61.53846153846154,26.86266115079748,721.6025641025641,67.0,100.0,33.0,0.2808957736158752
+datingsim,ll70b--ll70b,0_easy,Agreement penalty,8.653846153846153,6.004805767690767,36.05769230769231,7.5,15.0,0.0,-0.30657262901228477
+datingsim,ll70b--ll70b,0_easy,Error penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll70b--ll70b,0_easy,Friendzoned,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll70b--ll70b,0_easy,Inefficiency penalty,0.7692307692307693,2.7735009811261455,7.692307692307691,0.0,10.0,0.0,3.605551275463991
+datingsim,ll70b--ll70b,0_easy,Location agreement,0.46153846153846156,0.5188745216627708,0.2692307692307692,0.0,1.0,0.0,0.17520438393807813
+datingsim,ll70b--ll70b,0_easy,Lose,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll70b--ll70b,0_easy,Main Score,79.75,11.083646612113823,122.84722222222223,80.0,95.0,65.0,0.18819837224956792
+datingsim,ll70b--ll70b,0_easy,Number of Agreements,1.8461538461538463,0.8006407690254357,0.6410256410256411,2.0,3.0,1.0,0.30657262901228455
+datingsim,ll70b--ll70b,0_easy,Number of Mismatched Agreements,3.230769230769231,1.165750556068647,1.3589743589743595,3.0,5.0,1.0,-0.15228816853526317
+datingsim,ll70b--ll70b,0_easy,Number of Redundancy,0.07692307692307693,0.2773500981126145,0.07692307692307691,0.0,1.0,0.0,3.605551275463987
+datingsim,ll70b--ll70b,0_easy,Number of Reprompts,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll70b--ll70b,0_easy,Number of completed turns,11.692307692307692,2.323238235187235,5.397435897435898,12.0,15.0,7.0,-0.7369701374299119
+datingsim,ll70b--ll70b,0_easy,Out of retries,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll70b--ll70b,0_easy,Out of turns,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll70b--ll70b,0_easy,Parsed Request Count,11.692307692307692,2.323238235187235,5.397435897435898,12.0,15.0,7.0,-0.7369701374299119
+datingsim,ll70b--ll70b,0_easy,Played,0.7692307692307693,0.43852900965351466,0.19230769230769237,1.0,1.0,0.0,-1.4511323592170853
+datingsim,ll70b--ll70b,0_easy,Request Count,11.923076923076923,1.9774368283857804,3.9102564102564146,12.0,15.0,8.0,-0.48611002338613124
+datingsim,ll70b--ll70b,0_easy,Request Success Ratio,0.9748445998445998,0.048312194614425145,0.0023340681484620898,1.0,1.0,0.875,-1.5332270882709558
+datingsim,ll70b--ll70b,0_easy,Success,0.7692307692307693,0.43852900965351466,0.19230769230769237,1.0,1.0,0.0,-1.4511323592170853
+datingsim,ll70b--ll70b,0_easy,Time agreement,0.6923076923076923,0.48038446141526137,0.23076923076923075,1.0,1.0,0.0,-0.9462118179391512
+datingsim,ll70b--ll70b,0_easy,Turn penalty,10.384615384615385,8.281892512568827,68.5897435897436,10.0,25.0,0.0,0.24697912250736243
+datingsim,ll70b--ll70b,0_easy,Violated Request Count,0.23076923076923078,0.4385290096535146,0.19230769230769232,0.0,1.0,0.0,1.4511323592170835
+datingsim,ll70b--ll70b,0_easy,Violated pattern,0.23076923076923078,0.4385290096535146,0.19230769230769232,0.0,1.0,0.0,1.4511323592170835
+datingsim,ll70b--ll70b,0_easy,Violated token length,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll70b--ll70b,10_same_gender,Aborted,0.38461538461538464,0.5063696835418333,0.2564102564102564,0.0,1.0,0.0,0.5385932088581317
+datingsim,ll70b--ll70b,10_same_gender,Action agreement,0.6153846153846154,0.5063696835418333,0.2564102564102564,1.0,1.0,0.0,-0.5385932088581318
+datingsim,ll70b--ll70b,10_same_gender,Agreement Efficiency,51.23076923076923,40.014901070630025,1601.1923076923076,33.0,100.0,0.0,0.06794725416412893
+datingsim,ll70b--ll70b,10_same_gender,Agreement penalty,10.961538461538462,8.987170342729172,80.76923076923077,15.0,22.5,0.0,-0.06502776314776212
+datingsim,ll70b--ll70b,10_same_gender,Error penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll70b--ll70b,10_same_gender,Friendzoned,0.15384615384615385,0.3755338080994054,0.14102564102564105,0.0,1.0,0.0,2.178716804014733
+datingsim,ll70b--ll70b,10_same_gender,Inefficiency penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll70b--ll70b,10_same_gender,Location agreement,0.38461538461538464,0.5063696835418333,0.2564102564102564,0.0,1.0,0.0,0.5385932088581316
+datingsim,ll70b--ll70b,10_same_gender,Lose,0.15384615384615385,0.3755338080994054,0.14102564102564105,0.0,1.0,0.0,2.178716804014733
+datingsim,ll70b--ll70b,10_same_gender,Main Score,64.6875,40.27666596713997,1622.2098214285713,81.25,95.0,0.0,-1.3650638362940657
+datingsim,ll70b--ll70b,10_same_gender,Number of Agreements,1.5384615384615385,1.1982893790305562,1.4358974358974361,1.0,3.0,0.0,0.0650277631477618
+datingsim,ll70b--ll70b,10_same_gender,Number of Mismatched Agreements,2.076923076923077,1.4411533842457842,2.076923076923077,3.0,4.0,0.0,-0.5513728124287406
+datingsim,ll70b--ll70b,10_same_gender,Number of Redundancy,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll70b--ll70b,10_same_gender,Number of Reprompts,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll70b--ll70b,10_same_gender,Number of completed turns,10.23076923076923,3.0863637221884637,9.525641025641027,11.0,14.0,5.0,-0.4766727915384871
+datingsim,ll70b--ll70b,10_same_gender,Out of retries,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll70b--ll70b,10_same_gender,Out of turns,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll70b--ll70b,10_same_gender,Parsed Request Count,10.23076923076923,3.0863637221884637,9.525641025641027,11.0,14.0,5.0,-0.4766727915384871
+datingsim,ll70b--ll70b,10_same_gender,Played,0.6153846153846154,0.5063696835418333,0.2564102564102564,1.0,1.0,0.0,-0.5385932088581318
+datingsim,ll70b--ll70b,10_same_gender,Request Count,10.615384615384615,2.6311740579210876,6.923076923076923,11.0,14.0,6.0,-0.44551299017762563
+datingsim,ll70b--ll70b,10_same_gender,Request Success Ratio,0.9492673992673992,0.06829872066936822,0.004664715245072387,1.0,1.0,0.8333333333333334,-0.6906860087067745
+datingsim,ll70b--ll70b,10_same_gender,Success,0.46153846153846156,0.5188745216627708,0.2692307692307692,0.0,1.0,0.0,0.17520438393807816
+datingsim,ll70b--ll70b,10_same_gender,Time agreement,0.5384615384615384,0.5188745216627708,0.2692307692307692,1.0,1.0,0.0,-0.17520438393807816
+datingsim,ll70b--ll70b,10_same_gender,Turn penalty,7.3076923076923075,7.531983087525438,56.73076923076923,5.0,20.0,0.0,0.6055328076215905
+datingsim,ll70b--ll70b,10_same_gender,Violated Request Count,0.38461538461538464,0.5063696835418333,0.2564102564102564,0.0,1.0,0.0,0.5385932088581317
+datingsim,ll70b--ll70b,10_same_gender,Violated pattern,0.38461538461538464,0.5063696835418333,0.2564102564102564,0.0,1.0,0.0,0.5385932088581317
+datingsim,ll70b--ll70b,10_same_gender,Violated token length,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll70b--ll70b,12_less_turns,Aborted,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,ll70b--ll70b,12_less_turns,Action agreement,0.23076923076923078,0.43852900965351466,0.19230769230769237,0.0,1.0,0.0,1.4511323592170835
+datingsim,ll70b--ll70b,12_less_turns,Agreement Efficiency,46.23076923076923,32.16663345288573,1034.6923076923076,67.0,100.0,0.0,-0.2786393199180175
+datingsim,ll70b--ll70b,12_less_turns,Agreement penalty,12.115384615384615,7.205766921228921,51.92307692307693,7.5,22.5,0.0,0.27992099614033245
+datingsim,ll70b--ll70b,12_less_turns,Error penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll70b--ll70b,12_less_turns,Friendzoned,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll70b--ll70b,12_less_turns,Inefficiency penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll70b--ll70b,12_less_turns,Location agreement,0.7692307692307693,0.4385290096535146,0.1923076923076923,1.0,1.0,0.0,-1.4511323592170848
+datingsim,ll70b--ll70b,12_less_turns,Lose,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll70b--ll70b,12_less_turns,Main Score,,,,,,,
+datingsim,ll70b--ll70b,12_less_turns,Number of Agreements,1.3846153846153846,0.9607689228305228,0.9230769230769232,2.0,3.0,0.0,-0.27992099614033217
+datingsim,ll70b--ll70b,12_less_turns,Number of Mismatched Agreements,1.4615384615384615,0.8770580193070292,0.7692307692307692,2.0,3.0,0.0,-0.30059170298068133
+datingsim,ll70b--ll70b,12_less_turns,Number of Redundancy,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll70b--ll70b,12_less_turns,Number of Reprompts,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll70b--ll70b,12_less_turns,Number of completed turns,9.153846153846153,1.7246329970051526,2.9743589743589745,10.0,10.0,5.0,-1.891502331851447
+datingsim,ll70b--ll70b,12_less_turns,Out of retries,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll70b--ll70b,12_less_turns,Out of turns,0.7692307692307693,0.4385290096535146,0.1923076923076923,1.0,1.0,0.0,-1.4511323592170848
+datingsim,ll70b--ll70b,12_less_turns,Parsed Request Count,9.153846153846153,1.7246329970051526,2.9743589743589745,10.0,10.0,5.0,-1.891502331851447
+datingsim,ll70b--ll70b,12_less_turns,Played,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll70b--ll70b,12_less_turns,Request Count,9.384615384615385,1.3252962900462133,1.7564102564102566,10.0,10.0,6.0,-2.1179423417620344
+datingsim,ll70b--ll70b,12_less_turns,Request Success Ratio,0.9676434676434676,0.06253088079475769,0.003910111052968196,1.0,1.0,0.8333333333333334,-1.5796905092758495
+datingsim,ll70b--ll70b,12_less_turns,Success,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll70b--ll70b,12_less_turns,Time agreement,0.38461538461538464,0.5063696835418333,0.2564102564102564,0.0,1.0,0.0,0.5385932088581316
+datingsim,ll70b--ll70b,12_less_turns,Turn penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll70b--ll70b,12_less_turns,Violated Request Count,0.23076923076923078,0.4385290096535146,0.1923076923076923,0.0,1.0,0.0,1.4511323592170842
+datingsim,ll70b--ll70b,12_less_turns,Violated pattern,0.23076923076923078,0.4385290096535146,0.1923076923076923,0.0,1.0,0.0,1.4511323592170842
+datingsim,ll70b--ll70b,12_less_turns,Violated token length,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll70b--ll70b,13_more_turns,Aborted,0.3076923076923077,0.4803844614152614,0.2307692307692308,0.0,1.0,0.0,0.9462118179391512
+datingsim,ll70b--ll70b,13_more_turns,Action agreement,0.38461538461538464,0.5063696835418333,0.2564102564102564,0.0,1.0,0.0,0.5385932088581316
+datingsim,ll70b--ll70b,13_more_turns,Agreement Efficiency,48.69230769230769,32.376392158960044,1048.2307692307693,33.0,100.0,0.0,0.12902925885370264
+datingsim,ll70b--ll70b,13_more_turns,Agreement penalty,11.538461538461538,7.25563441535134,52.644230769230774,15.0,22.5,0.0,-0.12743992893167294
+datingsim,ll70b--ll70b,13_more_turns,Error penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll70b--ll70b,13_more_turns,Friendzoned,0.07692307692307693,0.2773500981126145,0.07692307692307691,0.0,1.0,0.0,3.605551275463987
+datingsim,ll70b--ll70b,13_more_turns,Inefficiency penalty,0.7692307692307693,2.7735009811261455,7.692307692307691,0.0,10.0,0.0,3.6055512754639896
+datingsim,ll70b--ll70b,13_more_turns,Location agreement,0.46153846153846156,0.5188745216627708,0.2692307692307692,0.0,1.0,0.0,0.17520438393807822
+datingsim,ll70b--ll70b,13_more_turns,Lose,0.07692307692307693,0.2773500981126145,0.07692307692307691,0.0,1.0,0.0,3.605551275463987
+datingsim,ll70b--ll70b,13_more_turns,Main Score,66.94444444444444,25.70195085548523,660.5902777777778,75.0,82.5,0.0,-2.744216793901116
+datingsim,ll70b--ll70b,13_more_turns,Number of Agreements,1.4615384615384615,0.9674179220468451,0.9358974358974357,1.0,3.0,0.0,0.1274399289316733
+datingsim,ll70b--ll70b,13_more_turns,Number of Mismatched Agreements,3.1538461538461537,1.214231845389905,1.4743589743589742,3.0,5.0,1.0,-0.6718735633373825
+datingsim,ll70b--ll70b,13_more_turns,Number of Redundancy,0.07692307692307693,0.2773500981126145,0.07692307692307691,0.0,1.0,0.0,3.6055512754639873
+datingsim,ll70b--ll70b,13_more_turns,Number of Reprompts,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll70b--ll70b,13_more_turns,Number of completed turns,11.461538461538462,2.569545505058064,6.602564102564102,12.0,14.0,6.0,-0.8880583895399535
+datingsim,ll70b--ll70b,13_more_turns,Out of retries,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll70b--ll70b,13_more_turns,Out of turns,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll70b--ll70b,13_more_turns,Parsed Request Count,11.461538461538462,2.569545505058064,6.602564102564102,12.0,14.0,6.0,-0.8880583895399535
+datingsim,ll70b--ll70b,13_more_turns,Played,0.6923076923076923,0.4803844614152614,0.2307692307692308,1.0,1.0,0.0,-0.9462118179391512
+datingsim,ll70b--ll70b,13_more_turns,Request Count,11.76923076923077,2.1661735138967266,4.6923076923076925,12.0,14.0,7.0,-0.8706555804615586
+datingsim,ll70b--ll70b,13_more_turns,Request Success Ratio,0.9657786657786658,0.05461532811478063,0.0029828340650851475,1.0,1.0,0.8571428571428571,-1.1140221273613469
+datingsim,ll70b--ll70b,13_more_turns,Success,0.6153846153846154,0.5063696835418333,0.2564102564102564,1.0,1.0,0.0,-0.5385932088581317
+datingsim,ll70b--ll70b,13_more_turns,Time agreement,0.6153846153846154,0.5063696835418333,0.25641025641025644,1.0,1.0,0.0,-0.5385932088581318
+datingsim,ll70b--ll70b,13_more_turns,Turn penalty,10.0,8.416254115301731,70.83333333333333,10.0,20.0,0.0,0.0
+datingsim,ll70b--ll70b,13_more_turns,Violated Request Count,0.3076923076923077,0.4803844614152614,0.2307692307692308,0.0,1.0,0.0,0.9462118179391512
+datingsim,ll70b--ll70b,13_more_turns,Violated pattern,0.23076923076923078,0.4385290096535146,0.1923076923076923,0.0,1.0,0.0,1.4511323592170842
+datingsim,ll70b--ll70b,13_more_turns,Violated token length,0.07692307692307693,0.2773500981126146,0.07692307692307693,0.0,1.0,0.0,3.605551275463987
+datingsim,ll70b--ll70b,1_medium,Aborted,0.3076923076923077,0.4803844614152614,0.2307692307692308,0.0,1.0,0.0,0.9462118179391512
+datingsim,ll70b--ll70b,1_medium,Action agreement,0.5384615384615384,0.5188745216627708,0.2692307692307692,1.0,1.0,0.0,-0.17520438393807822
+datingsim,ll70b--ll70b,1_medium,Agreement Efficiency,56.46153846153846,43.88738502237931,1926.1025641025642,67.0,100.0,0.0,-0.36900209366685066
+datingsim,ll70b--ll70b,1_medium,Agreement penalty,9.807692307692308,9.866902717204079,97.35576923076923,7.5,22.5,0.0,0.36547037195096926
+datingsim,ll70b--ll70b,1_medium,Error penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll70b--ll70b,1_medium,Friendzoned,0.07692307692307693,0.2773500981126146,0.07692307692307693,0.0,1.0,0.0,3.605551275463987
+datingsim,ll70b--ll70b,1_medium,Inefficiency penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll70b--ll70b,1_medium,Location agreement,0.5384615384615384,0.5188745216627708,0.2692307692307692,1.0,1.0,0.0,-0.1752043839380782
+datingsim,ll70b--ll70b,1_medium,Lose,0.07692307692307693,0.2773500981126146,0.07692307692307693,0.0,1.0,0.0,3.605551275463987
+datingsim,ll70b--ll70b,1_medium,Main Score,71.38888888888889,27.559909490256153,759.5486111111112,80.0,90.0,0.0,-2.673567027938654
+datingsim,ll70b--ll70b,1_medium,Number of Agreements,1.6923076923076923,1.3155870289605438,1.7307692307692306,2.0,3.0,0.0,-0.36547037195096926
+datingsim,ll70b--ll70b,1_medium,Number of Mismatched Agreements,2.230769230769231,1.4232501627054275,2.0256410256410255,3.0,4.0,0.0,-0.8877717508466274
+datingsim,ll70b--ll70b,1_medium,Number of Redundancy,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll70b--ll70b,1_medium,Number of Reprompts,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll70b--ll70b,1_medium,Number of completed turns,10.76923076923077,3.789323733725368,14.358974358974363,12.0,15.0,4.0,-0.7123354113283354
+datingsim,ll70b--ll70b,1_medium,Out of retries,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll70b--ll70b,1_medium,Out of turns,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll70b--ll70b,1_medium,Parsed Request Count,10.76923076923077,3.789323733725368,14.358974358974363,12.0,15.0,4.0,-0.7123354113283354
+datingsim,ll70b--ll70b,1_medium,Played,0.6923076923076923,0.48038446141526137,0.23076923076923075,1.0,1.0,0.0,-0.9462118179391512
+datingsim,ll70b--ll70b,1_medium,Request Count,11.076923076923077,3.3531462454819567,11.243589743589743,12.0,15.0,5.0,-0.6586537197137171
+datingsim,ll70b--ll70b,1_medium,Request Success Ratio,0.9525641025641025,0.07625376549480524,0.00581463675213675,1.0,1.0,0.8,-1.1591648179917529
+datingsim,ll70b--ll70b,1_medium,Success,0.6153846153846154,0.5063696835418333,0.25641025641025644,1.0,1.0,0.0,-0.5385932088581318
+datingsim,ll70b--ll70b,1_medium,Time agreement,0.6153846153846154,0.5063696835418333,0.25641025641025644,1.0,1.0,0.0,-0.5385932088581318
+datingsim,ll70b--ll70b,1_medium,Turn penalty,10.384615384615385,9.674179220468453,93.58974358974359,10.0,25.0,0.0,0.11730266185756248
+datingsim,ll70b--ll70b,1_medium,Violated Request Count,0.3076923076923077,0.4803844614152614,0.2307692307692308,0.0,1.0,0.0,0.9462118179391512
+datingsim,ll70b--ll70b,1_medium,Violated pattern,0.3076923076923077,0.4803844614152614,0.2307692307692308,0.0,1.0,0.0,0.9462118179391512
+datingsim,ll70b--ll70b,1_medium,Violated token length,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll70b--ll70b,2_difficult,Aborted,0.38461538461538464,0.5063696835418333,0.25641025641025644,0.0,1.0,0.0,0.5385932088581317
+datingsim,ll70b--ll70b,2_difficult,Action agreement,0.46153846153846156,0.5188745216627708,0.2692307692307692,0.0,1.0,0.0,0.17520438393807816
+datingsim,ll70b--ll70b,2_difficult,Agreement Efficiency,59.0,41.222970942586535,1699.333333333334,67.0,100.0,0.0,-0.4290047337514676
+datingsim,ll70b--ll70b,2_difficult,Agreement penalty,9.23076923076923,9.263763149622712,85.8173076923077,7.5,22.5,0.0,0.42675956604048637
+datingsim,ll70b--ll70b,2_difficult,Error penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll70b--ll70b,2_difficult,Friendzoned,0.07692307692307693,0.2773500981126146,0.07692307692307693,0.0,1.0,0.0,3.605551275463987
+datingsim,ll70b--ll70b,2_difficult,Inefficiency penalty,2.3076923076923075,4.385290096535146,19.23076923076923,0.0,10.0,0.0,1.4511323592170848
+datingsim,ll70b--ll70b,2_difficult,Location agreement,0.5384615384615384,0.5188745216627708,0.2692307692307692,1.0,1.0,0.0,-0.17520438393807822
+datingsim,ll70b--ll70b,2_difficult,Lose,0.07692307692307693,0.2773500981126146,0.07692307692307693,0.0,1.0,0.0,3.605551275463987
+datingsim,ll70b--ll70b,2_difficult,Main Score,67.8125,28.736409831431622,825.78125,80.0,85.0,0.0,-2.3882082447016897
+datingsim,ll70b--ll70b,2_difficult,Number of Agreements,1.7692307692307692,1.2351684199496948,1.5256410256410255,2.0,3.0,0.0,-0.4267595660404859
+datingsim,ll70b--ll70b,2_difficult,Number of Mismatched Agreements,2.5384615384615383,1.3913653136029502,1.935897435897436,3.0,4.0,0.0,-0.9709839423731473
+datingsim,ll70b--ll70b,2_difficult,Number of Redundancy,0.23076923076923078,0.43852900965351466,0.19230769230769237,0.0,1.0,0.0,1.4511323592170844
+datingsim,ll70b--ll70b,2_difficult,Number of Reprompts,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll70b--ll70b,2_difficult,Number of completed turns,11.461538461538462,3.230463966042252,10.435897435897436,12.0,15.0,5.0,-0.9309408923868717
+datingsim,ll70b--ll70b,2_difficult,Out of retries,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll70b--ll70b,2_difficult,Out of turns,0.07692307692307693,0.2773500981126146,0.07692307692307693,0.0,1.0,0.0,3.605551275463987
+datingsim,ll70b--ll70b,2_difficult,Parsed Request Count,11.461538461538462,3.230463966042252,10.435897435897436,12.0,15.0,5.0,-0.9309408923868717
+datingsim,ll70b--ll70b,2_difficult,Played,0.6153846153846154,0.5063696835418333,0.25641025641025644,1.0,1.0,0.0,-0.5385932088581318
+datingsim,ll70b--ll70b,2_difficult,Request Count,11.76923076923077,2.832956234332085,8.025641025641027,12.0,15.0,6.0,-0.8930303053997937
+datingsim,ll70b--ll70b,2_difficult,Request Success Ratio,0.9615384615384616,0.06241090515784147,0.003895121082621083,1.0,1.0,0.8333333333333334,-1.20795572823283
+datingsim,ll70b--ll70b,2_difficult,Success,0.5384615384615384,0.5188745216627708,0.2692307692307692,1.0,1.0,0.0,-0.17520438393807822
+datingsim,ll70b--ll70b,2_difficult,Time agreement,0.7692307692307693,0.4385290096535146,0.1923076923076923,1.0,1.0,0.0,-1.451132359217085
+datingsim,ll70b--ll70b,2_difficult,Turn penalty,11.538461538461538,9.216067351961868,84.93589743589745,10.0,25.0,0.0,0.12562890606965735
+datingsim,ll70b--ll70b,2_difficult,Violated Request Count,0.3076923076923077,0.48038446141526137,0.23076923076923075,0.0,1.0,0.0,0.9462118179391512
+datingsim,ll70b--ll70b,2_difficult,Violated pattern,0.3076923076923077,0.48038446141526137,0.23076923076923075,0.0,1.0,0.0,0.9462118179391512
+datingsim,ll70b--ll70b,2_difficult,Violated token length,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll70b--ll70b,4_reprompt,Aborted,0.38461538461538464,0.5063696835418333,0.25641025641025644,0.0,1.0,0.0,0.5385932088581317
+datingsim,ll70b--ll70b,4_reprompt,Action agreement,0.6153846153846154,0.5063696835418333,0.2564102564102564,1.0,1.0,0.0,-0.5385932088581317
+datingsim,ll70b--ll70b,4_reprompt,Agreement Efficiency,64.15384615384616,46.0739372347067,2122.8076923076924,100.0,100.0,0.0,-0.7387786676394595
+datingsim,ll70b--ll70b,4_reprompt,Agreement penalty,8.076923076923077,10.365901942278013,107.45192307692308,0.0,22.5,0.0,0.7350035749105737
+datingsim,ll70b--ll70b,4_reprompt,Error penalty,1.9230769230769231,2.5318484177091665,6.41025641025641,0.0,5.0,0.0,0.5385932088581313
+datingsim,ll70b--ll70b,4_reprompt,Friendzoned,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll70b--ll70b,4_reprompt,Inefficiency penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll70b--ll70b,4_reprompt,Location agreement,0.6923076923076923,0.4803844614152614,0.2307692307692308,1.0,1.0,0.0,-0.9462118179391512
+datingsim,ll70b--ll70b,4_reprompt,Lose,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll70b--ll70b,4_reprompt,Main Score,85.0,8.964214570007952,80.35714285714286,85.0,100.0,72.5,0.2974791205454491
+datingsim,ll70b--ll70b,4_reprompt,Number of Agreements,1.9230769230769231,1.3821202589704018,1.9102564102564106,3.0,3.0,0.0,-0.7350035749105734
+datingsim,ll70b--ll70b,4_reprompt,Number of Mismatched Agreements,2.3846153846153846,1.5566235649883124,2.423076923076923,3.0,4.0,0.0,-0.7647810409995487
+datingsim,ll70b--ll70b,4_reprompt,Number of Redundancy,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll70b--ll70b,4_reprompt,Number of Reprompts,0.38461538461538464,0.5063696835418333,0.25641025641025644,0.0,1.0,0.0,0.5385932088581317
+datingsim,ll70b--ll70b,4_reprompt,Number of completed turns,10.692307692307692,3.727926487665214,13.897435897435898,12.0,15.0,4.0,-0.7179462535737643
+datingsim,ll70b--ll70b,4_reprompt,Out of retries,0.3076923076923077,0.4803844614152614,0.2307692307692308,0.0,1.0,0.0,0.9462118179391512
+datingsim,ll70b--ll70b,4_reprompt,Out of turns,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll70b--ll70b,4_reprompt,Parsed Request Count,10.692307692307692,3.727926487665214,13.897435897435898,12.0,15.0,4.0,-0.7179462535737643
+datingsim,ll70b--ll70b,4_reprompt,Played,0.6153846153846154,0.5063696835418333,0.25641025641025644,1.0,1.0,0.0,-0.5385932088581318
+datingsim,ll70b--ll70b,4_reprompt,Request Count,11.0,3.2914029430219167,10.833333333333336,12.0,15.0,5.0,-0.6628839493638544
+datingsim,ll70b--ll70b,4_reprompt,Request Success Ratio,0.9525641025641025,0.07625376549480527,0.0058146367521367546,1.0,1.0,0.8,-1.1591648179917529
+datingsim,ll70b--ll70b,4_reprompt,Success,0.6153846153846154,0.5063696835418333,0.25641025641025644,1.0,1.0,0.0,-0.5385932088581318
+datingsim,ll70b--ll70b,4_reprompt,Time agreement,0.6153846153846154,0.5063696835418333,0.2564102564102564,1.0,1.0,0.0,-0.5385932088581317
+datingsim,ll70b--ll70b,4_reprompt,Turn penalty,10.0,9.354143466934854,87.5,10.0,25.0,0.0,0.1804881114213775
+datingsim,ll70b--ll70b,4_reprompt,Violated Request Count,0.3076923076923077,0.4803844614152614,0.2307692307692308,0.0,1.0,0.0,0.9462118179391512
+datingsim,ll70b--ll70b,4_reprompt,Violated pattern,0.46153846153846156,0.6602252917735247,0.4358974358974359,0.0,2.0,0.0,1.1906485051077749
+datingsim,ll70b--ll70b,4_reprompt,Violated token length,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll70b--ll70b,7_themselves,Aborted,0.3076923076923077,0.4803844614152614,0.2307692307692308,0.0,1.0,0.0,0.9462118179391512
+datingsim,ll70b--ll70b,7_themselves,Action agreement,0.6153846153846154,0.5063696835418333,0.25641025641025644,1.0,1.0,0.0,-0.5385932088581317
+datingsim,ll70b--ll70b,7_themselves,Agreement Efficiency,61.61538461538461,35.67103975107926,1272.423076923077,67.0,100.0,0.0,-0.624259470323079
+datingsim,ll70b--ll70b,7_themselves,Agreement penalty,8.653846153846153,8.011410132285846,64.1826923076923,7.5,22.5,0.0,0.6167786340954823
+datingsim,ll70b--ll70b,7_themselves,Error penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll70b--ll70b,7_themselves,Friendzoned,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll70b--ll70b,7_themselves,Inefficiency penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll70b--ll70b,7_themselves,Location agreement,0.6923076923076923,0.48038446141526137,0.23076923076923075,1.0,1.0,0.0,-0.946211817939151
+datingsim,ll70b--ll70b,7_themselves,Lose,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll70b--ll70b,7_themselves,Main Score,90.27777777777777,7.949493345141214,63.19444444444445,92.5,100.0,77.5,-0.9396301956786428
+datingsim,ll70b--ll70b,7_themselves,Number of Agreements,1.8461538461538463,1.0681880176381127,1.141025641025641,2.0,3.0,0.0,-0.6167786340954825
+datingsim,ll70b--ll70b,7_themselves,Number of Mismatched Agreements,2.4615384615384617,1.3301243435223524,1.7692307692307692,3.0,4.0,0.0,-1.032623598876479
+datingsim,ll70b--ll70b,7_themselves,Number of Redundancy,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll70b--ll70b,7_themselves,Number of Reprompts,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll70b--ll70b,7_themselves,Number of completed turns,9.538461538461538,2.846500325410855,8.102564102564104,10.0,13.0,4.0,-0.9056605941867745
+datingsim,ll70b--ll70b,7_themselves,Out of retries,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll70b--ll70b,7_themselves,Out of turns,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll70b--ll70b,7_themselves,Parsed Request Count,9.538461538461538,2.846500325410855,8.102564102564104,10.0,13.0,4.0,-0.9056605941867745
+datingsim,ll70b--ll70b,7_themselves,Played,0.6923076923076923,0.4803844614152614,0.2307692307692308,1.0,1.0,0.0,-0.9462118179391512
+datingsim,ll70b--ll70b,7_themselves,Request Count,9.846153846153847,2.444250186531439,5.974358974358975,10.0,13.0,5.0,-0.842111046273928
+datingsim,ll70b--ll70b,7_themselves,Request Success Ratio,0.9531135531135532,0.07616185359801246,0.0058006279434850835,1.0,1.0,0.8,-1.2069534658901497
+datingsim,ll70b--ll70b,7_themselves,Success,0.6923076923076923,0.4803844614152614,0.2307692307692308,1.0,1.0,0.0,-0.9462118179391512
+datingsim,ll70b--ll70b,7_themselves,Time agreement,0.5384615384615384,0.5188745216627708,0.2692307692307692,1.0,1.0,0.0,-0.17520438393807813
+datingsim,ll70b--ll70b,7_themselves,Turn penalty,3.8461538461538463,5.459642140991688,29.807692307692307,0.0,15.0,0.0,1.4422008054588198
+datingsim,ll70b--ll70b,7_themselves,Violated Request Count,0.3076923076923077,0.4803844614152614,0.2307692307692308,0.0,1.0,0.0,0.9462118179391512
+datingsim,ll70b--ll70b,7_themselves,Violated pattern,0.3076923076923077,0.4803844614152614,0.2307692307692308,0.0,1.0,0.0,0.9462118179391512
+datingsim,ll70b--ll70b,7_themselves,Violated token length,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,0_easy,Aborted,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,ll8b--ll8b,0_easy,Action agreement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,0_easy,Agreement Efficiency,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,0_easy,Agreement penalty,22.5,0.0,0.0,22.5,22.5,22.5,0.0
+datingsim,ll8b--ll8b,0_easy,Error penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,0_easy,Friendzoned,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,0_easy,Inefficiency penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,0_easy,Location agreement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,0_easy,Lose,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,0_easy,Main Score,,,,,,,
+datingsim,ll8b--ll8b,0_easy,Number of Agreements,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,0_easy,Number of Mismatched Agreements,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,0_easy,Number of Redundancy,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,0_easy,Number of Reprompts,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,0_easy,Number of completed turns,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,0_easy,Out of retries,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,0_easy,Out of turns,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,0_easy,Parsed Request Count,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,0_easy,Played,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,0_easy,Request Count,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,ll8b--ll8b,0_easy,Request Success Ratio,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,0_easy,Success,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,0_easy,Time agreement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,0_easy,Turn penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,0_easy,Violated Request Count,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,ll8b--ll8b,0_easy,Violated pattern,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,ll8b--ll8b,0_easy,Violated token length,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,10_same_gender,Aborted,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,ll8b--ll8b,10_same_gender,Action agreement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,10_same_gender,Agreement Efficiency,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,10_same_gender,Agreement penalty,22.5,0.0,0.0,22.5,22.5,22.5,0.0
+datingsim,ll8b--ll8b,10_same_gender,Error penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,10_same_gender,Friendzoned,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,10_same_gender,Inefficiency penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,10_same_gender,Location agreement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,10_same_gender,Lose,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,10_same_gender,Main Score,,,,,,,
+datingsim,ll8b--ll8b,10_same_gender,Number of Agreements,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,10_same_gender,Number of Mismatched Agreements,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,10_same_gender,Number of Redundancy,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,10_same_gender,Number of Reprompts,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,10_same_gender,Number of completed turns,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,10_same_gender,Out of retries,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,10_same_gender,Out of turns,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,10_same_gender,Parsed Request Count,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,10_same_gender,Played,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,10_same_gender,Request Count,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,ll8b--ll8b,10_same_gender,Request Success Ratio,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,10_same_gender,Success,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,10_same_gender,Time agreement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,10_same_gender,Turn penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,10_same_gender,Violated Request Count,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,ll8b--ll8b,10_same_gender,Violated pattern,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,ll8b--ll8b,10_same_gender,Violated token length,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,12_less_turns,Aborted,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,ll8b--ll8b,12_less_turns,Action agreement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,12_less_turns,Agreement Efficiency,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,12_less_turns,Agreement penalty,22.5,0.0,0.0,22.5,22.5,22.5,0.0
+datingsim,ll8b--ll8b,12_less_turns,Error penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,12_less_turns,Friendzoned,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,12_less_turns,Inefficiency penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,12_less_turns,Location agreement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,12_less_turns,Lose,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,12_less_turns,Main Score,,,,,,,
+datingsim,ll8b--ll8b,12_less_turns,Number of Agreements,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,12_less_turns,Number of Mismatched Agreements,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,12_less_turns,Number of Redundancy,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,12_less_turns,Number of Reprompts,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,12_less_turns,Number of completed turns,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,12_less_turns,Out of retries,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,12_less_turns,Out of turns,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,12_less_turns,Parsed Request Count,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,12_less_turns,Played,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,12_less_turns,Request Count,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,ll8b--ll8b,12_less_turns,Request Success Ratio,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,12_less_turns,Success,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,12_less_turns,Time agreement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,12_less_turns,Turn penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,12_less_turns,Violated Request Count,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,ll8b--ll8b,12_less_turns,Violated pattern,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,ll8b--ll8b,12_less_turns,Violated token length,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,13_more_turns,Aborted,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,ll8b--ll8b,13_more_turns,Action agreement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,13_more_turns,Agreement Efficiency,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,13_more_turns,Agreement penalty,22.5,0.0,0.0,22.5,22.5,22.5,0.0
+datingsim,ll8b--ll8b,13_more_turns,Error penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,13_more_turns,Friendzoned,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,13_more_turns,Inefficiency penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,13_more_turns,Location agreement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,13_more_turns,Lose,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,13_more_turns,Main Score,,,,,,,
+datingsim,ll8b--ll8b,13_more_turns,Number of Agreements,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,13_more_turns,Number of Mismatched Agreements,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,13_more_turns,Number of Redundancy,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,13_more_turns,Number of Reprompts,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,13_more_turns,Number of completed turns,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,13_more_turns,Out of retries,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,13_more_turns,Out of turns,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,13_more_turns,Parsed Request Count,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,13_more_turns,Played,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,13_more_turns,Request Count,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,ll8b--ll8b,13_more_turns,Request Success Ratio,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,13_more_turns,Success,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,13_more_turns,Time agreement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,13_more_turns,Turn penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,13_more_turns,Violated Request Count,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,ll8b--ll8b,13_more_turns,Violated pattern,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,ll8b--ll8b,13_more_turns,Violated token length,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,1_medium,Aborted,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,ll8b--ll8b,1_medium,Action agreement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,1_medium,Agreement Efficiency,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,1_medium,Agreement penalty,22.5,0.0,0.0,22.5,22.5,22.5,0.0
+datingsim,ll8b--ll8b,1_medium,Error penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,1_medium,Friendzoned,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,1_medium,Inefficiency penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,1_medium,Location agreement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,1_medium,Lose,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,1_medium,Main Score,,,,,,,
+datingsim,ll8b--ll8b,1_medium,Number of Agreements,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,1_medium,Number of Mismatched Agreements,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,1_medium,Number of Redundancy,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,1_medium,Number of Reprompts,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,1_medium,Number of completed turns,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,1_medium,Out of retries,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,1_medium,Out of turns,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,1_medium,Parsed Request Count,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,1_medium,Played,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,1_medium,Request Count,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,ll8b--ll8b,1_medium,Request Success Ratio,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,1_medium,Success,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,1_medium,Time agreement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,1_medium,Turn penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,1_medium,Violated Request Count,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,ll8b--ll8b,1_medium,Violated pattern,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,ll8b--ll8b,1_medium,Violated token length,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,2_difficult,Aborted,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,ll8b--ll8b,2_difficult,Action agreement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,2_difficult,Agreement Efficiency,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,2_difficult,Agreement penalty,22.5,0.0,0.0,22.5,22.5,22.5,0.0
+datingsim,ll8b--ll8b,2_difficult,Error penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,2_difficult,Friendzoned,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,2_difficult,Inefficiency penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,2_difficult,Location agreement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,2_difficult,Lose,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,2_difficult,Main Score,,,,,,,
+datingsim,ll8b--ll8b,2_difficult,Number of Agreements,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,2_difficult,Number of Mismatched Agreements,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,2_difficult,Number of Redundancy,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,2_difficult,Number of Reprompts,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,2_difficult,Number of completed turns,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,2_difficult,Out of retries,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,2_difficult,Out of turns,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,2_difficult,Parsed Request Count,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,2_difficult,Played,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,2_difficult,Request Count,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,ll8b--ll8b,2_difficult,Request Success Ratio,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,2_difficult,Success,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,2_difficult,Time agreement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,2_difficult,Turn penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,2_difficult,Violated Request Count,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,ll8b--ll8b,2_difficult,Violated pattern,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,ll8b--ll8b,2_difficult,Violated token length,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,4_reprompt,Aborted,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,ll8b--ll8b,4_reprompt,Action agreement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,4_reprompt,Agreement Efficiency,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,4_reprompt,Agreement penalty,22.5,0.0,0.0,22.5,22.5,22.5,0.0
+datingsim,ll8b--ll8b,4_reprompt,Error penalty,5.0,0.0,0.0,5.0,5.0,5.0,0.0
+datingsim,ll8b--ll8b,4_reprompt,Friendzoned,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,4_reprompt,Inefficiency penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,4_reprompt,Location agreement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,4_reprompt,Lose,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,4_reprompt,Main Score,,,,,,,
+datingsim,ll8b--ll8b,4_reprompt,Number of Agreements,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,4_reprompt,Number of Mismatched Agreements,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,4_reprompt,Number of Redundancy,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,4_reprompt,Number of Reprompts,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,ll8b--ll8b,4_reprompt,Number of completed turns,0.3076923076923077,0.4803844614152614,0.2307692307692308,0.0,1.0,0.0,0.9462118179391512
+datingsim,ll8b--ll8b,4_reprompt,Out of retries,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,ll8b--ll8b,4_reprompt,Out of turns,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,4_reprompt,Parsed Request Count,0.3076923076923077,0.4803844614152614,0.2307692307692308,0.0,1.0,0.0,0.9462118179391512
+datingsim,ll8b--ll8b,4_reprompt,Played,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,4_reprompt,Request Count,1.3076923076923077,0.48038446141526137,0.23076923076923075,1.0,2.0,1.0,0.9462118179391512
+datingsim,ll8b--ll8b,4_reprompt,Request Success Ratio,0.15384615384615385,0.2401922307076307,0.0576923076923077,0.0,0.5,0.0,0.9462118179391512
+datingsim,ll8b--ll8b,4_reprompt,Success,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,4_reprompt,Time agreement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,4_reprompt,Turn penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,4_reprompt,Violated Request Count,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,ll8b--ll8b,4_reprompt,Violated pattern,1.3076923076923077,0.48038446141526137,0.23076923076923075,1.0,2.0,1.0,0.9462118179391512
+datingsim,ll8b--ll8b,4_reprompt,Violated token length,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,7_themselves,Aborted,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,ll8b--ll8b,7_themselves,Action agreement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,7_themselves,Agreement Efficiency,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,7_themselves,Agreement penalty,22.5,0.0,0.0,22.5,22.5,22.5,0.0
+datingsim,ll8b--ll8b,7_themselves,Error penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,7_themselves,Friendzoned,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,7_themselves,Inefficiency penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,7_themselves,Location agreement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,7_themselves,Lose,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,7_themselves,Main Score,,,,,,,
+datingsim,ll8b--ll8b,7_themselves,Number of Agreements,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,7_themselves,Number of Mismatched Agreements,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,7_themselves,Number of Redundancy,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,7_themselves,Number of Reprompts,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,7_themselves,Number of completed turns,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,7_themselves,Out of retries,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,7_themselves,Out of turns,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,7_themselves,Parsed Request Count,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,7_themselves,Played,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,7_themselves,Request Count,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,ll8b--ll8b,7_themselves,Request Success Ratio,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,7_themselves,Success,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,7_themselves,Time agreement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,7_themselves,Turn penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,ll8b--ll8b,7_themselves,Violated Request Count,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,ll8b--ll8b,7_themselves,Violated pattern,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,ll8b--ll8b,7_themselves,Violated token length,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,0_easy,Aborted,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,mis--mis,0_easy,Action agreement,0.07692307692307693,0.2773500981126146,0.07692307692307693,0.0,1.0,0.0,3.605551275463987
+datingsim,mis--mis,0_easy,Agreement Efficiency,2.5384615384615383,9.15255323771628,83.76923076923076,0.0,33.0,0.0,3.6055512754639887
+datingsim,mis--mis,0_easy,Agreement penalty,21.923076923076923,2.0801257358446095,4.3269230769230775,22.5,22.5,15.0,-3.605551275463992
+datingsim,mis--mis,0_easy,Error penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,0_easy,Friendzoned,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,0_easy,Inefficiency penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,0_easy,Location agreement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,0_easy,Lose,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,0_easy,Main Score,,,,,,,
+datingsim,mis--mis,0_easy,Number of Agreements,0.07692307692307693,0.2773500981126146,0.07692307692307693,0.0,1.0,0.0,3.605551275463987
+datingsim,mis--mis,0_easy,Number of Mismatched Agreements,0.15384615384615385,0.3755338080994054,0.14102564102564102,0.0,1.0,0.0,2.1787168040147336
+datingsim,mis--mis,0_easy,Number of Redundancy,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,0_easy,Number of Reprompts,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,0_easy,Number of completed turns,0.8461538461538461,1.405118847058488,1.9743589743589751,0.0,4.0,0.0,1.3838758475767472
+datingsim,mis--mis,0_easy,Out of retries,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,0_easy,Out of turns,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,0_easy,Parsed Request Count,0.8461538461538461,1.405118847058488,1.9743589743589751,0.0,4.0,0.0,1.3838758475767472
+datingsim,mis--mis,0_easy,Played,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,0_easy,Request Count,1.8461538461538463,1.405118847058488,1.9743589743589751,1.0,5.0,1.0,1.3838758475767472
+datingsim,mis--mis,0_easy,Request Success Ratio,0.22179487179487178,0.3478362092853884,0.1209900284900285,0.0,0.8,0.0,0.9795173837533161
+datingsim,mis--mis,0_easy,Success,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,0_easy,Time agreement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,0_easy,Turn penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,0_easy,Violated Request Count,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,mis--mis,0_easy,Violated pattern,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,mis--mis,0_easy,Violated token length,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,10_same_gender,Aborted,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,mis--mis,10_same_gender,Action agreement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,10_same_gender,Agreement Efficiency,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,10_same_gender,Agreement penalty,22.5,0.0,0.0,22.5,22.5,22.5,0.0
+datingsim,mis--mis,10_same_gender,Error penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,10_same_gender,Friendzoned,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,10_same_gender,Inefficiency penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,10_same_gender,Location agreement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,10_same_gender,Lose,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,10_same_gender,Main Score,,,,,,,
+datingsim,mis--mis,10_same_gender,Number of Agreements,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,10_same_gender,Number of Mismatched Agreements,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,10_same_gender,Number of Redundancy,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,10_same_gender,Number of Reprompts,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,10_same_gender,Number of completed turns,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,10_same_gender,Out of retries,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,10_same_gender,Out of turns,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,10_same_gender,Parsed Request Count,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,10_same_gender,Played,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,10_same_gender,Request Count,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,mis--mis,10_same_gender,Request Success Ratio,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,10_same_gender,Success,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,10_same_gender,Time agreement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,10_same_gender,Turn penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,10_same_gender,Violated Request Count,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,mis--mis,10_same_gender,Violated pattern,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,mis--mis,10_same_gender,Violated token length,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,12_less_turns,Aborted,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,mis--mis,12_less_turns,Action agreement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,12_less_turns,Agreement Efficiency,2.5384615384615383,9.152553237716281,83.76923076923077,0.0,33.0,0.0,3.6055512754639887
+datingsim,mis--mis,12_less_turns,Agreement penalty,21.923076923076923,2.0801257358446095,4.3269230769230775,22.5,22.5,15.0,-3.605551275463992
+datingsim,mis--mis,12_less_turns,Error penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,12_less_turns,Friendzoned,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,12_less_turns,Inefficiency penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,12_less_turns,Location agreement,0.07692307692307693,0.2773500981126146,0.07692307692307693,0.0,1.0,0.0,3.605551275463987
+datingsim,mis--mis,12_less_turns,Lose,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,12_less_turns,Main Score,,,,,,,
+datingsim,mis--mis,12_less_turns,Number of Agreements,0.07692307692307693,0.2773500981126146,0.07692307692307693,0.0,1.0,0.0,3.605551275463987
+datingsim,mis--mis,12_less_turns,Number of Mismatched Agreements,0.15384615384615385,0.3755338080994054,0.14102564102564105,0.0,1.0,0.0,2.178716804014733
+datingsim,mis--mis,12_less_turns,Number of Redundancy,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,12_less_turns,Number of Reprompts,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,12_less_turns,Number of completed turns,0.5384615384615384,1.3301243435223526,1.7692307692307694,0.0,4.0,0.0,2.2881156003881657
+datingsim,mis--mis,12_less_turns,Out of retries,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,12_less_turns,Out of turns,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,12_less_turns,Parsed Request Count,0.5384615384615384,1.3301243435223526,1.7692307692307694,0.0,4.0,0.0,2.2881156003881657
+datingsim,mis--mis,12_less_turns,Played,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,12_less_turns,Request Count,1.5384615384615385,1.3301243435223526,1.7692307692307694,1.0,5.0,1.0,2.2881156003881657
+datingsim,mis--mis,12_less_turns,Request Success Ratio,0.11923076923076924,0.2912176030182453,0.08480769230769232,0.0,0.8,0.0,2.18451011841361
+datingsim,mis--mis,12_less_turns,Success,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,12_less_turns,Time agreement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,12_less_turns,Turn penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,12_less_turns,Violated Request Count,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,mis--mis,12_less_turns,Violated pattern,0.9230769230769231,0.2773500981126145,0.07692307692307691,1.0,1.0,0.0,-3.605551275463987
+datingsim,mis--mis,12_less_turns,Violated token length,0.07692307692307693,0.2773500981126146,0.07692307692307693,0.0,1.0,0.0,3.605551275463987
+datingsim,mis--mis,13_more_turns,Aborted,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,mis--mis,13_more_turns,Action agreement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,13_more_turns,Agreement Efficiency,5.076923076923077,12.392615667280378,153.57692307692307,0.0,33.0,0.0,2.1787168040147313
+datingsim,mis--mis,13_more_turns,Agreement penalty,21.346153846153847,2.81650356074554,7.9326923076923075,22.5,22.5,15.0,-2.1787168040147327
+datingsim,mis--mis,13_more_turns,Error penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,13_more_turns,Friendzoned,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,13_more_turns,Inefficiency penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,13_more_turns,Location agreement,0.07692307692307693,0.2773500981126146,0.07692307692307693,0.0,1.0,0.0,3.605551275463987
+datingsim,mis--mis,13_more_turns,Lose,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,13_more_turns,Main Score,,,,,,,
+datingsim,mis--mis,13_more_turns,Number of Agreements,0.15384615384615385,0.3755338080994054,0.14102564102564105,0.0,1.0,0.0,2.1787168040147336
+datingsim,mis--mis,13_more_turns,Number of Mismatched Agreements,0.15384615384615385,0.3755338080994054,0.14102564102564105,0.0,1.0,0.0,2.1787168040147336
+datingsim,mis--mis,13_more_turns,Number of Redundancy,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,13_more_turns,Number of Reprompts,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,13_more_turns,Number of completed turns,0.6153846153846154,1.5021352323976216,2.256410256410257,0.0,4.0,0.0,2.1787168040147336
+datingsim,mis--mis,13_more_turns,Out of retries,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,13_more_turns,Out of turns,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,13_more_turns,Parsed Request Count,0.6153846153846154,1.5021352323976216,2.256410256410257,0.0,4.0,0.0,2.1787168040147336
+datingsim,mis--mis,13_more_turns,Played,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,13_more_turns,Request Count,1.6153846153846154,1.5021352323976216,2.256410256410257,1.0,5.0,1.0,2.1787168040147336
+datingsim,mis--mis,13_more_turns,Request Success Ratio,0.12307692307692308,0.30042704647952434,0.09025641025641028,0.0,0.8,0.0,2.1787168040147322
+datingsim,mis--mis,13_more_turns,Success,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,13_more_turns,Time agreement,0.07692307692307693,0.2773500981126145,0.07692307692307691,0.0,1.0,0.0,3.605551275463987
+datingsim,mis--mis,13_more_turns,Turn penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,13_more_turns,Violated Request Count,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,mis--mis,13_more_turns,Violated pattern,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,mis--mis,13_more_turns,Violated token length,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,1_medium,Aborted,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,mis--mis,1_medium,Action agreement,0.07692307692307693,0.2773500981126146,0.07692307692307693,0.0,1.0,0.0,3.605551275463987
+datingsim,mis--mis,1_medium,Agreement Efficiency,2.5384615384615383,9.152553237716281,83.76923076923077,0.0,33.0,0.0,3.6055512754639887
+datingsim,mis--mis,1_medium,Agreement penalty,21.923076923076923,2.0801257358446095,4.3269230769230775,22.5,22.5,15.0,-3.605551275463992
+datingsim,mis--mis,1_medium,Error penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,1_medium,Friendzoned,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,1_medium,Inefficiency penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,1_medium,Location agreement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,1_medium,Lose,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,1_medium,Main Score,,,,,,,
+datingsim,mis--mis,1_medium,Number of Agreements,0.07692307692307693,0.2773500981126146,0.07692307692307693,0.0,1.0,0.0,3.605551275463987
+datingsim,mis--mis,1_medium,Number of Mismatched Agreements,0.07692307692307693,0.2773500981126146,0.07692307692307693,0.0,1.0,0.0,3.605551275463987
+datingsim,mis--mis,1_medium,Number of Redundancy,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,1_medium,Number of Reprompts,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,1_medium,Number of completed turns,0.3076923076923077,1.1094003924504583,1.2307692307692308,0.0,4.0,0.0,3.605551275463987
+datingsim,mis--mis,1_medium,Out of retries,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,1_medium,Out of turns,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,1_medium,Parsed Request Count,0.3076923076923077,1.1094003924504583,1.2307692307692308,0.0,4.0,0.0,3.605551275463987
+datingsim,mis--mis,1_medium,Played,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,1_medium,Request Count,1.3076923076923077,1.1094003924504583,1.2307692307692308,1.0,5.0,1.0,3.605551275463987
+datingsim,mis--mis,1_medium,Request Success Ratio,0.06153846153846154,0.2218800784900917,0.04923076923076925,0.0,0.8,0.0,3.6055512754639896
+datingsim,mis--mis,1_medium,Success,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,1_medium,Time agreement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,1_medium,Turn penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,1_medium,Violated Request Count,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,mis--mis,1_medium,Violated pattern,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,mis--mis,1_medium,Violated token length,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,2_difficult,Aborted,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,mis--mis,2_difficult,Action agreement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,2_difficult,Agreement Efficiency,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,2_difficult,Agreement penalty,22.5,0.0,0.0,22.5,22.5,22.5,0.0
+datingsim,mis--mis,2_difficult,Error penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,2_difficult,Friendzoned,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,2_difficult,Inefficiency penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,2_difficult,Location agreement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,2_difficult,Lose,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,2_difficult,Main Score,,,,,,,
+datingsim,mis--mis,2_difficult,Number of Agreements,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,2_difficult,Number of Mismatched Agreements,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,2_difficult,Number of Redundancy,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,2_difficult,Number of Reprompts,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,2_difficult,Number of completed turns,0.38461538461538464,0.9607689228305227,0.923076923076923,0.0,3.0,0.0,2.3852422910549453
+datingsim,mis--mis,2_difficult,Out of retries,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,2_difficult,Out of turns,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,2_difficult,Parsed Request Count,0.38461538461538464,0.9607689228305227,0.923076923076923,0.0,3.0,0.0,2.3852422910549453
+datingsim,mis--mis,2_difficult,Played,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,2_difficult,Request Count,1.3846153846153846,0.9607689228305227,0.923076923076923,1.0,4.0,1.0,2.3852422910549453
+datingsim,mis--mis,2_difficult,Request Success Ratio,0.10897435897435896,0.26654644726015114,0.07104700854700854,0.0,0.75,0.0,2.1978893548174367
+datingsim,mis--mis,2_difficult,Success,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,2_difficult,Time agreement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,2_difficult,Turn penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,2_difficult,Violated Request Count,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,mis--mis,2_difficult,Violated pattern,0.9230769230769231,0.2773500981126145,0.07692307692307691,1.0,1.0,0.0,-3.605551275463987
+datingsim,mis--mis,2_difficult,Violated token length,0.07692307692307693,0.2773500981126146,0.07692307692307693,0.0,1.0,0.0,3.605551275463987
+datingsim,mis--mis,4_reprompt,Aborted,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,mis--mis,4_reprompt,Action agreement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,4_reprompt,Agreement Efficiency,5.076923076923077,12.392615667280378,153.57692307692307,0.0,33.0,0.0,2.1787168040147313
+datingsim,mis--mis,4_reprompt,Agreement penalty,21.346153846153847,2.81650356074554,7.9326923076923075,22.5,22.5,15.0,-2.178716804014733
+datingsim,mis--mis,4_reprompt,Error penalty,5.0,0.0,0.0,5.0,5.0,5.0,0.0
+datingsim,mis--mis,4_reprompt,Friendzoned,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,4_reprompt,Inefficiency penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,4_reprompt,Location agreement,0.15384615384615385,0.3755338080994054,0.14102564102564102,0.0,1.0,0.0,2.178716804014733
+datingsim,mis--mis,4_reprompt,Lose,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,4_reprompt,Main Score,,,,,,,
+datingsim,mis--mis,4_reprompt,Number of Agreements,0.15384615384615385,0.3755338080994054,0.14102564102564102,0.0,1.0,0.0,2.178716804014733
+datingsim,mis--mis,4_reprompt,Number of Mismatched Agreements,0.23076923076923078,0.5991446895152781,0.358974358974359,0.0,2.0,0.0,2.6823952298451856
+datingsim,mis--mis,4_reprompt,Number of Redundancy,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,4_reprompt,Number of Reprompts,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,mis--mis,4_reprompt,Number of completed turns,0.8461538461538461,1.6756169931378435,2.807692307692308,0.0,5.0,0.0,1.791871694021373
+datingsim,mis--mis,4_reprompt,Out of retries,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,mis--mis,4_reprompt,Out of turns,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,4_reprompt,Parsed Request Count,0.8461538461538461,1.6756169931378435,2.807692307692308,0.0,5.0,0.0,1.791871694021373
+datingsim,mis--mis,4_reprompt,Played,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,4_reprompt,Request Count,1.8461538461538463,1.6756169931378435,2.807692307692308,1.0,6.0,1.0,1.7918716940213726
+datingsim,mis--mis,4_reprompt,Request Success Ratio,0.1794871794871795,0.3416432137041295,0.11672008547008549,0.0,0.8333333333333334,0.0,1.4647836563664525
+datingsim,mis--mis,4_reprompt,Success,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,4_reprompt,Time agreement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,4_reprompt,Turn penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,4_reprompt,Violated Request Count,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,mis--mis,4_reprompt,Violated pattern,1.1538461538461537,0.3755338080994054,0.14102564102564102,1.0,2.0,1.0,2.178716804014733
+datingsim,mis--mis,4_reprompt,Violated token length,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,7_themselves,Aborted,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,mis--mis,7_themselves,Action agreement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,7_themselves,Agreement Efficiency,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,7_themselves,Agreement penalty,22.5,0.0,0.0,22.5,22.5,22.5,0.0
+datingsim,mis--mis,7_themselves,Error penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,7_themselves,Friendzoned,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,7_themselves,Inefficiency penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,7_themselves,Location agreement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,7_themselves,Lose,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,7_themselves,Main Score,,,,,,,
+datingsim,mis--mis,7_themselves,Number of Agreements,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,7_themselves,Number of Mismatched Agreements,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,7_themselves,Number of Redundancy,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,7_themselves,Number of Reprompts,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,7_themselves,Number of completed turns,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,7_themselves,Out of retries,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,7_themselves,Out of turns,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,7_themselves,Parsed Request Count,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,7_themselves,Played,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,7_themselves,Request Count,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,mis--mis,7_themselves,Request Success Ratio,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,7_themselves,Success,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,7_themselves,Time agreement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,7_themselves,Turn penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mis--mis,7_themselves,Violated Request Count,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,mis--mis,7_themselves,Violated pattern,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,mis--mis,7_themselves,Violated token length,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,0_easy,Aborted,0.23076923076923078,0.4385290096535146,0.19230769230769232,0.0,1.0,0.0,1.4511323592170835
+datingsim,mix--mix,0_easy,Action agreement,0.6153846153846154,0.5063696835418333,0.2564102564102564,1.0,1.0,0.0,-0.5385932088581317
+datingsim,mix--mix,0_easy,Agreement Efficiency,56.38461538461539,45.95022390503747,2111.4230769230767,67.0,100.0,0.0,-0.24727585971785443
+datingsim,mix--mix,0_easy,Agreement penalty,9.807692307692308,10.331058475817917,106.73076923076923,7.5,22.5,0.0,0.24882627725474174
+datingsim,mix--mix,0_easy,Error penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,0_easy,Friendzoned,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,0_easy,Inefficiency penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,0_easy,Location agreement,0.46153846153846156,0.5188745216627708,0.2692307692307692,0.0,1.0,0.0,0.17520438393807822
+datingsim,mix--mix,0_easy,Lose,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,0_easy,Main Score,90.75,10.868532559642079,118.125,96.25,100.0,75.0,-0.517853431217234
+datingsim,mix--mix,0_easy,Number of Agreements,1.6923076923076923,1.377474463442389,1.8974358974358976,2.0,3.0,0.0,-0.24882627725474174
+datingsim,mix--mix,0_easy,Number of Mismatched Agreements,2.769230769230769,0.8320502943378437,0.6923076923076924,3.0,3.0,0.0,-3.6055512754639896
+datingsim,mix--mix,0_easy,Number of Redundancy,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,0_easy,Number of Reprompts,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,0_easy,Number of completed turns,9.538461538461538,2.633609203336257,6.935897435897435,10.0,15.0,3.0,-0.5686992101199266
+datingsim,mix--mix,0_easy,Out of retries,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,0_easy,Out of turns,0.07692307692307693,0.2773500981126146,0.07692307692307693,0.0,1.0,0.0,3.605551275463987
+datingsim,mix--mix,0_easy,Parsed Request Count,9.538461538461538,2.633609203336257,6.935897435897435,10.0,15.0,3.0,-0.5686992101199266
+datingsim,mix--mix,0_easy,Played,0.7692307692307693,0.43852900965351466,0.19230769230769237,1.0,1.0,0.0,-1.4511323592170848
+datingsim,mix--mix,0_easy,Request Count,9.692307692307692,2.42846369077981,5.897435897435898,10.0,15.0,4.0,-0.1945796620566464
+datingsim,mix--mix,0_easy,Request Success Ratio,0.9730769230769231,0.07250110520819843,0.005256410256410256,1.0,1.0,0.75,-2.914169200568082
+datingsim,mix--mix,0_easy,Success,0.7692307692307693,0.43852900965351466,0.19230769230769237,1.0,1.0,0.0,-1.4511323592170848
+datingsim,mix--mix,0_easy,Time agreement,0.6153846153846154,0.5063696835418333,0.2564102564102564,1.0,1.0,0.0,-0.5385932088581317
+datingsim,mix--mix,0_easy,Turn penalty,2.6923076923076925,7.250110520819842,52.56410256410256,0.0,25.0,0.0,2.9141692005680815
+datingsim,mix--mix,0_easy,Violated Request Count,0.15384615384615385,0.3755338080994054,0.14102564102564102,0.0,1.0,0.0,2.178716804014733
+datingsim,mix--mix,0_easy,Violated pattern,0.15384615384615385,0.3755338080994054,0.14102564102564102,0.0,1.0,0.0,2.178716804014733
+datingsim,mix--mix,0_easy,Violated token length,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,10_same_gender,Aborted,0.15384615384615385,0.3755338080994054,0.14102564102564102,0.0,1.0,0.0,2.178716804014733
+datingsim,mix--mix,10_same_gender,Action agreement,0.6923076923076923,0.48038446141526137,0.23076923076923075,1.0,1.0,0.0,-0.946211817939151
+datingsim,mix--mix,10_same_gender,Agreement Efficiency,66.6923076923077,43.05497380362423,1853.7307692307688,100.0,100.0,0.0,-0.8261330691156127
+datingsim,mix--mix,10_same_gender,Agreement penalty,7.5,9.682458365518542,93.75,0.0,22.5,0.0,0.8238891845568505
+datingsim,mix--mix,10_same_gender,Error penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,10_same_gender,Friendzoned,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,10_same_gender,Inefficiency penalty,0.7692307692307693,2.7735009811261455,7.692307692307691,0.0,10.0,0.0,3.60555127546399
+datingsim,mix--mix,10_same_gender,Location agreement,0.5384615384615384,0.5188745216627708,0.2692307692307692,1.0,1.0,0.0,-0.17520438393807822
+datingsim,mix--mix,10_same_gender,Lose,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,10_same_gender,Main Score,91.5909090909091,8.00567980192245,64.09090909090908,95.0,100.0,77.5,-0.6684822499459172
+datingsim,mix--mix,10_same_gender,Number of Agreements,2.0,1.2909944487358056,1.6666666666666667,3.0,3.0,0.0,-0.8238891845568505
+datingsim,mix--mix,10_same_gender,Number of Mismatched Agreements,3.076923076923077,0.6405126152203485,0.4102564102564103,3.0,5.0,2.0,2.1955071088119364
+datingsim,mix--mix,10_same_gender,Number of Redundancy,0.07692307692307693,0.2773500981126145,0.07692307692307691,0.0,1.0,0.0,3.6055512754639873
+datingsim,mix--mix,10_same_gender,Number of Reprompts,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,10_same_gender,Number of completed turns,10.692307692307692,1.5483655567842813,2.3974358974358974,10.0,15.0,9.0,1.8819537447309673
+datingsim,mix--mix,10_same_gender,Out of retries,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,10_same_gender,Out of turns,0.07692307692307693,0.2773500981126146,0.07692307692307693,0.0,1.0,0.0,3.605551275463987
+datingsim,mix--mix,10_same_gender,Parsed Request Count,10.692307692307692,1.5483655567842813,2.3974358974358974,10.0,15.0,9.0,1.8819537447309673
+datingsim,mix--mix,10_same_gender,Played,0.8461538461538461,0.3755338080994054,0.14102564102564102,1.0,1.0,0.0,-2.178716804014733
+datingsim,mix--mix,10_same_gender,Request Count,10.76923076923077,1.4806443503784736,2.192307692307692,10.0,15.0,9.0,2.1047778498734693
+datingsim,mix--mix,10_same_gender,Request Success Ratio,0.9923076923076923,0.027735009811261452,0.0007692307692307689,1.0,1.0,0.9,-3.605551275463991
+datingsim,mix--mix,10_same_gender,Success,0.8461538461538461,0.3755338080994054,0.14102564102564102,1.0,1.0,0.0,-2.178716804014733
+datingsim,mix--mix,10_same_gender,Time agreement,0.7692307692307693,0.43852900965351466,0.19230769230769237,1.0,1.0,0.0,-1.4511323592170848
+datingsim,mix--mix,10_same_gender,Turn penalty,4.230769230769231,7.02559423529244,49.35897435897436,0.0,25.0,0.0,2.4488804843730603
+datingsim,mix--mix,10_same_gender,Violated Request Count,0.07692307692307693,0.2773500981126145,0.07692307692307691,0.0,1.0,0.0,3.6055512754639873
+datingsim,mix--mix,10_same_gender,Violated pattern,0.07692307692307693,0.2773500981126145,0.07692307692307691,0.0,1.0,0.0,3.6055512754639873
+datingsim,mix--mix,10_same_gender,Violated token length,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,12_less_turns,Aborted,0.5384615384615384,0.5188745216627708,0.2692307692307692,1.0,1.0,0.0,-0.17520438393807822
+datingsim,mix--mix,12_less_turns,Action agreement,0.46153846153846156,0.5188745216627708,0.2692307692307692,0.0,1.0,0.0,0.17520438393807822
+datingsim,mix--mix,12_less_turns,Agreement Efficiency,56.38461538461539,31.716290402931378,1005.9230769230771,67.0,100.0,0.0,0.03240037250803131
+datingsim,mix--mix,12_less_turns,Agreement penalty,9.807692307692308,7.104982000735063,50.480769230769226,7.5,22.5,0.0,-0.037014451684720354
+datingsim,mix--mix,12_less_turns,Error penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,12_less_turns,Friendzoned,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,12_less_turns,Inefficiency penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,12_less_turns,Location agreement,0.6153846153846154,0.5063696835418333,0.2564102564102564,1.0,1.0,0.0,-0.5385932088581317
+datingsim,mix--mix,12_less_turns,Lose,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,12_less_turns,Main Score,92.5,9.486832980505138,90.0,96.25,100.0,77.5,-0.8893905919223567
+datingsim,mix--mix,12_less_turns,Number of Agreements,1.6923076923076923,0.9473309334313419,0.8974358974358975,2.0,3.0,0.0,0.03701445168471997
+datingsim,mix--mix,12_less_turns,Number of Mismatched Agreements,2.6153846153846154,0.5063696835418332,0.25641025641025633,3.0,3.0,2.0,-0.5385932088581317
+datingsim,mix--mix,12_less_turns,Number of Redundancy,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,12_less_turns,Number of Reprompts,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,12_less_turns,Number of completed turns,9.923076923076923,0.2773500981126145,0.07692307692307691,10.0,10.0,9.0,-3.6055512754639945
+datingsim,mix--mix,12_less_turns,Out of retries,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,12_less_turns,Out of turns,0.5384615384615384,0.5188745216627708,0.2692307692307692,1.0,1.0,0.0,-0.17520438393807822
+datingsim,mix--mix,12_less_turns,Parsed Request Count,9.923076923076923,0.2773500981126145,0.07692307692307691,10.0,10.0,9.0,-3.6055512754639945
+datingsim,mix--mix,12_less_turns,Played,0.46153846153846156,0.5188745216627708,0.2692307692307692,0.0,1.0,0.0,0.17520438393807822
+datingsim,mix--mix,12_less_turns,Request Count,9.923076923076923,0.2773500981126145,0.07692307692307691,10.0,10.0,9.0,-3.6055512754639945
+datingsim,mix--mix,12_less_turns,Request Success Ratio,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,mix--mix,12_less_turns,Success,0.46153846153846156,0.5188745216627708,0.2692307692307692,0.0,1.0,0.0,0.17520438393807822
+datingsim,mix--mix,12_less_turns,Time agreement,0.6153846153846154,0.5063696835418333,0.2564102564102564,1.0,1.0,0.0,-0.5385932088581317
+datingsim,mix--mix,12_less_turns,Turn penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,12_less_turns,Violated Request Count,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,12_less_turns,Violated pattern,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,12_less_turns,Violated token length,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,13_more_turns,Aborted,0.07692307692307693,0.2773500981126146,0.07692307692307693,0.0,1.0,0.0,3.605551275463987
+datingsim,mix--mix,13_more_turns,Action agreement,0.7692307692307693,0.43852900965351466,0.19230769230769237,1.0,1.0,0.0,-1.4511323592170853
+datingsim,mix--mix,13_more_turns,Agreement Efficiency,69.23076923076923,44.03626128195158,1939.1923076923078,100.0,100.0,0.0,-0.9341332772425316
+datingsim,mix--mix,13_more_turns,Agreement penalty,6.923076923076923,9.90337937660287,98.07692307692308,0.0,22.5,0.0,0.9339908554097975
+datingsim,mix--mix,13_more_turns,Error penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,13_more_turns,Friendzoned,0.07692307692307693,0.2773500981126145,0.07692307692307691,0.0,1.0,0.0,3.6055512754639873
+datingsim,mix--mix,13_more_turns,Inefficiency penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,13_more_turns,Location agreement,0.6153846153846154,0.5063696835418333,0.25641025641025644,1.0,1.0,0.0,-0.5385932088581317
+datingsim,mix--mix,13_more_turns,Lose,0.07692307692307693,0.2773500981126145,0.07692307692307691,0.0,1.0,0.0,3.6055512754639873
+datingsim,mix--mix,13_more_turns,Main Score,79.79166666666667,26.744972623019464,715.2935606060606,85.0,100.0,0.0,-2.7680322190867277
+datingsim,mix--mix,13_more_turns,Number of Agreements,2.076923076923077,1.3204505835470495,1.7435897435897434,3.0,3.0,0.0,-0.9339908554097981
+datingsim,mix--mix,13_more_turns,Number of Mismatched Agreements,3.230769230769231,0.5991446895152782,0.3589743589743591,3.0,5.0,3.0,2.6823952298451874
+datingsim,mix--mix,13_more_turns,Number of Redundancy,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,13_more_turns,Number of Reprompts,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,13_more_turns,Number of completed turns,11.0,2.273030282830976,5.166666666666665,10.0,16.0,8.0,0.8050539569500684
+datingsim,mix--mix,13_more_turns,Out of retries,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,13_more_turns,Out of turns,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,13_more_turns,Parsed Request Count,11.0,2.273030282830976,5.166666666666665,10.0,16.0,8.0,0.8050539569500684
+datingsim,mix--mix,13_more_turns,Played,0.9230769230769231,0.2773500981126145,0.07692307692307691,1.0,1.0,0.0,-3.605551275463987
+datingsim,mix--mix,13_more_turns,Request Count,11.076923076923077,2.1779783615981456,4.743589743589743,10.0,16.0,9.0,0.9709655761640676
+datingsim,mix--mix,13_more_turns,Request Success Ratio,0.9914529914529915,0.030816677568068322,0.0009496676163342852,1.0,1.0,0.8888888888888888,-3.605551275463994
+datingsim,mix--mix,13_more_turns,Success,0.8461538461538461,0.3755338080994054,0.14102564102564102,1.0,1.0,0.0,-2.178716804014733
+datingsim,mix--mix,13_more_turns,Time agreement,0.6923076923076923,0.48038446141526137,0.23076923076923075,1.0,1.0,0.0,-0.946211817939151
+datingsim,mix--mix,13_more_turns,Turn penalty,6.923076923076923,9.473309334313418,89.74358974358974,0.0,30.0,0.0,1.3402316047509018
+datingsim,mix--mix,13_more_turns,Violated Request Count,0.07692307692307693,0.2773500981126146,0.07692307692307693,0.0,1.0,0.0,3.605551275463987
+datingsim,mix--mix,13_more_turns,Violated pattern,0.07692307692307693,0.2773500981126146,0.07692307692307693,0.0,1.0,0.0,3.605551275463987
+datingsim,mix--mix,13_more_turns,Violated token length,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,1_medium,Aborted,0.07692307692307693,0.2773500981126145,0.07692307692307691,0.0,1.0,0.0,3.605551275463987
+datingsim,mix--mix,1_medium,Action agreement,0.6153846153846154,0.5063696835418333,0.2564102564102564,1.0,1.0,0.0,-0.5385932088581318
+datingsim,mix--mix,1_medium,Agreement Efficiency,58.92307692307692,38.94325260012218,1516.576923076923,67.0,100.0,0.0,-0.21883491567712787
+datingsim,mix--mix,1_medium,Agreement penalty,9.23076923076923,8.74312917051485,76.4423076923077,7.5,22.5,0.0,0.22070749063081627
+datingsim,mix--mix,1_medium,Error penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,1_medium,Friendzoned,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,1_medium,Inefficiency penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,1_medium,Location agreement,0.46153846153846156,0.5188745216627708,0.2692307692307692,0.0,1.0,0.0,0.17520438393807816
+datingsim,mix--mix,1_medium,Lose,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,1_medium,Main Score,86.04166666666667,10.026007846263305,100.52083333333334,85.0,100.0,72.5,0.2621303139173802
+datingsim,mix--mix,1_medium,Number of Agreements,1.7692307692307692,1.1657505560686465,1.3589743589743588,2.0,3.0,0.0,-0.22070749063081574
+datingsim,mix--mix,1_medium,Number of Mismatched Agreements,2.769230769230769,0.9268086959962984,0.8589743589743591,3.0,4.0,0.0,-2.4375674952720647
+datingsim,mix--mix,1_medium,Number of Redundancy,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,1_medium,Number of Reprompts,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,1_medium,Number of completed turns,10.461538461538462,2.846500325410855,8.102564102564104,10.0,15.0,3.0,-1.1695968336375906
+datingsim,mix--mix,1_medium,Out of retries,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,1_medium,Out of turns,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,1_medium,Parsed Request Count,10.461538461538462,2.846500325410855,8.102564102564104,10.0,15.0,3.0,-1.1695968336375906
+datingsim,mix--mix,1_medium,Played,0.9230769230769231,0.2773500981126145,0.07692307692307691,1.0,1.0,0.0,-3.605551275463987
+datingsim,mix--mix,1_medium,Request Count,10.538461538461538,2.633609203336257,6.935897435897435,10.0,15.0,4.0,-0.7951452436345257
+datingsim,mix--mix,1_medium,Request Success Ratio,0.9807692307692307,0.06933752452815363,0.004807692307692307,1.0,1.0,0.75,-3.605551275463985
+datingsim,mix--mix,1_medium,Success,0.9230769230769231,0.2773500981126145,0.07692307692307691,1.0,1.0,0.0,-3.605551275463987
+datingsim,mix--mix,1_medium,Time agreement,0.6923076923076923,0.48038446141526137,0.23076923076923075,1.0,1.0,0.0,-0.946211817939151
+datingsim,mix--mix,1_medium,Turn penalty,5.384615384615385,8.529736822224368,72.75641025641026,0.0,25.0,0.0,1.5261456967179599
+datingsim,mix--mix,1_medium,Violated Request Count,0.07692307692307693,0.2773500981126145,0.07692307692307691,0.0,1.0,0.0,3.605551275463987
+datingsim,mix--mix,1_medium,Violated pattern,0.07692307692307693,0.2773500981126145,0.07692307692307691,0.0,1.0,0.0,3.605551275463987
+datingsim,mix--mix,1_medium,Violated token length,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,2_difficult,Aborted,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,2_difficult,Action agreement,0.7692307692307693,0.4385290096535146,0.19230769230769232,1.0,1.0,0.0,-1.4511323592170848
+datingsim,mix--mix,2_difficult,Agreement Efficiency,64.15384615384616,31.895261282950674,1017.3076923076923,67.0,100.0,0.0,-0.5171792167544931
+datingsim,mix--mix,2_difficult,Agreement penalty,8.076923076923077,7.155551905822714,51.20192307692307,7.5,22.5,0.0,0.5072930272162859
+datingsim,mix--mix,2_difficult,Error penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,2_difficult,Friendzoned,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,2_difficult,Inefficiency penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,2_difficult,Location agreement,0.46153846153846156,0.5188745216627708,0.2692307692307692,0.0,1.0,0.0,0.17520438393807822
+datingsim,mix--mix,2_difficult,Lose,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,2_difficult,Main Score,86.92307692307692,7.849750935130984,61.61858974358976,85.0,100.0,77.5,0.5569566115209217
+datingsim,mix--mix,2_difficult,Number of Agreements,1.9230769230769231,0.9540735874430285,0.9102564102564102,2.0,3.0,0.0,-0.5072930272162859
+datingsim,mix--mix,2_difficult,Number of Mismatched Agreements,3.0,0.40824829046386313,0.16666666666666674,3.0,4.0,2.0,0.0
+datingsim,mix--mix,2_difficult,Number of Redundancy,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,2_difficult,Number of Reprompts,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,2_difficult,Number of completed turns,11.0,1.0801234497346432,1.1666666666666665,11.0,13.0,10.0,0.9378437374319352
+datingsim,mix--mix,2_difficult,Out of retries,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,2_difficult,Out of turns,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,2_difficult,Parsed Request Count,11.0,1.0801234497346432,1.1666666666666665,11.0,13.0,10.0,0.9378437374319352
+datingsim,mix--mix,2_difficult,Played,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,mix--mix,2_difficult,Request Count,11.0,1.0801234497346432,1.1666666666666665,11.0,13.0,10.0,0.9378437374319352
+datingsim,mix--mix,2_difficult,Request Success Ratio,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,mix--mix,2_difficult,Success,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,mix--mix,2_difficult,Time agreement,0.6923076923076923,0.48038446141526137,0.23076923076923075,1.0,1.0,0.0,-0.946211817939151
+datingsim,mix--mix,2_difficult,Turn penalty,5.0,5.400617248673217,29.166666666666668,5.0,15.0,0.0,0.9378437374319352
+datingsim,mix--mix,2_difficult,Violated Request Count,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,2_difficult,Violated pattern,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,2_difficult,Violated token length,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,4_reprompt,Aborted,0.07692307692307693,0.2773500981126145,0.07692307692307691,0.0,1.0,0.0,3.605551275463987
+datingsim,mix--mix,4_reprompt,Action agreement,0.46153846153846156,0.5188745216627708,0.2692307692307692,0.0,1.0,0.0,0.17520438393807822
+datingsim,mix--mix,4_reprompt,Agreement Efficiency,46.07692307692308,42.076243373312884,1770.4102564102561,33.0,100.0,0.0,0.3121202953780296
+datingsim,mix--mix,4_reprompt,Agreement penalty,12.115384615384615,9.456377579341728,89.42307692307692,15.0,22.5,0.0,-0.30701246667581866
+datingsim,mix--mix,4_reprompt,Error penalty,0.38461538461538464,1.3867504905630728,1.9230769230769227,0.0,5.0,0.0,3.605551275463991
+datingsim,mix--mix,4_reprompt,Friendzoned,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,4_reprompt,Inefficiency penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,4_reprompt,Location agreement,0.3076923076923077,0.48038446141526137,0.23076923076923075,0.0,1.0,0.0,0.9462118179391512
+datingsim,mix--mix,4_reprompt,Lose,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,4_reprompt,Main Score,85.0,7.229988054812212,52.27272727272727,85.0,100.0,77.5,0.8659584936727822
+datingsim,mix--mix,4_reprompt,Number of Agreements,1.3846153846153846,1.2608503439122305,1.5897435897435896,1.0,3.0,0.0,0.30701246667581894
+datingsim,mix--mix,4_reprompt,Number of Mismatched Agreements,2.769230769230769,0.599144689515278,0.35897435897435886,3.0,3.0,1.0,-2.6823952298451874
+datingsim,mix--mix,4_reprompt,Number of Redundancy,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,4_reprompt,Number of Reprompts,0.07692307692307693,0.2773500981126145,0.07692307692307691,0.0,1.0,0.0,3.605551275463987
+datingsim,mix--mix,4_reprompt,Number of completed turns,10.307692307692308,1.6012815380508714,2.5641025641025643,10.0,14.0,8.0,0.7008590935475276
+datingsim,mix--mix,4_reprompt,Out of retries,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,4_reprompt,Out of turns,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,4_reprompt,Parsed Request Count,10.307692307692308,1.6012815380508714,2.5641025641025643,10.0,14.0,8.0,0.7008590935475276
+datingsim,mix--mix,4_reprompt,Played,0.9230769230769231,0.2773500981126145,0.07692307692307691,1.0,1.0,0.0,-3.605551275463987
+datingsim,mix--mix,4_reprompt,Request Count,10.307692307692308,1.6012815380508714,2.5641025641025643,10.0,14.0,8.0,0.7008590935475276
+datingsim,mix--mix,4_reprompt,Request Success Ratio,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,mix--mix,4_reprompt,Success,0.9230769230769231,0.2773500981126145,0.07692307692307691,1.0,1.0,0.0,-3.605551275463987
+datingsim,mix--mix,4_reprompt,Time agreement,0.6153846153846154,0.5063696835418333,0.2564102564102564,1.0,1.0,0.0,-0.5385932088581317
+datingsim,mix--mix,4_reprompt,Turn penalty,3.4615384615384617,5.910659644734878,34.93589743589743,0.0,20.0,0.0,2.137752868118908
+datingsim,mix--mix,4_reprompt,Violated Request Count,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,4_reprompt,Violated pattern,0.07692307692307693,0.2773500981126145,0.07692307692307691,0.0,1.0,0.0,3.605551275463987
+datingsim,mix--mix,4_reprompt,Violated token length,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,7_themselves,Aborted,0.38461538461538464,0.5063696835418333,0.2564102564102564,0.0,1.0,0.0,0.5385932088581316
+datingsim,mix--mix,7_themselves,Action agreement,0.3076923076923077,0.4803844614152614,0.2307692307692308,0.0,1.0,0.0,0.9462118179391512
+datingsim,mix--mix,7_themselves,Agreement Efficiency,35.84615384615385,37.22643808246624,1385.8076923076924,33.0,100.0,0.0,0.6837365004568596
+datingsim,mix--mix,7_themselves,Agreement penalty,14.423076923076923,8.363726626147168,69.95192307692308,15.0,22.5,0.0,-0.6782199328295728
+datingsim,mix--mix,7_themselves,Error penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,7_themselves,Friendzoned,0.07692307692307693,0.2773500981126146,0.07692307692307693,0.0,1.0,0.0,3.605551275463987
+datingsim,mix--mix,7_themselves,Inefficiency penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,7_themselves,Location agreement,0.3076923076923077,0.4803844614152614,0.2307692307692308,0.0,1.0,0.0,0.9462118179391514
+datingsim,mix--mix,7_themselves,Lose,0.07692307692307693,0.2773500981126146,0.07692307692307693,0.0,1.0,0.0,3.605551275463987
+datingsim,mix--mix,7_themselves,Main Score,72.5,30.296157229212138,917.8571428571429,77.5,100.0,0.0,-2.4376735147984827
+datingsim,mix--mix,7_themselves,Number of Agreements,1.0769230769230769,1.1151635501529555,1.2435897435897436,1.0,3.0,0.0,0.6782199328295729
+datingsim,mix--mix,7_themselves,Number of Mismatched Agreements,2.3846153846153846,0.7679476477883044,0.5897435897435895,3.0,3.0,1.0,-0.8492426728849868
+datingsim,mix--mix,7_themselves,Number of Redundancy,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,7_themselves,Number of Reprompts,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,7_themselves,Number of completed turns,8.76923076923077,1.7867030229749132,3.192307692307693,9.0,13.0,7.0,1.1340927619141608
+datingsim,mix--mix,7_themselves,Out of retries,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,7_themselves,Out of turns,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,mix--mix,7_themselves,Parsed Request Count,8.76923076923077,1.7867030229749132,3.192307692307693,9.0,13.0,7.0,1.1340927619141608
+datingsim,mix--mix,7_themselves,Played,0.6153846153846154,0.5063696835418333,0.2564102564102564,1.0,1.0,0.0,-0.5385932088581317
+datingsim,mix--mix,7_themselves,Request Count,9.153846153846153,1.5191090506255,2.307692307692308,9.0,13.0,8.0,1.5499515677139586
+datingsim,mix--mix,7_themselves,Request Success Ratio,0.9538461538461539,0.06110625466328598,0.0037339743589743595,1.0,1.0,0.875,-0.5741775061031813
+datingsim,mix--mix,7_themselves,Success,0.5384615384615384,0.5188745216627708,0.2692307692307692,1.0,1.0,0.0,-0.17520438393807822
+datingsim,mix--mix,7_themselves,Time agreement,0.46153846153846156,0.5188745216627708,0.2692307692307692,0.0,1.0,0.0,0.17520438393807816
+datingsim,mix--mix,7_themselves,Turn penalty,1.5384615384615385,4.274252071325551,18.26923076923077,0.0,15.0,0.0,3.0784086940294824
+datingsim,mix--mix,7_themselves,Violated Request Count,0.38461538461538464,0.5063696835418333,0.2564102564102564,0.0,1.0,0.0,0.5385932088581316
+datingsim,mix--mix,7_themselves,Violated pattern,0.38461538461538464,0.5063696835418333,0.2564102564102564,0.0,1.0,0.0,0.5385932088581316
+datingsim,mix--mix,7_themselves,Violated token length,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,open--open,0_easy,Aborted,0.9230769230769231,0.2773500981126145,0.07692307692307691,1.0,1.0,0.0,-3.605551275463987
+datingsim,open--open,0_easy,Action agreement,0.23076923076923078,0.4385290096535146,0.19230769230769232,0.0,1.0,0.0,1.4511323592170835
+datingsim,open--open,0_easy,Agreement Efficiency,20.53846153846154,39.79659823112059,1583.7692307692305,0.0,100.0,0.0,1.5892925741469208
+datingsim,open--open,0_easy,Agreement penalty,17.884615384615383,8.94695908804086,80.04807692307692,22.5,22.5,0.0,-1.5921020320202326
+datingsim,open--open,0_easy,Error penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,open--open,0_easy,Friendzoned,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,open--open,0_easy,Inefficiency penalty,1.5384615384615385,3.7553380809940538,14.102564102564102,0.0,10.0,0.0,2.178716804014734
+datingsim,open--open,0_easy,Location agreement,0.23076923076923078,0.4385290096535146,0.19230769230769232,0.0,1.0,0.0,1.4511323592170835
+datingsim,open--open,0_easy,Lose,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,open--open,0_easy,Main Score,82.5,,,82.5,82.5,82.5,
+datingsim,open--open,0_easy,Number of Agreements,0.6153846153846154,1.1929278784054478,1.4230769230769227,0.0,3.0,0.0,1.5921020320202337
+datingsim,open--open,0_easy,Number of Mismatched Agreements,0.7692307692307693,1.4806443503784736,2.1923076923076925,0.0,4.0,0.0,1.5586558591437625
+datingsim,open--open,0_easy,Number of Redundancy,0.15384615384615385,0.3755338080994054,0.14102564102564102,0.0,1.0,0.0,2.1787168040147336
+datingsim,open--open,0_easy,Number of Reprompts,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,open--open,0_easy,Number of completed turns,2.3846153846153846,3.841407327583246,14.756410256410255,0.0,10.0,0.0,1.4037116197823463
+datingsim,open--open,0_easy,Out of retries,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,open--open,0_easy,Out of turns,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,open--open,0_easy,Parsed Request Count,2.3846153846153846,3.841407327583246,14.756410256410255,0.0,10.0,0.0,1.4037116197823463
+datingsim,open--open,0_easy,Played,0.07692307692307693,0.2773500981126146,0.07692307692307693,0.0,1.0,0.0,3.605551275463987
+datingsim,open--open,0_easy,Request Count,3.3076923076923075,3.7055052598490845,13.730769230769232,1.0,11.0,1.0,1.4198517542612694
+datingsim,open--open,0_easy,Request Success Ratio,0.3434343434343434,0.41106581538868586,0.16897510458116516,0.0,1.0,0.0,0.544749962646341
+datingsim,open--open,0_easy,Success,0.07692307692307693,0.2773500981126146,0.07692307692307693,0.0,1.0,0.0,3.605551275463987
+datingsim,open--open,0_easy,Time agreement,0.15384615384615385,0.3755338080994054,0.14102564102564102,0.0,1.0,0.0,2.1787168040147336
+datingsim,open--open,0_easy,Turn penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,open--open,0_easy,Violated Request Count,0.9230769230769231,0.2773500981126145,0.07692307692307691,1.0,1.0,0.0,-3.605551275463987
+datingsim,open--open,0_easy,Violated pattern,0.9230769230769231,0.2773500981126145,0.07692307692307691,1.0,1.0,0.0,-3.605551275463987
+datingsim,open--open,0_easy,Violated token length,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,open--open,10_same_gender,Aborted,0.3076923076923077,0.4803844614152614,0.2307692307692308,0.0,1.0,0.0,0.9462118179391512
+datingsim,open--open,10_same_gender,Action agreement,0.3076923076923077,0.4803844614152614,0.2307692307692308,0.0,1.0,0.0,0.9462118179391512
+datingsim,open--open,10_same_gender,Agreement Efficiency,43.61538461538461,37.07321239012175,1374.423076923077,33.0,100.0,0.0,0.14341864708274996
+datingsim,open--open,10_same_gender,Agreement penalty,12.692307692307692,8.320502943378436,69.23076923076923,15.0,22.5,0.0,-0.14340260754686288
+datingsim,open--open,10_same_gender,Error penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,open--open,10_same_gender,Friendzoned,0.07692307692307693,0.2773500981126146,0.07692307692307693,0.0,1.0,0.0,3.605551275463987
+datingsim,open--open,10_same_gender,Inefficiency penalty,10.76923076923077,33.03067727167642,1091.025641025641,0.0,120.0,0.0,3.527520700299342
+datingsim,open--open,10_same_gender,Location agreement,0.46153846153846156,0.5188745216627708,0.2692307692307692,0.0,1.0,0.0,0.17520438393807822
+datingsim,open--open,10_same_gender,Lose,0.07692307692307693,0.2773500981126146,0.07692307692307693,0.0,1.0,0.0,3.605551275463987
+datingsim,open--open,10_same_gender,Main Score,78.61111111111111,29.872413881558202,892.3611111111111,90.0,92.5,0.0,-2.8567691657656207
+datingsim,open--open,10_same_gender,Number of Agreements,1.3076923076923077,1.109400392450458,1.2307692307692306,1.0,3.0,0.0,0.14340260754686318
+datingsim,open--open,10_same_gender,Number of Mismatched Agreements,2.4615384615384617,2.1453587351685734,4.602564102564101,3.0,6.0,0.0,0.18201086642373773
+datingsim,open--open,10_same_gender,Number of Redundancy,1.0769230769230769,3.3030677271676416,10.910256410256409,0.0,12.0,0.0,3.527520700299345
+datingsim,open--open,10_same_gender,Number of Reprompts,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,open--open,10_same_gender,Number of completed turns,7.538461538461538,4.332347027793453,18.76923076923077,9.0,15.0,1.0,-0.42010593743132224
+datingsim,open--open,10_same_gender,Out of retries,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,open--open,10_same_gender,Out of turns,0.07692307692307693,0.2773500981126146,0.07692307692307693,0.0,1.0,0.0,3.605551275463987
+datingsim,open--open,10_same_gender,Parsed Request Count,7.538461538461538,4.332347027793453,18.76923076923077,9.0,15.0,1.0,-0.42010593743132224
+datingsim,open--open,10_same_gender,Played,0.6923076923076923,0.4803844614152614,0.2307692307692308,1.0,1.0,0.0,-0.9462118179391512
+datingsim,open--open,10_same_gender,Request Count,7.769230769230769,3.961351750641149,15.692307692307693,9.0,15.0,2.0,-0.2352273265476528
+datingsim,open--open,10_same_gender,Request Success Ratio,0.8846153846153846,0.2192645048267573,0.04807692307692307,1.0,1.0,0.5,-1.451132359217084
+datingsim,open--open,10_same_gender,Success,0.6153846153846154,0.5063696835418333,0.2564102564102564,1.0,1.0,0.0,-0.5385932088581317
+datingsim,open--open,10_same_gender,Time agreement,0.5384615384615384,0.5188745216627708,0.2692307692307692,1.0,1.0,0.0,-0.17520438393807813
+datingsim,open--open,10_same_gender,Turn penalty,2.3076923076923075,6.95682656801475,48.397435897435884,0.0,25.0,0.0,3.3841646226828868
+datingsim,open--open,10_same_gender,Violated Request Count,0.23076923076923078,0.4385290096535146,0.19230769230769232,0.0,1.0,0.0,1.4511323592170842
+datingsim,open--open,10_same_gender,Violated pattern,0.23076923076923078,0.4385290096535146,0.19230769230769232,0.0,1.0,0.0,1.4511323592170842
+datingsim,open--open,10_same_gender,Violated token length,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,open--open,12_less_turns,Aborted,0.6153846153846154,0.5063696835418333,0.2564102564102564,1.0,1.0,0.0,-0.5385932088581317
+datingsim,open--open,12_less_turns,Action agreement,0.46153846153846156,0.5188745216627708,0.2692307692307692,0.0,1.0,0.0,0.17520438393807816
+datingsim,open--open,12_less_turns,Agreement Efficiency,48.84615384615385,37.644933598573736,1417.1410256410256,67.0,100.0,0.0,-0.3074625973831903
+datingsim,open--open,12_less_turns,Agreement penalty,11.538461538461538,8.449510682236621,71.39423076923077,7.5,22.5,0.0,0.30076561940944113
+datingsim,open--open,12_less_turns,Error penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,open--open,12_less_turns,Friendzoned,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,open--open,12_less_turns,Inefficiency penalty,5.384615384615385,11.982893790305562,143.5897435897436,0.0,40.0,0.0,2.4690228820165916
+datingsim,open--open,12_less_turns,Location agreement,0.5384615384615384,0.5188745216627708,0.2692307692307692,1.0,1.0,0.0,-0.17520438393807822
+datingsim,open--open,12_less_turns,Lose,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,open--open,12_less_turns,Main Score,91.5,11.26388032606881,126.875,92.5,100.0,72.5,-1.641106007855496
+datingsim,open--open,12_less_turns,Number of Agreements,1.4615384615384615,1.126601424298216,1.2692307692307692,2.0,3.0,0.0,-0.3007656194094408
+datingsim,open--open,12_less_turns,Number of Mismatched Agreements,2.6153846153846154,2.142368686697878,4.589743589743589,3.0,6.0,0.0,0.11307808653866952
+datingsim,open--open,12_less_turns,Number of Redundancy,0.5384615384615384,1.1982893790305562,1.435897435897436,0.0,4.0,0.0,2.469022882016591
+datingsim,open--open,12_less_turns,Number of Reprompts,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,open--open,12_less_turns,Number of completed turns,6.615384615384615,4.46352740812431,19.923076923076923,9.0,10.0,0.0,-0.8952872091398842
+datingsim,open--open,12_less_turns,Out of retries,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,open--open,12_less_turns,Out of turns,0.3076923076923077,0.4803844614152614,0.2307692307692308,0.0,1.0,0.0,0.9462118179391512
+datingsim,open--open,12_less_turns,Parsed Request Count,6.615384615384615,4.46352740812431,19.923076923076923,9.0,10.0,0.0,-0.8952872091398842
+datingsim,open--open,12_less_turns,Played,0.38461538461538464,0.5063696835418333,0.2564102564102564,0.0,1.0,0.0,0.5385932088581316
+datingsim,open--open,12_less_turns,Request Count,6.923076923076923,3.9887662767146947,15.910256410256409,9.0,10.0,1.0,-0.8829095956486939
+datingsim,open--open,12_less_turns,Request Success Ratio,0.7307692307692307,0.4385290096535146,0.19230769230769232,1.0,1.0,0.0,-1.1764537340795647
+datingsim,open--open,12_less_turns,Success,0.38461538461538464,0.5063696835418333,0.2564102564102564,0.0,1.0,0.0,0.5385932088581316
+datingsim,open--open,12_less_turns,Time agreement,0.46153846153846156,0.5188745216627708,0.2692307692307692,0.0,1.0,0.0,0.17520438393807813
+datingsim,open--open,12_less_turns,Turn penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,open--open,12_less_turns,Violated Request Count,0.3076923076923077,0.48038446141526137,0.23076923076923075,0.0,1.0,0.0,0.9462118179391512
+datingsim,open--open,12_less_turns,Violated pattern,0.3076923076923077,0.48038446141526137,0.23076923076923075,0.0,1.0,0.0,0.9462118179391512
+datingsim,open--open,12_less_turns,Violated token length,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,open--open,13_more_turns,Aborted,0.23076923076923078,0.43852900965351466,0.19230769230769237,0.0,1.0,0.0,1.4511323592170835
+datingsim,open--open,13_more_turns,Action agreement,0.5384615384615384,0.5188745216627708,0.2692307692307692,1.0,1.0,0.0,-0.17520438393807813
+datingsim,open--open,13_more_turns,Agreement Efficiency,56.53846153846154,37.04415245041018,1372.2692307692305,67.0,100.0,0.0,-0.5852377341571502
+datingsim,open--open,13_more_turns,Agreement penalty,9.807692307692308,8.320502943378436,69.23076923076923,7.5,22.5,0.0,0.5761711910365037
+datingsim,open--open,13_more_turns,Error penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,open--open,13_more_turns,Friendzoned,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,open--open,13_more_turns,Inefficiency penalty,0.7692307692307693,2.773500981126145,7.69230769230769,0.0,10.0,0.0,3.605551275463991
+datingsim,open--open,13_more_turns,Location agreement,0.6923076923076923,0.4803844614152614,0.2307692307692308,1.0,1.0,0.0,-0.9462118179391512
+datingsim,open--open,13_more_turns,Lose,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,open--open,13_more_turns,Main Score,93.0,4.377975178854566,19.16666666666667,92.5,100.0,85.0,0.24207140639224203
+datingsim,open--open,13_more_turns,Number of Agreements,1.6923076923076923,1.1094003924504583,1.2307692307692308,2.0,3.0,0.0,-0.576171191036504
+datingsim,open--open,13_more_turns,Number of Mismatched Agreements,2.6153846153846154,1.7097008285302207,2.923076923076923,3.0,6.0,0.0,-0.2322799287313157
+datingsim,open--open,13_more_turns,Number of Redundancy,0.07692307692307693,0.2773500981126146,0.07692307692307693,0.0,1.0,0.0,3.605551275463987
+datingsim,open--open,13_more_turns,Number of Reprompts,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,open--open,13_more_turns,Number of completed turns,6.923076923076923,3.639174321682014,13.243589743589746,8.0,10.0,0.0,-1.324798858086818
+datingsim,open--open,13_more_turns,Out of retries,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,open--open,13_more_turns,Out of turns,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,open--open,13_more_turns,Parsed Request Count,6.923076923076923,3.639174321682014,13.243589743589746,8.0,10.0,0.0,-1.324798858086818
+datingsim,open--open,13_more_turns,Played,0.7692307692307693,0.43852900965351466,0.19230769230769237,1.0,1.0,0.0,-1.4511323592170855
+datingsim,open--open,13_more_turns,Request Count,7.153846153846154,3.2105595007244934,10.307692307692308,8.0,10.0,1.0,-1.2889961745248606
+datingsim,open--open,13_more_turns,Request Success Ratio,0.8461538461538461,0.3152125859780576,0.09935897435897435,1.0,1.0,0.0,-2.051401481879336
+datingsim,open--open,13_more_turns,Success,0.7692307692307693,0.43852900965351466,0.19230769230769237,1.0,1.0,0.0,-1.4511323592170855
+datingsim,open--open,13_more_turns,Time agreement,0.46153846153846156,0.5188745216627708,0.2692307692307692,0.0,1.0,0.0,0.17520438393807822
+datingsim,open--open,13_more_turns,Turn penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,open--open,13_more_turns,Violated Request Count,0.23076923076923078,0.43852900965351466,0.19230769230769237,0.0,1.0,0.0,1.4511323592170835
+datingsim,open--open,13_more_turns,Violated pattern,0.23076923076923078,0.43852900965351466,0.19230769230769237,0.0,1.0,0.0,1.4511323592170835
+datingsim,open--open,13_more_turns,Violated token length,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,open--open,1_medium,Aborted,0.6923076923076923,0.48038446141526137,0.23076923076923075,1.0,1.0,0.0,-0.946211817939151
+datingsim,open--open,1_medium,Action agreement,0.38461538461538464,0.5063696835418333,0.2564102564102564,0.0,1.0,0.0,0.5385932088581316
+datingsim,open--open,1_medium,Agreement Efficiency,33.38461538461539,36.10756721597857,1303.7564102564102,33.0,100.0,0.0,0.46925859454856367
+datingsim,open--open,1_medium,Agreement penalty,15.0,8.100925873009825,65.625,15.0,22.5,0.0,-0.4689218687159676
+datingsim,open--open,1_medium,Error penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,open--open,1_medium,Friendzoned,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,open--open,1_medium,Inefficiency penalty,3.076923076923077,7.510676161988107,56.4102564102564,0.0,20.0,0.0,2.178716804014734
+datingsim,open--open,1_medium,Location agreement,0.3076923076923077,0.48038446141526137,0.23076923076923075,0.0,1.0,0.0,0.9462118179391512
+datingsim,open--open,1_medium,Lose,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,open--open,1_medium,Main Score,83.75,15.612494995995998,243.75000000000009,85.0,100.0,65.0,-0.32846800780530694
+datingsim,open--open,1_medium,Number of Agreements,1.0,1.0801234497346435,1.1666666666666667,1.0,3.0,0.0,0.4689218687159676
+datingsim,open--open,1_medium,Number of Mismatched Agreements,2.5384615384615383,3.6881654114971716,13.602564102564102,1.0,12.0,0.0,1.788936090256855
+datingsim,open--open,1_medium,Number of Redundancy,0.3076923076923077,0.7510676161988108,0.5641025641025641,0.0,2.0,0.0,2.1787168040147336
+datingsim,open--open,1_medium,Number of Reprompts,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,open--open,1_medium,Number of completed turns,5.384615384615385,5.331329751860873,28.42307692307692,7.0,15.0,0.0,0.4177128952851724
+datingsim,open--open,1_medium,Out of retries,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,open--open,1_medium,Out of turns,0.07692307692307693,0.2773500981126146,0.07692307692307693,0.0,1.0,0.0,3.605551275463989
+datingsim,open--open,1_medium,Parsed Request Count,5.384615384615385,5.331329751860873,28.42307692307692,7.0,15.0,0.0,0.4177128952851724
+datingsim,open--open,1_medium,Played,0.3076923076923077,0.48038446141526137,0.23076923076923075,0.0,1.0,0.0,0.946211817939151
+datingsim,open--open,1_medium,Request Count,6.0,4.949747468305833,24.5,7.0,15.0,1.0,0.43367216847751683
+datingsim,open--open,1_medium,Request Success Ratio,0.5982905982905983,0.4497106100540529,0.2022396327951884,0.8888888888888888,1.0,0.0,-0.5255470194321146
+datingsim,open--open,1_medium,Success,0.3076923076923077,0.48038446141526137,0.23076923076923075,0.0,1.0,0.0,0.946211817939151
+datingsim,open--open,1_medium,Time agreement,0.3076923076923077,0.48038446141526137,0.23076923076923075,0.0,1.0,0.0,0.9462118179391512
+datingsim,open--open,1_medium,Turn penalty,3.076923076923077,7.783117824941562,60.57692307692307,0.0,25.0,0.0,2.4880876533851985
+datingsim,open--open,1_medium,Violated Request Count,0.6153846153846154,0.5063696835418333,0.2564102564102564,1.0,1.0,0.0,-0.5385932088581318
+datingsim,open--open,1_medium,Violated pattern,0.6153846153846154,0.5063696835418333,0.2564102564102564,1.0,1.0,0.0,-0.5385932088581318
+datingsim,open--open,1_medium,Violated token length,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,open--open,2_difficult,Aborted,0.6153846153846154,0.5063696835418333,0.2564102564102564,1.0,1.0,0.0,-0.5385932088581318
+datingsim,open--open,2_difficult,Action agreement,0.38461538461538464,0.5063696835418333,0.2564102564102564,0.0,1.0,0.0,0.5385932088581316
+datingsim,open--open,2_difficult,Agreement Efficiency,38.46153846153846,38.19165568684557,1458.6025641025637,33.0,100.0,0.0,0.4434867290859159
+datingsim,open--open,2_difficult,Agreement penalty,13.846153846153847,8.576578123452984,73.5576923076923,15.0,22.5,0.0,-0.4419136510291285
+datingsim,open--open,2_difficult,Error penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,open--open,2_difficult,Friendzoned,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,open--open,2_difficult,Inefficiency penalty,20.0,41.02844541697057,1683.3333333333333,0.0,120.0,0.0,2.05341499016769
+datingsim,open--open,2_difficult,Location agreement,0.46153846153846156,0.5188745216627708,0.2692307692307692,0.0,1.0,0.0,0.17520438393807816
+datingsim,open--open,2_difficult,Lose,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,open--open,2_difficult,Main Score,86.5,16.639561292293738,276.875,92.5,100.0,57.5,-1.9402887179697725
+datingsim,open--open,2_difficult,Number of Agreements,1.1538461538461537,1.1435437497937313,1.3076923076923077,1.0,3.0,0.0,0.4419136510291286
+datingsim,open--open,2_difficult,Number of Mismatched Agreements,2.230769230769231,3.269909431820351,10.692307692307692,2.0,12.0,0.0,2.4450508492443106
+datingsim,open--open,2_difficult,Number of Redundancy,2.0,4.102844541697057,16.833333333333332,0.0,12.0,0.0,2.05341499016769
+datingsim,open--open,2_difficult,Number of Reprompts,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,open--open,2_difficult,Number of completed turns,7.153846153846154,6.066934341798361,36.807692307692314,8.0,15.0,0.0,-0.01230689876616164
+datingsim,open--open,2_difficult,Out of retries,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,open--open,2_difficult,Out of turns,0.23076923076923078,0.4385290096535146,0.19230769230769232,0.0,1.0,0.0,1.4511323592170835
+datingsim,open--open,2_difficult,Parsed Request Count,7.153846153846154,6.066934341798361,36.807692307692314,8.0,15.0,0.0,-0.01230689876616164
+datingsim,open--open,2_difficult,Played,0.38461538461538464,0.5063696835418333,0.2564102564102564,0.0,1.0,0.0,0.5385932088581316
+datingsim,open--open,2_difficult,Request Count,7.538461538461538,5.606772461576932,31.43589743589744,8.0,15.0,1.0,0.07129732648092618
+datingsim,open--open,2_difficult,Request Success Ratio,0.6923076923076923,0.43485924631145206,0.18910256410256412,1.0,1.0,0.0,-0.9301134019197179
+datingsim,open--open,2_difficult,Success,0.38461538461538464,0.5063696835418333,0.2564102564102564,0.0,1.0,0.0,0.5385932088581316
+datingsim,open--open,2_difficult,Time agreement,0.3076923076923077,0.4803844614152614,0.2307692307692308,0.0,1.0,0.0,0.9462118179391512
+datingsim,open--open,2_difficult,Turn penalty,6.153846153846154,10.830867569483633,117.3076923076923,0.0,25.0,0.0,1.3938745207547332
+datingsim,open--open,2_difficult,Violated Request Count,0.38461538461538464,0.5063696835418333,0.2564102564102564,0.0,1.0,0.0,0.5385932088581316
+datingsim,open--open,2_difficult,Violated pattern,0.38461538461538464,0.5063696835418333,0.2564102564102564,0.0,1.0,0.0,0.5385932088581316
+datingsim,open--open,2_difficult,Violated token length,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,open--open,4_reprompt,Aborted,0.6153846153846154,0.5063696835418333,0.2564102564102564,1.0,1.0,0.0,-0.5385932088581317
+datingsim,open--open,4_reprompt,Action agreement,0.38461538461538464,0.5063696835418333,0.25641025641025644,0.0,1.0,0.0,0.5385932088581317
+datingsim,open--open,4_reprompt,Agreement Efficiency,28.23076923076923,35.6888260901407,1273.6923076923076,0.0,100.0,0.0,0.8389160822276159
+datingsim,open--open,4_reprompt,Agreement penalty,16.153846153846153,8.011410132285846,64.1826923076923,22.5,22.5,0.0,-0.8376714472366547
+datingsim,open--open,4_reprompt,Error penalty,3.076923076923077,2.531848417709167,6.4102564102564115,5.0,5.0,0.0,-0.5385932088581322
+datingsim,open--open,4_reprompt,Friendzoned,0.07692307692307693,0.2773500981126146,0.07692307692307693,0.0,1.0,0.0,3.605551275463987
+datingsim,open--open,4_reprompt,Inefficiency penalty,2.3076923076923075,5.991446895152781,35.8974358974359,0.0,20.0,0.0,2.6823952298451856
+datingsim,open--open,4_reprompt,Location agreement,0.3076923076923077,0.4803844614152614,0.2307692307692308,0.0,1.0,0.0,0.9462118179391512
+datingsim,open--open,4_reprompt,Lose,0.07692307692307693,0.2773500981126146,0.07692307692307693,0.0,1.0,0.0,3.605551275463987
+datingsim,open--open,4_reprompt,Main Score,70.0,41.34458852135307,1709.375,92.5,100.0,0.0,-1.7294562327110983
+datingsim,open--open,4_reprompt,Number of Agreements,0.8461538461538461,1.0681880176381127,1.141025641025641,0.0,3.0,0.0,0.8376714472366544
+datingsim,open--open,4_reprompt,Number of Mismatched Agreements,1.6153846153846154,2.2188007849009166,4.923076923076923,0.0,7.0,0.0,1.3335162121433755
+datingsim,open--open,4_reprompt,Number of Redundancy,0.23076923076923078,0.5991446895152781,0.358974358974359,0.0,2.0,0.0,2.6823952298451874
+datingsim,open--open,4_reprompt,Number of Reprompts,0.6153846153846154,0.5063696835418333,0.2564102564102564,1.0,1.0,0.0,-0.5385932088581317
+datingsim,open--open,4_reprompt,Number of completed turns,4.846153846153846,4.469268281761454,19.974358974358974,2.0,14.0,1.0,0.6825310300783515
+datingsim,open--open,4_reprompt,Out of retries,0.6153846153846154,0.5063696835418333,0.2564102564102564,1.0,1.0,0.0,-0.5385932088581317
+datingsim,open--open,4_reprompt,Out of turns,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,open--open,4_reprompt,Parsed Request Count,4.846153846153846,4.469268281761454,19.974358974358974,2.0,14.0,1.0,0.6825310300783515
+datingsim,open--open,4_reprompt,Played,0.38461538461538464,0.5063696835418333,0.2564102564102564,0.0,1.0,0.0,0.5385932088581316
+datingsim,open--open,4_reprompt,Request Count,5.461538461538462,4.175631381707134,17.435897435897434,3.0,15.0,2.0,0.9861456561282039
+datingsim,open--open,4_reprompt,Request Success Ratio,0.7384615384615384,0.2460224898806317,0.06052706552706553,0.6666666666666666,1.0,0.5,0.10000134661756738
+datingsim,open--open,4_reprompt,Success,0.3076923076923077,0.4803844614152614,0.2307692307692308,0.0,1.0,0.0,0.9462118179391512
+datingsim,open--open,4_reprompt,Time agreement,0.15384615384615385,0.37553380809940534,0.141025641025641,0.0,1.0,0.0,2.178716804014732
+datingsim,open--open,4_reprompt,Turn penalty,1.5384615384615385,5.547001962252291,30.769230769230763,0.0,20.0,0.0,3.6055512754639887
+datingsim,open--open,4_reprompt,Violated Request Count,0.6153846153846154,0.5063696835418333,0.2564102564102564,1.0,1.0,0.0,-0.5385932088581317
+datingsim,open--open,4_reprompt,Violated pattern,0.6923076923076923,0.6304251719561151,0.39743589743589736,1.0,2.0,0.0,0.3070124666758191
+datingsim,open--open,4_reprompt,Violated token length,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,open--open,7_themselves,Aborted,0.7692307692307693,0.4385290096535146,0.1923076923076923,1.0,1.0,0.0,-1.4511323592170853
+datingsim,open--open,7_themselves,Action agreement,0.15384615384615385,0.37553380809940534,0.141025641025641,0.0,1.0,0.0,2.1787168040147327
+datingsim,open--open,7_themselves,Agreement Efficiency,15.461538461538462,29.38144364678548,863.2692307692308,0.0,67.0,0.0,1.4511323592170848
+datingsim,open--open,7_themselves,Agreement penalty,19.03846153846154,6.577935144802719,43.26923076923077,22.5,22.5,7.5,-1.4511323592170857
+datingsim,open--open,7_themselves,Error penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,open--open,7_themselves,Friendzoned,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,open--open,7_themselves,Inefficiency penalty,0.7692307692307693,2.7735009811261455,7.692307692307691,0.0,10.0,0.0,3.6055512754639887
+datingsim,open--open,7_themselves,Location agreement,0.23076923076923078,0.4385290096535146,0.1923076923076923,0.0,1.0,0.0,1.4511323592170842
+datingsim,open--open,7_themselves,Lose,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,open--open,7_themselves,Main Score,89.16666666666667,5.77350269189626,33.33333333333336,92.5,92.5,82.5,-1.7320508075688854
+datingsim,open--open,7_themselves,Number of Agreements,0.46153846153846156,0.8770580193070292,0.7692307692307692,0.0,2.0,0.0,1.4511323592170842
+datingsim,open--open,7_themselves,Number of Mismatched Agreements,1.6153846153846154,3.640935354604673,13.256410256410255,0.0,13.0,0.0,2.961315652004007
+datingsim,open--open,7_themselves,Number of Redundancy,0.07692307692307693,0.2773500981126145,0.07692307692307691,0.0,1.0,0.0,3.6055512754639887
+datingsim,open--open,7_themselves,Number of Reprompts,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,open--open,7_themselves,Number of completed turns,3.4615384615384617,4.771711513621792,22.76923076923077,1.0,15.0,0.0,1.5322759146705072
+datingsim,open--open,7_themselves,Out of retries,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,open--open,7_themselves,Out of turns,0.07692307692307693,0.2773500981126146,0.07692307692307693,0.0,1.0,0.0,3.605551275463987
+datingsim,open--open,7_themselves,Parsed Request Count,3.4615384615384617,4.771711513621792,22.76923076923077,1.0,15.0,0.0,1.5322759146705072
+datingsim,open--open,7_themselves,Played,0.23076923076923078,0.4385290096535146,0.1923076923076923,0.0,1.0,0.0,1.4511323592170842
+datingsim,open--open,7_themselves,Request Count,4.153846153846154,4.3367836362553644,18.807692307692303,2.0,15.0,1.0,1.6515229777658134
+datingsim,open--open,7_themselves,Request Success Ratio,0.5384615384615384,0.37977726265637496,0.14423076923076922,0.5,1.0,0.0,-0.1356456970457514
+datingsim,open--open,7_themselves,Success,0.23076923076923078,0.4385290096535146,0.1923076923076923,0.0,1.0,0.0,1.4511323592170842
+datingsim,open--open,7_themselves,Time agreement,0.07692307692307693,0.2773500981126146,0.07692307692307693,0.0,1.0,0.0,3.605551275463987
+datingsim,open--open,7_themselves,Turn penalty,1.9230769230769231,6.933752452815365,48.07692307692309,0.0,25.0,0.0,3.6055512754639882
+datingsim,open--open,7_themselves,Violated Request Count,0.6923076923076923,0.4803844614152614,0.2307692307692308,1.0,1.0,0.0,-0.9462118179391512
+datingsim,open--open,7_themselves,Violated pattern,0.6923076923076923,0.4803844614152614,0.2307692307692308,1.0,1.0,0.0,-0.9462118179391512
+datingsim,open--open,7_themselves,Violated token length,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,0_easy,Aborted,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,0_easy,Action agreement,0.7692307692307693,0.43852900965351466,0.19230769230769237,1.0,1.0,0.0,-1.451132359217085
+datingsim,qwen--qwen,0_easy,Agreement Efficiency,89.84615384615384,15.852687226703626,251.3076923076923,100.0,100.0,67.0,-0.9462118179391495
+datingsim,qwen--qwen,0_easy,Agreement penalty,2.3076923076923075,3.6028834606144606,12.980769230769232,0.0,7.5,0.0,0.9462118179391514
+datingsim,qwen--qwen,0_easy,Error penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,0_easy,Friendzoned,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,0_easy,Inefficiency penalty,3.8461538461538463,7.679476477883044,58.97435897435897,0.0,20.0,0.0,1.7602484492525188
+datingsim,qwen--qwen,0_easy,Location agreement,0.9230769230769231,0.2773500981126145,0.07692307692307691,1.0,1.0,0.0,-3.6055512754639882
+datingsim,qwen--qwen,0_easy,Lose,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,0_easy,Main Score,90.0,12.829003598617211,164.58333333333337,92.5,100.0,65.0,-1.2331361370781961
+datingsim,qwen--qwen,0_easy,Number of Agreements,2.6923076923076925,0.48038446141526137,0.23076923076923073,3.0,3.0,2.0,-0.9462118179391524
+datingsim,qwen--qwen,0_easy,Number of Mismatched Agreements,3.3076923076923075,0.48038446141526137,0.23076923076923075,3.0,4.0,3.0,0.9462118179391524
+datingsim,qwen--qwen,0_easy,Number of Redundancy,0.38461538461538464,0.7679476477883045,0.5897435897435898,0.0,2.0,0.0,1.7602484492525186
+datingsim,qwen--qwen,0_easy,Number of Reprompts,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,0_easy,Number of completed turns,10.384615384615385,1.660244035197915,2.756410256410256,10.0,14.0,9.0,1.2071889959061366
+datingsim,qwen--qwen,0_easy,Out of retries,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,0_easy,Out of turns,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,0_easy,Parsed Request Count,10.384615384615385,1.660244035197915,2.756410256410256,10.0,14.0,9.0,1.2071889959061366
+datingsim,qwen--qwen,0_easy,Played,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,qwen--qwen,0_easy,Request Count,10.384615384615385,1.660244035197915,2.756410256410256,10.0,14.0,9.0,1.2071889959061366
+datingsim,qwen--qwen,0_easy,Request Success Ratio,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,qwen--qwen,0_easy,Success,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,qwen--qwen,0_easy,Time agreement,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,qwen--qwen,0_easy,Turn penalty,3.8461538461538463,6.817210498023291,46.47435897435897,0.0,20.0,0.0,1.6554082437314364
+datingsim,qwen--qwen,0_easy,Violated Request Count,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,0_easy,Violated pattern,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,0_easy,Violated token length,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,10_same_gender,Aborted,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,10_same_gender,Action agreement,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,qwen--qwen,10_same_gender,Agreement Efficiency,97.46153846153847,9.15255323771628,83.76923076923076,100.0,100.0,67.0,-3.605551275463991
+datingsim,qwen--qwen,10_same_gender,Agreement penalty,0.5769230769230769,2.080125735844609,4.326923076923077,0.0,7.5,0.0,3.6055512754639896
+datingsim,qwen--qwen,10_same_gender,Error penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,10_same_gender,Friendzoned,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,10_same_gender,Inefficiency penalty,3.076923076923077,6.304251719561152,39.743589743589745,0.0,20.0,0.0,2.0514014818793354
+datingsim,qwen--qwen,10_same_gender,Location agreement,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,qwen--qwen,10_same_gender,Lose,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,10_same_gender,Main Score,93.26923076923077,12.640238962363055,159.77564102564102,100.0,100.0,55.0,-2.64513021159733
+datingsim,qwen--qwen,10_same_gender,Number of Agreements,2.923076923076923,0.2773500981126145,0.07692307692307691,3.0,3.0,2.0,-3.605551275463986
+datingsim,qwen--qwen,10_same_gender,Number of Mismatched Agreements,3.076923076923077,0.2773500981126145,0.07692307692307691,3.0,4.0,3.0,3.6055512754639856
+datingsim,qwen--qwen,10_same_gender,Number of Redundancy,0.3076923076923077,0.6304251719561152,0.3974358974358974,0.0,2.0,0.0,2.0514014818793362
+datingsim,qwen--qwen,10_same_gender,Number of Reprompts,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,10_same_gender,Number of completed turns,10.307692307692308,1.7021856236720767,2.8974358974358965,10.0,15.0,8.0,1.8276630223969752
+datingsim,qwen--qwen,10_same_gender,Out of retries,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,10_same_gender,Out of turns,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,10_same_gender,Parsed Request Count,10.307692307692308,1.7021856236720767,2.8974358974358965,10.0,15.0,8.0,1.8276630223969752
+datingsim,qwen--qwen,10_same_gender,Played,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,qwen--qwen,10_same_gender,Request Count,10.307692307692308,1.7021856236720767,2.8974358974358965,10.0,15.0,8.0,1.8276630223969752
+datingsim,qwen--qwen,10_same_gender,Request Success Ratio,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,qwen--qwen,10_same_gender,Success,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,qwen--qwen,10_same_gender,Time agreement,0.9230769230769231,0.2773500981126145,0.07692307692307691,1.0,1.0,0.0,-3.605551275463989
+datingsim,qwen--qwen,10_same_gender,Turn penalty,3.076923076923077,7.227972727092275,52.24358974358973,0.0,25.0,0.0,2.7604688302245135
+datingsim,qwen--qwen,10_same_gender,Violated Request Count,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,10_same_gender,Violated pattern,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,10_same_gender,Violated token length,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,12_less_turns,Aborted,0.15384615384615385,0.3755338080994054,0.14102564102564102,0.0,1.0,0.0,2.1787168040147336
+datingsim,qwen--qwen,12_less_turns,Action agreement,0.9230769230769231,0.2773500981126145,0.07692307692307691,1.0,1.0,0.0,-3.605551275463987
+datingsim,qwen--qwen,12_less_turns,Agreement Efficiency,94.92307692307692,12.392615667280378,153.5769230769231,100.0,100.0,67.0,-2.1787168040147313
+datingsim,qwen--qwen,12_less_turns,Agreement penalty,1.1538461538461537,2.81650356074554,7.9326923076923075,0.0,7.5,0.0,2.1787168040147327
+datingsim,qwen--qwen,12_less_turns,Error penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,12_less_turns,Friendzoned,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,12_less_turns,Inefficiency penalty,2.3076923076923075,4.385290096535146,19.23076923076923,0.0,10.0,0.0,1.4511323592170848
+datingsim,qwen--qwen,12_less_turns,Location agreement,0.9230769230769231,0.2773500981126145,0.07692307692307691,1.0,1.0,0.0,-3.605551275463987
+datingsim,qwen--qwen,12_less_turns,Lose,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,12_less_turns,Main Score,96.81818181818181,4.484822890999863,20.113636363636363,100.0,100.0,90.0,-0.7715916685016796
+datingsim,qwen--qwen,12_less_turns,Number of Agreements,2.8461538461538463,0.3755338080994054,0.14102564102564105,3.0,3.0,2.0,-2.178716804014734
+datingsim,qwen--qwen,12_less_turns,Number of Mismatched Agreements,3.0,0.40824829046386313,0.16666666666666677,3.0,4.0,2.0,0.0
+datingsim,qwen--qwen,12_less_turns,Number of Redundancy,0.23076923076923078,0.4385290096535146,0.1923076923076923,0.0,1.0,0.0,1.4511323592170844
+datingsim,qwen--qwen,12_less_turns,Number of Reprompts,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,12_less_turns,Number of completed turns,9.692307692307692,0.48038446141526125,0.23076923076923064,10.0,10.0,9.0,-0.9462118179391461
+datingsim,qwen--qwen,12_less_turns,Out of retries,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,12_less_turns,Out of turns,0.15384615384615385,0.3755338080994054,0.14102564102564102,0.0,1.0,0.0,2.1787168040147336
+datingsim,qwen--qwen,12_less_turns,Parsed Request Count,9.692307692307692,0.48038446141526125,0.23076923076923064,10.0,10.0,9.0,-0.9462118179391461
+datingsim,qwen--qwen,12_less_turns,Played,0.8461538461538461,0.3755338080994054,0.14102564102564102,1.0,1.0,0.0,-2.1787168040147336
+datingsim,qwen--qwen,12_less_turns,Request Count,9.692307692307692,0.48038446141526125,0.23076923076923064,10.0,10.0,9.0,-0.9462118179391461
+datingsim,qwen--qwen,12_less_turns,Request Success Ratio,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,qwen--qwen,12_less_turns,Success,0.8461538461538461,0.3755338080994054,0.14102564102564102,1.0,1.0,0.0,-2.1787168040147336
+datingsim,qwen--qwen,12_less_turns,Time agreement,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,qwen--qwen,12_less_turns,Turn penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,12_less_turns,Violated Request Count,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,12_less_turns,Violated pattern,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,12_less_turns,Violated token length,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,13_more_turns,Aborted,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,13_more_turns,Action agreement,0.9230769230769231,0.2773500981126145,0.07692307692307691,1.0,1.0,0.0,-3.605551275463989
+datingsim,qwen--qwen,13_more_turns,Agreement Efficiency,97.46153846153847,9.15255323771628,83.76923076923076,100.0,100.0,67.0,-3.605551275463991
+datingsim,qwen--qwen,13_more_turns,Agreement penalty,0.5769230769230769,2.0801257358446095,4.3269230769230775,0.0,7.5,0.0,3.6055512754639896
+datingsim,qwen--qwen,13_more_turns,Error penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,13_more_turns,Friendzoned,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,13_more_turns,Inefficiency penalty,1.5384615384615385,5.547001962252291,30.769230769230763,0.0,20.0,0.0,3.605551275463991
+datingsim,qwen--qwen,13_more_turns,Location agreement,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,qwen--qwen,13_more_turns,Lose,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,13_more_turns,Main Score,91.73076923076923,12.135717573577633,147.275641025641,100.0,100.0,65.0,-1.3488143289773094
+datingsim,qwen--qwen,13_more_turns,Number of Agreements,2.923076923076923,0.2773500981126146,0.07692307692307693,3.0,3.0,2.0,-3.605551275463986
+datingsim,qwen--qwen,13_more_turns,Number of Mismatched Agreements,3.076923076923077,0.2773500981126146,0.07692307692307693,3.0,4.0,3.0,3.605551275463986
+datingsim,qwen--qwen,13_more_turns,Number of Redundancy,0.15384615384615385,0.554700196225229,0.30769230769230765,0.0,2.0,0.0,3.605551275463987
+datingsim,qwen--qwen,13_more_turns,Number of Reprompts,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,13_more_turns,Number of completed turns,11.076923076923077,2.059997510578531,4.243589743589745,10.0,15.0,9.0,1.163130067034798
+datingsim,qwen--qwen,13_more_turns,Out of retries,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,13_more_turns,Out of turns,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,13_more_turns,Parsed Request Count,11.076923076923077,2.059997510578531,4.243589743589745,10.0,15.0,9.0,1.163130067034798
+datingsim,qwen--qwen,13_more_turns,Played,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,qwen--qwen,13_more_turns,Request Count,11.076923076923077,2.059997510578531,4.243589743589745,10.0,15.0,9.0,1.163130067034798
+datingsim,qwen--qwen,13_more_turns,Request Success Ratio,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,qwen--qwen,13_more_turns,Success,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,qwen--qwen,13_more_turns,Time agreement,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,qwen--qwen,13_more_turns,Turn penalty,6.153846153846154,9.607689228305228,92.3076923076923,0.0,25.0,0.0,1.3626435815634128
+datingsim,qwen--qwen,13_more_turns,Violated Request Count,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,13_more_turns,Violated pattern,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,13_more_turns,Violated token length,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,1_medium,Aborted,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,1_medium,Action agreement,0.9230769230769231,0.2773500981126145,0.07692307692307691,1.0,1.0,0.0,-3.6055512754639882
+datingsim,qwen--qwen,1_medium,Agreement Efficiency,97.46153846153847,9.152553237716281,83.76923076923079,100.0,100.0,67.0,-3.6055512754639905
+datingsim,qwen--qwen,1_medium,Agreement penalty,0.5769230769230769,2.080125735844609,4.326923076923077,0.0,7.5,0.0,3.605551275463991
+datingsim,qwen--qwen,1_medium,Error penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,1_medium,Friendzoned,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,1_medium,Inefficiency penalty,4.615384615384615,9.674179220468453,93.58974358974359,0.0,30.0,0.0,2.085380655245559
+datingsim,qwen--qwen,1_medium,Location agreement,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,qwen--qwen,1_medium,Lose,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,1_medium,Main Score,89.42307692307692,17.325133662118063,300.1602564102564,100.0,100.0,45.0,-1.7789689939322932
+datingsim,qwen--qwen,1_medium,Number of Agreements,2.923076923076923,0.2773500981126145,0.07692307692307691,3.0,3.0,2.0,-3.6055512754639856
+datingsim,qwen--qwen,1_medium,Number of Mismatched Agreements,3.076923076923077,0.2773500981126145,0.07692307692307691,3.0,4.0,3.0,3.6055512754639856
+datingsim,qwen--qwen,1_medium,Number of Redundancy,0.46153846153846156,0.9674179220468452,0.9358974358974358,0.0,3.0,0.0,2.0853806552455567
+datingsim,qwen--qwen,1_medium,Number of Reprompts,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,1_medium,Number of completed turns,10.923076923076923,1.7541160386140584,3.0769230769230766,10.0,15.0,9.0,1.1226840975550028
+datingsim,qwen--qwen,1_medium,Out of retries,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,1_medium,Out of turns,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,1_medium,Parsed Request Count,10.923076923076923,1.7541160386140584,3.0769230769230766,10.0,15.0,9.0,1.1226840975550028
+datingsim,qwen--qwen,1_medium,Played,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,qwen--qwen,1_medium,Request Count,10.923076923076923,1.7541160386140584,3.0769230769230766,10.0,15.0,9.0,1.1226840975550028
+datingsim,qwen--qwen,1_medium,Request Success Ratio,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,qwen--qwen,1_medium,Success,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,qwen--qwen,1_medium,Time agreement,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,qwen--qwen,1_medium,Turn penalty,5.384615384615385,8.026398751811232,64.42307692307692,0.0,25.0,0.0,1.4250803608189597
+datingsim,qwen--qwen,1_medium,Violated Request Count,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,1_medium,Violated pattern,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,1_medium,Violated token length,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,2_difficult,Aborted,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,2_difficult,Action agreement,0.7692307692307693,0.4385290096535146,0.1923076923076923,1.0,1.0,0.0,-1.4511323592170848
+datingsim,qwen--qwen,2_difficult,Agreement Efficiency,89.84615384615384,15.852687226703626,251.3076923076923,100.0,100.0,67.0,-0.9462118179391495
+datingsim,qwen--qwen,2_difficult,Agreement penalty,2.3076923076923075,3.6028834606144606,12.980769230769232,0.0,7.5,0.0,0.9462118179391514
+datingsim,qwen--qwen,2_difficult,Error penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,2_difficult,Friendzoned,0.07692307692307693,0.2773500981126145,0.07692307692307691,0.0,1.0,0.0,3.6055512754639887
+datingsim,qwen--qwen,2_difficult,Inefficiency penalty,1.5384615384615385,3.755338080994054,14.102564102564104,0.0,10.0,0.0,2.1787168040147327
+datingsim,qwen--qwen,2_difficult,Location agreement,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,qwen--qwen,2_difficult,Lose,0.07692307692307693,0.2773500981126145,0.07692307692307691,0.0,1.0,0.0,3.6055512754639887
+datingsim,qwen--qwen,2_difficult,Main Score,87.11538461538461,26.903495626462313,723.7980769230768,92.5,100.0,0.0,-3.277517788425181
+datingsim,qwen--qwen,2_difficult,Number of Agreements,2.6923076923076925,0.48038446141526137,0.23076923076923073,3.0,3.0,2.0,-0.9462118179391524
+datingsim,qwen--qwen,2_difficult,Number of Mismatched Agreements,3.3076923076923075,0.48038446141526137,0.23076923076923073,3.0,4.0,3.0,0.9462118179391524
+datingsim,qwen--qwen,2_difficult,Number of Redundancy,0.15384615384615385,0.37553380809940534,0.141025641025641,0.0,1.0,0.0,2.1787168040147327
+datingsim,qwen--qwen,2_difficult,Number of Reprompts,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,2_difficult,Number of completed turns,10.384615384615385,1.043907845426784,1.0897435897435903,10.0,12.0,9.0,0.6208673927352385
+datingsim,qwen--qwen,2_difficult,Out of retries,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,2_difficult,Out of turns,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,2_difficult,Parsed Request Count,10.384615384615385,1.043907845426784,1.0897435897435903,10.0,12.0,9.0,0.6208673927352385
+datingsim,qwen--qwen,2_difficult,Played,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,qwen--qwen,2_difficult,Request Count,10.384615384615385,1.043907845426784,1.0897435897435903,10.0,12.0,9.0,0.6208673927352385
+datingsim,qwen--qwen,2_difficult,Request Success Ratio,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,qwen--qwen,2_difficult,Success,0.9230769230769231,0.2773500981126145,0.07692307692307691,1.0,1.0,0.0,-3.605551275463989
+datingsim,qwen--qwen,2_difficult,Time agreement,0.9230769230769231,0.2773500981126145,0.07692307692307691,1.0,1.0,0.0,-3.6055512754639882
+datingsim,qwen--qwen,2_difficult,Turn penalty,2.6923076923076925,4.385290096535146,19.230769230769223,0.0,10.0,0.0,1.1764537340795647
+datingsim,qwen--qwen,2_difficult,Violated Request Count,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,2_difficult,Violated pattern,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,2_difficult,Violated token length,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,4_reprompt,Aborted,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,4_reprompt,Action agreement,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,qwen--qwen,4_reprompt,Agreement Efficiency,100.0,0.0,0.0,100.0,100.0,100.0,0.0
+datingsim,qwen--qwen,4_reprompt,Agreement penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,4_reprompt,Error penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,4_reprompt,Friendzoned,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,4_reprompt,Inefficiency penalty,1.5384615384615385,5.547001962252291,30.769230769230763,0.0,20.0,0.0,3.6055512754639887
+datingsim,qwen--qwen,4_reprompt,Location agreement,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,qwen--qwen,4_reprompt,Lose,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,4_reprompt,Main Score,96.53846153846153,9.870962335856493,97.43589743589747,100.0,100.0,65.0,-3.194177445964502
+datingsim,qwen--qwen,4_reprompt,Number of Agreements,3.0,0.0,0.0,3.0,3.0,3.0,0.0
+datingsim,qwen--qwen,4_reprompt,Number of Mismatched Agreements,3.0,0.0,0.0,3.0,3.0,3.0,0.0
+datingsim,qwen--qwen,4_reprompt,Number of Redundancy,0.15384615384615385,0.5547001962252291,0.3076923076923077,0.0,2.0,0.0,3.605551275463989
+datingsim,qwen--qwen,4_reprompt,Number of Reprompts,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,4_reprompt,Number of completed turns,10.153846153846153,1.1435437497937309,1.3076923076923068,10.0,13.0,9.0,1.6273645561707595
+datingsim,qwen--qwen,4_reprompt,Out of retries,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,4_reprompt,Out of turns,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,4_reprompt,Parsed Request Count,10.153846153846153,1.1435437497937309,1.3076923076923068,10.0,13.0,9.0,1.6273645561707595
+datingsim,qwen--qwen,4_reprompt,Played,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,qwen--qwen,4_reprompt,Request Count,10.153846153846153,1.1435437497937309,1.3076923076923068,10.0,13.0,9.0,1.6273645561707595
+datingsim,qwen--qwen,4_reprompt,Request Success Ratio,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,qwen--qwen,4_reprompt,Success,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,qwen--qwen,4_reprompt,Time agreement,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,qwen--qwen,4_reprompt,Turn penalty,1.9230769230769231,4.803844614152614,23.076923076923077,0.0,15.0,0.0,2.3852422910549436
+datingsim,qwen--qwen,4_reprompt,Violated Request Count,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,4_reprompt,Violated pattern,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,4_reprompt,Violated token length,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,7_themselves,Aborted,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,7_themselves,Action agreement,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,qwen--qwen,7_themselves,Agreement Efficiency,84.76923076923077,17.122859214871436,293.1923076923077,100.0,100.0,67.0,-0.17520438393807938
+datingsim,qwen--qwen,7_themselves,Agreement penalty,3.4615384615384617,3.891558912470781,15.144230769230768,0.0,7.5,0.0,0.1752043839380783
+datingsim,qwen--qwen,7_themselves,Error penalty,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,7_themselves,Friendzoned,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,7_themselves,Inefficiency penalty,1.5384615384615385,5.547001962252291,30.769230769230763,0.0,20.0,0.0,3.6055512754639896
+datingsim,qwen--qwen,7_themselves,Location agreement,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,qwen--qwen,7_themselves,Lose,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,7_themselves,Main Score,93.46153846153847,9.272408754070545,85.97756410256409,92.5,100.0,65.0,-2.6757264708501127
+datingsim,qwen--qwen,7_themselves,Number of Agreements,2.5384615384615383,0.5188745216627708,0.2692307692307692,3.0,3.0,2.0,-0.17520438393807755
+datingsim,qwen--qwen,7_themselves,Number of Mismatched Agreements,3.0,0.0,0.0,3.0,3.0,3.0,0.0
+datingsim,qwen--qwen,7_themselves,Number of Redundancy,0.15384615384615385,0.554700196225229,0.30769230769230765,0.0,2.0,0.0,3.6055512754639873
+datingsim,qwen--qwen,7_themselves,Number of Reprompts,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,7_themselves,Number of completed turns,9.153846153846153,1.5191090506254998,2.3076923076923075,9.0,13.0,8.0,1.5499515677139581
+datingsim,qwen--qwen,7_themselves,Out of retries,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,7_themselves,Out of turns,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,7_themselves,Parsed Request Count,9.153846153846153,1.5191090506254998,2.3076923076923075,9.0,13.0,8.0,1.5499515677139581
+datingsim,qwen--qwen,7_themselves,Played,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,qwen--qwen,7_themselves,Request Count,9.153846153846153,1.5191090506254998,2.3076923076923075,9.0,13.0,8.0,1.5499515677139581
+datingsim,qwen--qwen,7_themselves,Request Success Ratio,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,qwen--qwen,7_themselves,Success,1.0,0.0,0.0,1.0,1.0,1.0,0.0
+datingsim,qwen--qwen,7_themselves,Time agreement,0.5384615384615384,0.5188745216627708,0.2692307692307692,1.0,1.0,0.0,-0.17520438393807813
+datingsim,qwen--qwen,7_themselves,Turn penalty,1.5384615384615385,4.274252071325551,18.26923076923077,0.0,15.0,0.0,3.078408694029484
+datingsim,qwen--qwen,7_themselves,Violated Request Count,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,7_themselves,Violated pattern,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+datingsim,qwen--qwen,7_themselves,Violated token length,0.0,0.0,0.0,0.0,0.0,0.0,0.0
