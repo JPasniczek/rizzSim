@@ -55,7 +55,7 @@ EXPERIMENTS = ["easy",
                "difficult-same_gender",
                "medium-less_turns",
                "medium-more_turns"
-]
+               ]
 
 logger = clemgame.get_logger(__name__)
 
@@ -69,7 +69,7 @@ class DatingSimInstanceGenerator(GameInstanceGenerator):
         return self.load_json("in/instances")
 
     def on_generate(self):
-        
+
         # get resources
         char_sheets = get_random_npcs(r'.\games\datingsim\resources\charactersheets.json')
         # number of how often each player can say sth
@@ -77,7 +77,7 @@ class DatingSimInstanceGenerator(GameInstanceGenerator):
         max_retries = 2
 
         # load prompts
-        initial_prompt_a = self.load_template('resources/initial_prompts/initialprompt_playerA.template') 
+        initial_prompt_a = self.load_template('resources/initial_prompts/initialprompt_playerA.template')
         initial_prompt_b = self.load_template('resources/initial_prompts/initialprompt_playerB.template')
 
         further_prompts = self.load_template('resources/prompts/further_prompts.template')
@@ -95,8 +95,7 @@ class DatingSimInstanceGenerator(GameInstanceGenerator):
                 experiment["re_prompt_allowed"] = False
 
                 for game_id in range(N_INSTANCES):
-
-                    # save charactersheets for players
+                    # save character sheets for players
                     char_player_a = random.choice(char_sheets)
                     char_player_b = random.choice(char_sheets)
 
@@ -108,8 +107,14 @@ class DatingSimInstanceGenerator(GameInstanceGenerator):
                     instance["char_b_a"] = char_player_a
                     instance["char_b_b"] = char_player_b
 
-                    instance["initial_prompt_player_a"] = initial_prompt_a.replace("$number_of_turns", str(experiment["n_turns"])).replace("$charsheet_a_a", str(instance["char_a_a"])).replace("$charsheet_a_b", str(instance["char_a_b"]))
-                    instance["initial_prompt_player_b"] = initial_prompt_b.replace("$number_of_turns", str(experiment["n_turns"])).replace("$charsheet_b_b", str(instance["char_b_b"])).replace("$charsheet_b_a", str(instance["char_b_a"]))
+                    instance["initial_prompt_player_a"] = initial_prompt_a.replace("$number_of_turns",
+                                                                                   str(experiment["n_turns"])).replace(
+                        "$charsheet_a_a", str(instance["char_a_a"])).replace("$charsheet_a_b",
+                                                                             str(instance["char_a_b"]))
+                    instance["initial_prompt_player_b"] = initial_prompt_b.replace("$number_of_turns",
+                                                                                   str(experiment["n_turns"])).replace(
+                        "$charsheet_b_b", str(instance["char_b_b"])).replace("$charsheet_b_a",
+                                                                             str(instance["char_b_a"]))
                     instance["further_prompts"] = further_prompts
                     instance["reprompt_prompt"] = reprompt_prompt
 
@@ -122,8 +127,7 @@ class DatingSimInstanceGenerator(GameInstanceGenerator):
                 experiment["re_prompt_allowed"] = False
 
                 for game_id in range(N_INSTANCES):
-
-                    # save charactersheets for players
+                    # save character sheets for players
                     char_player_a = random.choice(char_sheets)
                     char_player_b = random.choice(char_sheets)
 
@@ -132,24 +136,28 @@ class DatingSimInstanceGenerator(GameInstanceGenerator):
                     # populate game with parameters
                     # info player a has about themselves
                     instance["char_a_a"] = deepcopy(char_player_a)
-                    
+
                     # info player a has about player b
                     instance["char_a_b"] = deepcopy(char_player_b)
                     instance["char_a_b"].pop("HOBBIES")
                     instance["char_a_b"].pop("LIKES")
                     instance["char_a_b"].pop("DISLIKES")
-                    
+
                     # info player b has about player a
                     instance["char_b_a"] = deepcopy(char_player_a)
                     instance["char_b_a"].pop("HOBBIES")
                     instance["char_b_a"].pop("LIKES")
                     instance["char_b_a"].pop("DISLIKES")
-                    
+
                     # info player b has about themselves 
                     instance["char_b_b"] = deepcopy(char_player_b)
 
-                    instance["initial_prompt_player_a"] = initial_prompt_a.replace("$number_of_turns", str(experiment["n_turns"])).replace("$charsheet_a_a", str(instance["char_a_a"])).replace("charsheet_a_b", str(instance["char_a_b"]))
-                    instance["initial_prompt_player_b"] = initial_prompt_b.replace("$number_of_turns", str(experiment["n_turns"])).replace("$charsheet_b_b", str(instance["char_b_b"])).replace("charsheet_b_a", str(instance["char_b_a"]))
+                    instance["initial_prompt_player_a"] = initial_prompt_a.replace("$number_of_turns",
+                                                                                   str(experiment["n_turns"])).replace(
+                        "$charsheet_a_a", str(instance["char_a_a"])).replace("charsheet_a_b", str(instance["char_a_b"]))
+                    instance["initial_prompt_player_b"] = initial_prompt_b.replace("$number_of_turns",
+                                                                                   str(experiment["n_turns"])).replace(
+                        "$charsheet_b_b", str(instance["char_b_b"])).replace("charsheet_b_a", str(instance["char_b_a"]))
                     instance["further_prompts"] = further_prompts
                     instance["reprompt_prompt"] = reprompt_prompt
 
@@ -162,8 +170,7 @@ class DatingSimInstanceGenerator(GameInstanceGenerator):
                 experiment["re_prompt_allowed"] = False
 
                 for game_id in range(N_INSTANCES):
-
-                    # save charactersheets for players
+                    # save character sheets for players
                     char_player_a = random.choice(char_sheets)
                     char_player_b = random.choice(char_sheets)
 
@@ -172,7 +179,7 @@ class DatingSimInstanceGenerator(GameInstanceGenerator):
                     # populate game with parameters
                     # info player a has about themselves
                     instance["char_a_a"] = deepcopy(char_player_a)
-                    
+
                     # info player a has about player b - only leave name and summary 
                     instance["char_a_b"] = deepcopy(char_player_b)
                     instance["char_a_b"].pop("HOBBIES")
@@ -182,7 +189,7 @@ class DatingSimInstanceGenerator(GameInstanceGenerator):
                     instance["char_a_b"].pop("APPEARANCE")
                     instance["char_a_b"].pop("OCCUPATION")
                     instance["char_a_b"].pop("GENDER")
-                    
+
                     # info player b has about player a
                     instance["char_b_a"] = deepcopy(char_player_a)
                     instance["char_b_a"].pop("HOBBIES")
@@ -192,12 +199,16 @@ class DatingSimInstanceGenerator(GameInstanceGenerator):
                     instance["char_b_a"].pop("APPEARANCE")
                     instance["char_b_a"].pop("OCCUPATION")
                     instance["char_b_a"].pop("GENDER")
-                    
+
                     # info player b has about themselves 
                     instance["char_b_b"] = deepcopy(char_player_b)
 
-                    instance["initial_prompt_player_a"] = initial_prompt_a.replace("$number_of_turns", str(experiment["n_turns"])).replace("$charsheet_a_a", str(instance["char_a_a"])).replace("charsheet_a_b", str(instance["char_a_b"]))
-                    instance["initial_prompt_player_b"] = initial_prompt_b.replace("$number_of_turns", str(experiment["n_turns"])).replace("$charsheet_b_b", str(instance["char_b_b"])).replace("charsheet_b_a", str(instance["char_b_a"]))
+                    instance["initial_prompt_player_a"] = initial_prompt_a.replace("$number_of_turns",
+                                                                                   str(experiment["n_turns"])).replace(
+                        "$charsheet_a_a", str(instance["char_a_a"])).replace("charsheet_a_b", str(instance["char_a_b"]))
+                    instance["initial_prompt_player_b"] = initial_prompt_b.replace("$number_of_turns",
+                                                                                   str(experiment["n_turns"])).replace(
+                        "$charsheet_b_b", str(instance["char_b_b"])).replace("charsheet_b_a", str(instance["char_b_a"]))
                     instance["further_prompts"] = further_prompts
                     instance["reprompt_prompt"] = reprompt_prompt
 
@@ -209,8 +220,7 @@ class DatingSimInstanceGenerator(GameInstanceGenerator):
                 experiment["re_prompt_allowed"] = True
 
                 for game_id in range(N_INSTANCES):
-
-                    # save charactersheets for players
+                    # save character sheets for players
                     char_player_a = random.choice(char_sheets)
                     char_player_b = random.choice(char_sheets)
 
@@ -222,8 +232,12 @@ class DatingSimInstanceGenerator(GameInstanceGenerator):
                     instance["char_b_a"] = char_player_a
                     instance["char_b_b"] = char_player_b
 
-                    instance["initial_prompt_player_a"] = initial_prompt_a.replace("$number_of_turns", str(experiment["n_turns"])).replace("$charsheet_a_a", str(instance["char_a_a"])).replace("charsheet_a_b", str(instance["char_a_b"]))
-                    instance["initial_prompt_player_b"] = initial_prompt_b.replace("$number_of_turns", str(experiment["n_turns"])).replace("$charsheet_b_b", str(instance["char_b_b"])).replace("charsheet_b_a", str(instance["char_b_a"]))
+                    instance["initial_prompt_player_a"] = initial_prompt_a.replace("$number_of_turns",
+                                                                                   str(experiment["n_turns"])).replace(
+                        "$charsheet_a_a", str(instance["char_a_a"])).replace("charsheet_a_b", str(instance["char_a_b"]))
+                    instance["initial_prompt_player_b"] = initial_prompt_b.replace("$number_of_turns",
+                                                                                   str(experiment["n_turns"])).replace(
+                        "$charsheet_b_b", str(instance["char_b_b"])).replace("charsheet_b_a", str(instance["char_b_a"]))
                     instance["further_prompts"] = further_prompts
                     instance["reprompt_prompt"] = reprompt_prompt
 
@@ -235,8 +249,7 @@ class DatingSimInstanceGenerator(GameInstanceGenerator):
                 experiment["re_prompt_allowed"] = True
 
                 for game_id in range(N_INSTANCES):
-
-                    # save charactersheets for players
+                    # save character sheets for players
                     char_player_a = random.choice(char_sheets)
                     char_player_b = random.choice(char_sheets)
 
@@ -245,24 +258,28 @@ class DatingSimInstanceGenerator(GameInstanceGenerator):
                     # populate game with parameters
                     # info player a has about themselves
                     instance["char_a_a"] = deepcopy(char_player_a)
-                    
+
                     # info player a has about player b
                     instance["char_a_b"] = deepcopy(char_player_b)
                     instance["char_a_b"].pop("HOBBIES")
                     instance["char_a_b"].pop("LIKES")
                     instance["char_a_b"].pop("DISLIKES")
-                    
+
                     # info player b has about player a
                     instance["char_b_a"] = deepcopy(char_player_a)
                     instance["char_b_a"].pop("HOBBIES")
                     instance["char_b_a"].pop("LIKES")
                     instance["char_b_a"].pop("DISLIKES")
-                    
+
                     # info player b has about themselves 
                     instance["char_b_b"] = deepcopy(char_player_b)
 
-                    instance["initial_prompt_player_a"] = initial_prompt_a.replace("$number_of_turns", str(experiment["n_turns"])).replace("$charsheet_a_a", str(instance["char_a_a"])).replace("charsheet_a_b", str(instance["char_a_b"]))
-                    instance["initial_prompt_player_b"] = initial_prompt_b.replace("$number_of_turns", str(experiment["n_turns"])).replace("$charsheet_b_b", str(instance["char_b_b"])).replace("charsheet_b_a", str(instance["char_b_a"]))
+                    instance["initial_prompt_player_a"] = initial_prompt_a.replace("$number_of_turns",
+                                                                                   str(experiment["n_turns"])).replace(
+                        "$charsheet_a_a", str(instance["char_a_a"])).replace("charsheet_a_b", str(instance["char_a_b"]))
+                    instance["initial_prompt_player_b"] = initial_prompt_b.replace("$number_of_turns",
+                                                                                   str(experiment["n_turns"])).replace(
+                        "$charsheet_b_b", str(instance["char_b_b"])).replace("charsheet_b_a", str(instance["char_b_a"]))
                     instance["further_prompts"] = further_prompts
                     instance["reprompt_prompt"] = reprompt_prompt
 
@@ -274,7 +291,6 @@ class DatingSimInstanceGenerator(GameInstanceGenerator):
                 experiment["re_prompt_allowed"] = True
 
                 for game_id in range(N_INSTANCES):
-
                     # save charactersheets for players
                     char_player_a = random.choice(char_sheets)
                     char_player_b = random.choice(char_sheets)
@@ -284,7 +300,7 @@ class DatingSimInstanceGenerator(GameInstanceGenerator):
                     # populate game with parameters
                     # info player a has about themselves
                     instance["char_a_a"] = deepcopy(char_player_a)
-                    
+
                     # info player a has about player b - only leave name and summary 
                     instance["char_a_b"] = deepcopy(char_player_b)
                     instance["char_a_b"].pop("HOBBIES")
@@ -294,7 +310,7 @@ class DatingSimInstanceGenerator(GameInstanceGenerator):
                     instance["char_a_b"].pop("APPEARANCE")
                     instance["char_a_b"].pop("OCCUPATION")
                     instance["char_a_b"].pop("GENDER")
-                    
+
                     # info player b has about player a
                     instance["char_b_a"] = deepcopy(char_player_a)
                     instance["char_b_a"].pop("HOBBIES")
@@ -304,12 +320,16 @@ class DatingSimInstanceGenerator(GameInstanceGenerator):
                     instance["char_b_a"].pop("APPEARANCE")
                     instance["char_b_a"].pop("OCCUPATION")
                     instance["char_b_a"].pop("GENDER")
-                    
+
                     # info player b has about themselves 
                     instance["char_b_b"] = deepcopy(char_player_b)
 
-                    instance["initial_prompt_player_a"] = initial_prompt_a.replace("$number_of_turns", str(experiment["n_turns"])).replace("$charsheet_a_a", str(instance["char_a_a"])).replace("charsheet_a_b", str(instance["char_a_b"]))
-                    instance["initial_prompt_player_b"] = initial_prompt_b.replace("$number_of_turns", str(experiment["n_turns"])).replace("$charsheet_b_b", str(instance["char_b_b"])).replace("charsheet_b_a", str(instance["char_b_a"]))
+                    instance["initial_prompt_player_a"] = initial_prompt_a.replace("$number_of_turns",
+                                                                                   str(experiment["n_turns"])).replace(
+                        "$charsheet_a_a", str(instance["char_a_a"])).replace("charsheet_a_b", str(instance["char_a_b"]))
+                    instance["initial_prompt_player_b"] = initial_prompt_b.replace("$number_of_turns",
+                                                                                   str(experiment["n_turns"])).replace(
+                        "$charsheet_b_b", str(instance["char_b_b"])).replace("charsheet_b_a", str(instance["char_b_a"]))
                     instance["further_prompts"] = further_prompts
                     instance["reprompt_prompt"] = reprompt_prompt
 
@@ -321,7 +341,6 @@ class DatingSimInstanceGenerator(GameInstanceGenerator):
                 experiment["re_prompt_allowed"] = False
 
                 for game_id in range(N_INSTANCES):
-
                     # save charactersheets for players
                     char_player_a = random.choice(char_sheets)
 
@@ -333,8 +352,12 @@ class DatingSimInstanceGenerator(GameInstanceGenerator):
                     instance["char_b_a"] = char_player_a
                     instance["char_b_b"] = char_player_a
 
-                    instance["initial_prompt_player_a"] = initial_prompt_a.replace("$number_of_turns", str(experiment["n_turns"])).replace("$charsheet_a_a", str(instance["char_a_a"])).replace("charsheet_a_b", str(instance["char_a_b"]))
-                    instance["initial_prompt_player_b"] = initial_prompt_b.replace("$number_of_turns", str(experiment["n_turns"])).replace("$charsheet_b_b", str(instance["char_b_b"])).replace("charsheet_b_a", str(instance["char_b_a"]))
+                    instance["initial_prompt_player_a"] = initial_prompt_a.replace("$number_of_turns",
+                                                                                   str(experiment["n_turns"])).replace(
+                        "$charsheet_a_a", str(instance["char_a_a"])).replace("charsheet_a_b", str(instance["char_a_b"]))
+                    instance["initial_prompt_player_b"] = initial_prompt_b.replace("$number_of_turns",
+                                                                                   str(experiment["n_turns"])).replace(
+                        "$charsheet_b_b", str(instance["char_b_b"])).replace("charsheet_b_a", str(instance["char_b_a"]))
                     instance["further_prompts"] = further_prompts
                     instance["reprompt_prompt"] = reprompt_prompt
 
@@ -346,7 +369,6 @@ class DatingSimInstanceGenerator(GameInstanceGenerator):
                 experiment["re_prompt_allowed"] = False
 
                 for game_id in range(N_INSTANCES):
-
                     # save charactersheets for players
                     char_player_a = random.choice(char_sheets)
 
@@ -355,24 +377,28 @@ class DatingSimInstanceGenerator(GameInstanceGenerator):
                     # populate game with parameters
                     # info player a has about themselves
                     instance["char_a_a"] = deepcopy(char_player_a)
-                    
+
                     # info player a has about player b
                     instance["char_a_b"] = deepcopy(char_player_a)
                     instance["char_a_b"].pop("HOBBIES")
                     instance["char_a_b"].pop("LIKES")
                     instance["char_a_b"].pop("DISLIKES")
-                    
+
                     # info player b has about player a
                     instance["char_b_a"] = deepcopy(char_player_a)
                     instance["char_b_a"].pop("HOBBIES")
                     instance["char_b_a"].pop("LIKES")
                     instance["char_b_a"].pop("DISLIKES")
-                    
+
                     # info player b has about themselves 
                     instance["char_b_b"] = deepcopy(char_player_a)
 
-                    instance["initial_prompt_player_a"] = initial_prompt_a.replace("$number_of_turns", str(experiment["n_turns"])).replace("$charsheet_a_a", str(instance["char_a_a"])).replace("charsheet_a_b", str(instance["char_a_b"]))
-                    instance["initial_prompt_player_b"] = initial_prompt_b.replace("$number_of_turns", str(experiment["n_turns"])).replace("$charsheet_b_b", str(instance["char_b_b"])).replace("charsheet_b_a", str(instance["char_b_a"]))
+                    instance["initial_prompt_player_a"] = initial_prompt_a.replace("$number_of_turns",
+                                                                                   str(experiment["n_turns"])).replace(
+                        "$charsheet_a_a", str(instance["char_a_a"])).replace("charsheet_a_b", str(instance["char_a_b"]))
+                    instance["initial_prompt_player_b"] = initial_prompt_b.replace("$number_of_turns",
+                                                                                   str(experiment["n_turns"])).replace(
+                        "$charsheet_b_b", str(instance["char_b_b"])).replace("charsheet_b_a", str(instance["char_b_a"]))
                     instance["further_prompts"] = further_prompts
                     instance["reprompt_prompt"] = reprompt_prompt
 
@@ -384,8 +410,7 @@ class DatingSimInstanceGenerator(GameInstanceGenerator):
                 experiment["re_prompt_allowed"] = False
 
                 for game_id in range(N_INSTANCES):
-
-                    # save charactersheets for players
+                    # save character sheets for players
                     char_player_a = random.choice(char_sheets)
                     char_player_b = random.choice(char_sheets)
 
@@ -394,7 +419,7 @@ class DatingSimInstanceGenerator(GameInstanceGenerator):
                     # populate game with parameters
                     # info player a has about themselves
                     instance["char_a_a"] = deepcopy(char_player_a)
-                    
+
                     # info player a has about player b - only leave name and summary 
                     instance["char_a_b"] = deepcopy(char_player_a)
                     instance["char_a_b"].pop("HOBBIES")
@@ -404,7 +429,7 @@ class DatingSimInstanceGenerator(GameInstanceGenerator):
                     instance["char_a_b"].pop("APPEARANCE")
                     instance["char_a_b"].pop("OCCUPATION")
                     instance["char_a_b"].pop("GENDER")
-                    
+
                     # info player b has about player a
                     instance["char_b_a"] = deepcopy(char_player_a)
                     instance["char_b_a"].pop("HOBBIES")
@@ -414,12 +439,16 @@ class DatingSimInstanceGenerator(GameInstanceGenerator):
                     instance["char_b_a"].pop("APPEARANCE")
                     instance["char_b_a"].pop("OCCUPATION")
                     instance["char_b_a"].pop("GENDER")
-                    
+
                     # info player b has about themselves 
                     instance["char_b_b"] = deepcopy(char_player_a)
 
-                    instance["initial_prompt_player_a"] = initial_prompt_a.replace("$number_of_turns", str(experiment["n_turns"])).replace("$charsheet_a_a", str(instance["char_a_a"])).replace("charsheet_a_b", str(instance["char_a_b"]))
-                    instance["initial_prompt_player_b"] = initial_prompt_b.replace("$number_of_turns", str(experiment["n_turns"])).replace("$charsheet_b_b", str(instance["char_b_b"])).replace("charsheet_b_a", str(instance["char_b_a"]))
+                    instance["initial_prompt_player_a"] = initial_prompt_a.replace("$number_of_turns",
+                                                                                   str(experiment["n_turns"])).replace(
+                        "$charsheet_a_a", str(instance["char_a_a"])).replace("charsheet_a_b", str(instance["char_a_b"]))
+                    instance["initial_prompt_player_b"] = initial_prompt_b.replace("$number_of_turns",
+                                                                                   str(experiment["n_turns"])).replace(
+                        "$charsheet_b_b", str(instance["char_b_b"])).replace("charsheet_b_a", str(instance["char_b_a"]))
                     instance["further_prompts"] = further_prompts
                     instance["reprompt_prompt"] = reprompt_prompt
 
@@ -432,7 +461,7 @@ class DatingSimInstanceGenerator(GameInstanceGenerator):
 
                 for game_id in range(N_INSTANCES):
 
-                    # save charactersheets for players
+                    # save character sheets for players
                     char_player_a = random.choice(char_sheets)
                     char_a_gender = char_player_a["GENDER"]
 
@@ -456,13 +485,17 @@ class DatingSimInstanceGenerator(GameInstanceGenerator):
                     instance["char_b_a"] = char_player_a
                     instance["char_b_b"] = char_player_b
 
-                    instance["initial_prompt_player_a"] = initial_prompt_a.replace("$number_of_turns", str(experiment["n_turns"])).replace("$charsheet_a_a", str(instance["char_a_a"])).replace("charsheet_a_b", str(instance["char_a_b"]))
-                    instance["initial_prompt_player_b"] = initial_prompt_b.replace("$number_of_turns", str(experiment["n_turns"])).replace("$charsheet_b_b", str(instance["char_b_b"])).replace("charsheet_b_a", str(instance["char_b_a"]))
+                    instance["initial_prompt_player_a"] = initial_prompt_a.replace("$number_of_turns",
+                                                                                   str(experiment["n_turns"])).replace(
+                        "$charsheet_a_a", str(instance["char_a_a"])).replace("charsheet_a_b", str(instance["char_a_b"]))
+                    instance["initial_prompt_player_b"] = initial_prompt_b.replace("$number_of_turns",
+                                                                                   str(experiment["n_turns"])).replace(
+                        "$charsheet_b_b", str(instance["char_b_b"])).replace("charsheet_b_a", str(instance["char_b_a"]))
                     instance["further_prompts"] = further_prompts
                     instance["reprompt_prompt"] = reprompt_prompt
 
             elif topic == "medium-same_gender":
-                
+
                 experiment = self.add_experiment(topic)
 
                 experiment["n_turns"] = n_turns
@@ -471,14 +504,14 @@ class DatingSimInstanceGenerator(GameInstanceGenerator):
 
                 for game_id in range(N_INSTANCES):
 
-                    # save charactersheets for players
+                    # save character sheets for players
                     char_player_a = random.choice(char_sheets)
                     char_a_gender = char_player_a["GENDER"]
 
                     char_b_gender = None
 
                     # check the gender of player b, if it is not, then
-                    # pick as(s) often a new character until the gender
+                    # pick a new character until the gender
                     # matches 
                     while True:
                         if char_b_gender == char_a_gender:
@@ -491,29 +524,33 @@ class DatingSimInstanceGenerator(GameInstanceGenerator):
 
                     # populate game with parameters
                     instance["char_a_a"] = deepcopy(char_player_a)
-                    
+
                     # info player a has about player b
                     instance["char_a_b"] = deepcopy(char_player_b)
                     instance["char_a_b"].pop("HOBBIES")
                     instance["char_a_b"].pop("LIKES")
                     instance["char_a_b"].pop("DISLIKES")
-                    
+
                     # info player b has about player a
                     instance["char_b_a"] = deepcopy(char_player_a)
                     instance["char_b_a"].pop("HOBBIES")
                     instance["char_b_a"].pop("LIKES")
                     instance["char_b_a"].pop("DISLIKES")
-                    
+
                     # info player b has about themselves 
                     instance["char_b_b"] = deepcopy(char_player_b)
 
-                    instance["initial_prompt_player_a"] = initial_prompt_a.replace("$number_of_turns", str(experiment["n_turns"])).replace("$charsheet_a_a", str(instance["char_a_a"])).replace("charsheet_a_b", str(instance["char_a_b"]))
-                    instance["initial_prompt_player_b"] = initial_prompt_b.replace("$number_of_turns", str(experiment["n_turns"])).replace("$charsheet_b_b", str(instance["char_b_b"])).replace("charsheet_b_a", str(instance["char_b_a"]))
+                    instance["initial_prompt_player_a"] = initial_prompt_a.replace("$number_of_turns",
+                                                                                   str(experiment["n_turns"])).replace(
+                        "$charsheet_a_a", str(instance["char_a_a"])).replace("charsheet_a_b", str(instance["char_a_b"]))
+                    instance["initial_prompt_player_b"] = initial_prompt_b.replace("$number_of_turns",
+                                                                                   str(experiment["n_turns"])).replace(
+                        "$charsheet_b_b", str(instance["char_b_b"])).replace("charsheet_b_a", str(instance["char_b_a"]))
                     instance["further_prompts"] = further_prompts
                     instance["reprompt_prompt"] = reprompt_prompt
-                
+
             elif topic == "difficult-same_gender":
-                
+
                 experiment = self.add_experiment(topic)
 
                 experiment["n_turns"] = n_turns
@@ -522,14 +559,14 @@ class DatingSimInstanceGenerator(GameInstanceGenerator):
 
                 for game_id in range(N_INSTANCES):
 
-                    # save charactersheets for players
+                    # save character sheets for players
                     char_player_a = random.choice(char_sheets)
                     char_a_gender = char_player_a["GENDER"]
 
                     char_b_gender = None
 
                     # check the gender of player b, if it is not, then
-                    # pick as(s) often a new character until the gender
+                    # pick a new character until the gender
                     # matches 
                     while True:
                         if char_b_gender == char_a_gender:
@@ -542,7 +579,7 @@ class DatingSimInstanceGenerator(GameInstanceGenerator):
 
                     # populate game with parameters
                     instance["char_a_a"] = deepcopy(char_player_a)
-                    
+
                     # info player a has about player b
                     instance["char_a_b"] = deepcopy(char_player_b)
                     instance["char_a_b"].pop("HOBBIES")
@@ -552,7 +589,7 @@ class DatingSimInstanceGenerator(GameInstanceGenerator):
                     instance["char_a_b"].pop("APPEARANCE")
                     instance["char_a_b"].pop("OCCUPATION")
                     instance["char_a_b"].pop("GENDER")
-                    
+
                     # info player b has about player a
                     instance["char_b_a"] = deepcopy(char_player_a)
                     instance["char_b_a"].pop("HOBBIES")
@@ -562,12 +599,16 @@ class DatingSimInstanceGenerator(GameInstanceGenerator):
                     instance["char_b_a"].pop("APPEARANCE")
                     instance["char_b_a"].pop("OCCUPATION")
                     instance["char_b_a"].pop("GENDER")
-                    
+
                     # info player b has about themselves 
                     instance["char_b_b"] = deepcopy(char_player_b)
 
-                    instance["initial_prompt_player_a"] = initial_prompt_a.replace("$number_of_turns", str(experiment["n_turns"])).replace("$charsheet_a_a", str(instance["char_a_a"])).replace("charsheet_a_b", str(instance["char_a_b"]))
-                    instance["initial_prompt_player_b"] = initial_prompt_b.replace("$number_of_turns", str(experiment["n_turns"])).replace("$charsheet_b_b", str(instance["char_b_b"])).replace("charsheet_b_a", str(instance["char_b_a"]))
+                    instance["initial_prompt_player_a"] = initial_prompt_a.replace("$number_of_turns",
+                                                                                   str(experiment["n_turns"])).replace(
+                        "$charsheet_a_a", str(instance["char_a_a"])).replace("charsheet_a_b", str(instance["char_a_b"]))
+                    instance["initial_prompt_player_b"] = initial_prompt_b.replace("$number_of_turns",
+                                                                                   str(experiment["n_turns"])).replace(
+                        "$charsheet_b_b", str(instance["char_b_b"])).replace("charsheet_b_a", str(instance["char_b_a"]))
                     instance["further_prompts"] = further_prompts
                     instance["reprompt_prompt"] = reprompt_prompt
 
@@ -580,8 +621,7 @@ class DatingSimInstanceGenerator(GameInstanceGenerator):
                 experiment["re_prompt_allowed"] = False
 
                 for game_id in range(N_INSTANCES):
-
-                    # save charactersheets for players
+                    # save character sheets for players
                     char_player_a = random.choice(char_sheets)
                     char_player_b = random.choice(char_sheets)
 
@@ -590,24 +630,28 @@ class DatingSimInstanceGenerator(GameInstanceGenerator):
                     # populate game with parameters
                     # info player a has about themselves
                     instance["char_a_a"] = deepcopy(char_player_a)
-                    
+
                     # info player a has about player b
                     instance["char_a_b"] = deepcopy(char_player_b)
                     instance["char_a_b"].pop("HOBBIES")
                     instance["char_a_b"].pop("LIKES")
                     instance["char_a_b"].pop("DISLIKES")
-                    
+
                     # info player b has about player a
                     instance["char_b_a"] = deepcopy(char_player_a)
                     instance["char_b_a"].pop("HOBBIES")
                     instance["char_b_a"].pop("LIKES")
                     instance["char_b_a"].pop("DISLIKES")
-                    
+
                     # info player b has about themselves 
                     instance["char_b_b"] = deepcopy(char_player_b)
 
-                    instance["initial_prompt_player_a"] = initial_prompt_a.replace("$number_of_turns", str(experiment["n_turns"])).replace("$charsheet_a_a", str(instance["char_a_a"])).replace("charsheet_a_b", str(instance["char_a_b"]))
-                    instance["initial_prompt_player_b"] = initial_prompt_b.replace("$number_of_turns", str(experiment["n_turns"])).replace("$charsheet_b_b", str(instance["char_b_b"])).replace("charsheet_b_a", str(instance["char_b_a"]))
+                    instance["initial_prompt_player_a"] = initial_prompt_a.replace("$number_of_turns",
+                                                                                   str(experiment["n_turns"])).replace(
+                        "$charsheet_a_a", str(instance["char_a_a"])).replace("charsheet_a_b", str(instance["char_a_b"]))
+                    instance["initial_prompt_player_b"] = initial_prompt_b.replace("$number_of_turns",
+                                                                                   str(experiment["n_turns"])).replace(
+                        "$charsheet_b_b", str(instance["char_b_b"])).replace("charsheet_b_a", str(instance["char_b_a"]))
                     instance["further_prompts"] = further_prompts
                     instance["reprompt_prompt"] = reprompt_prompt
 
@@ -615,13 +659,12 @@ class DatingSimInstanceGenerator(GameInstanceGenerator):
 
                 experiment = self.add_experiment(topic)
 
-                experiment["n_turns"] = n_turns + 5 
+                experiment["n_turns"] = n_turns + 5
                 experiment["max_retries"] = max_retries
                 experiment["re_prompt_allowed"] = False
 
                 for game_id in range(N_INSTANCES):
-
-                    # save charactersheets for players
+                    # save character sheets for players
                     char_player_a = random.choice(char_sheets)
                     char_player_b = random.choice(char_sheets)
 
@@ -630,26 +673,31 @@ class DatingSimInstanceGenerator(GameInstanceGenerator):
                     # populate game with parameters
                     # info player a has about themselves
                     instance["char_a_a"] = deepcopy(char_player_a)
-                    
+
                     # info player a has about player b
                     instance["char_a_b"] = deepcopy(char_player_b)
                     instance["char_a_b"].pop("HOBBIES")
                     instance["char_a_b"].pop("LIKES")
                     instance["char_a_b"].pop("DISLIKES")
-                    
+
                     # info player b has about player a
                     instance["char_b_a"] = deepcopy(char_player_a)
                     instance["char_b_a"].pop("HOBBIES")
                     instance["char_b_a"].pop("LIKES")
                     instance["char_b_a"].pop("DISLIKES")
-                    
+
                     # info player b has about themselves 
                     instance["char_b_b"] = deepcopy(char_player_b)
 
-                    instance["initial_prompt_player_a"] = initial_prompt_a.replace("$number_of_turns", str(experiment["n_turns"])).replace("$charsheet_a_a", str(instance["char_a_a"])).replace("charsheet_a_b", str(instance["char_a_b"]))
-                    instance["initial_prompt_player_b"] = initial_prompt_b.replace("$number_of_turns", str(experiment["n_turns"])).replace("$charsheet_b_b", str(instance["char_b_b"])).replace("charsheet_b_a", str(instance["char_b_a"]))
+                    instance["initial_prompt_player_a"] = initial_prompt_a.replace("$number_of_turns",
+                                                                                   str(experiment["n_turns"])).replace(
+                        "$charsheet_a_a", str(instance["char_a_a"])).replace("charsheet_a_b", str(instance["char_a_b"]))
+                    instance["initial_prompt_player_b"] = initial_prompt_b.replace("$number_of_turns",
+                                                                                   str(experiment["n_turns"])).replace(
+                        "$charsheet_b_b", str(instance["char_b_b"])).replace("charsheet_b_a", str(instance["char_b_a"]))
                     instance["further_prompts"] = further_prompts
                     instance["reprompt_prompt"] = reprompt_prompt
+
 
 if __name__ == '__main__':
     random.seed(SEED)
